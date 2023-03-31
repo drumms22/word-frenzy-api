@@ -6,11 +6,13 @@ const words = require('./routes/words');
 
 
 
-app.use(cors())
+app.use(cors());
 
-console.log("hello");
+app.get('/', function (req, res) {
+  res.send("Nothing but WORDS here :)");
+});
 app.use('/words', words);
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
+  console.log(`Example app listening on port ${port}`);
+});

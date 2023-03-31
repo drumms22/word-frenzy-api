@@ -1,4 +1,5 @@
 const axios = require('axios');
+require('dotenv').config()
 const getHint = async (word, type) => {
 
   switch (type) {
@@ -9,6 +10,7 @@ const getHint = async (word, type) => {
   }
 
 }
+
 
 const getDefinition = async (word) => {
 
@@ -50,7 +52,7 @@ const getSynonym = async (word) => {
     let req = await axios.get('https://api.api-ninjas.com/v1/thesaurus?word=' + word, {
       headers: {
         'Content-Type': 'application/json',
-        'X-Api-Key': "IvLuVndb2jLc+HTACw3+5A==ZTEnAuijHP2weRpF"
+        'X-Api-Key': process.env.T_API_KEY
       }
     })
 

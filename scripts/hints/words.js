@@ -1,14 +1,42 @@
 const axios = require('axios');
 require('dotenv').config()
-const getHint = async (word, type) => {
-
+const { createSpecialHint, calculateNumHints } = require('../utilities');
+const getHint = async (word, type, hintsUsed) => {
+  console.log(type);
+  let hint = "";
+  let completed = false;
   switch (type) {
     case "definition":
-      return await getDefinition(word);
+      hintsUsed.push("definition")
+      let def = await getDefinition(word);
+      if (def.length > 0 && typeof def != undefined) {
+        hint = def;
+      } else {
+        hint = await getSynonym(word);
+      }
+      break;
     case "synonym":
-      return await getSynonym(word);
+      hintsUsed.push("synonym")
+      hint = await getSynonym(word);
+
+      break;
+    case "reveal":
+      let numHints = await calculateNumHints(word);
+      hint = createSpecialHint(word, numHints);
+      completed = true;
+      break;
   }
 
+  if (hint === "") {
+    let numHints = await calculateNumHints(word);
+    hint = createSpecialHint(word, numHints);
+  }
+  console.log(hint);
+  return [{
+    hint,
+    hintsUsed,
+    completed
+  }];
 }
 
 
@@ -22,9 +50,8 @@ const getDefinition = async (word) => {
       }
     });
 
-    if (req.hasOwnProperty("resolution")) {
-      throw new Error("No definition found");
-    }
+    if (req.hasOwnProperty("resolution")) throw new Error("No definition found");
+
 
     let def = req.data[0].meanings[0].definitions[0].definition;
 
@@ -41,21 +68,22 @@ const getDefinition = async (word) => {
     return [joined]
   } catch (error) {
     console.log("definition error: " + error);
-    return ["No definition found!"];
+    return [];
   }
 
 }
 
 const getSynonym = async (word) => {
-
+  //city?country=us&min_population=10000&max_population=450000&limit=10
   try {
-    let req = await axios.get('https://api.api-ninjas.com/v1/thesaurus?word=' + word, {
+    let req = await axios.get(`https://api.api-ninjas.com/v1/thesaurus?word=${word}`, {
       headers: {
         'Content-Type': 'application/json',
         'X-Api-Key': process.env.T_API_KEY
       }
     })
 
+    console.log(req.data);
     let synonyms = req.data.synonyms;
 
     synonyms.map((s, i) => {
@@ -76,5 +104,6 @@ const getSynonym = async (word) => {
 
 
 module.exports = {
-  getHint
+  getHint,
+  getDefinition
 }

@@ -1,0 +1,258 @@
+[
+  {
+    "team": "Anaheim Ducks",
+    "shortName": "Ducks",
+    "stadium": "Honda Center",
+    "city": "Anaheim",
+    "state": "California",
+    "conference": "Western"
+  },
+  {
+    "team": "Arizona Coyotes",
+    "shortName": "Coyotes",
+    "stadium": "Gila River Arena",
+    "city": "Glendale",
+    "state": "Arizona",
+    "conference": "Western"
+  },
+  {
+    "team": "Boston Bruins",
+    "shortName": "Bruins",
+    "stadium": "TD Garden",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Buffalo Sabres",
+    "shortName": "Sabres",
+    "stadium": "KeyBank Center",
+    "city": "Buffalo",
+    "state": "New York",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Calgary Flames",
+    "shortName": "Flames",
+    "stadium": "Scotiabank Saddledome",
+    "city": "Calgary",
+    "state": "Alberta",
+    "conference": "Western"
+  },
+  {
+    "team": "Carolina Hurricanes",
+    "shortName": "Hurricanes",
+    "stadium": "PNC Arena",
+    "city": "Raleigh",
+    "state": "North Carolina",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Chicago Blackhawks",
+    "shortName": "Blackhawks",
+    "stadium": "United Center",
+    "city": "Chicago",
+    "state": "Illinois",
+    "conference": "Western"
+  },
+  {
+    "team": "Colorado Avalanche",
+    "shortName": "Avalanche",
+    "stadium": "Ball Arena",
+    "city": "Denver",
+    "state": "Colorado",
+    "conference": "Western"
+  },
+  {
+    "team": "Columbus Blue Jackets",
+    "shortName": "Blue Jackets",
+    "stadium": "Nationwide Arena",
+    "city": "Columbus",
+    "state": "Ohio",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Dallas Stars",
+    "shortName": "Stars",
+    "stadium": "American Airlines Center",
+    "city": "Dallas",
+    "state": "Texas",
+    "conference": "Western"
+  },
+  {
+    "team": "Detroit Red Wings",
+    "shortName": "Red Wings",
+    "stadium": "Little Caesars Arena",
+    "city": "Detroit",
+    "state": "Michigan",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Edmonton Oilers",
+    "shortName": "Oilers",
+    "stadium": "Rogers Place",
+    "city": "Edmonton",
+    "state": "Alberta",
+    "conference": "Western"
+  },
+  {
+    "team": "Florida Panthers",
+    "shortName": "Panthers",
+    "stadium": "BB&T Center",
+    "city": "Sunrise",
+    "state": "Florida",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Los Angeles Kings",
+    "shortName": "Kings",
+    "stadium": "STAPLES Center",
+    "city": "Los Angeles",
+    "state": "California",
+    "conference": "Western"
+  },
+  {
+    "team": "Minnesota Wild",
+    "shortName": "Wild",
+    "stadium": "Xcel Energy Center",
+    "city": "St. Paul",
+    "state": "Minnesota",
+    "conference": "Western"
+  },
+  {
+    "team": "Montreal Canadiens",
+    "shortName": "Canadiens",
+    "stadium": "Bell Centre",
+    "city": "Montreal",
+    "state": "Quebec",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Nashville Predators",
+    "shortName": "Predators",
+    "stadium": "Bridgestone Arena",
+    "city": "Nashville",
+    "state": "Tennessee",
+    "conference": "Western"
+  },
+  {
+    "team": "New Jersey Devils",
+    "shortName": "Devils",
+    "stadium": "Prudential Center",
+    "city": "Newark",
+    "state": "New Jersey",
+    "conference": "Eastern"
+  },
+  {
+    "team": "New York Islanders",
+    "shortName": "Islanders",
+    "stadium": "Nassau Veterans Memorial Coliseum",
+    "city": "Uniondale",
+    "state": "New York",
+    "conference": "Eastern"
+  },
+  {
+    "team": "New York Rangers",
+    "stadium": "Madison Square Garden",
+    "shortName": "Rangers",
+    "city": "New York City",
+    "state": "New York",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Ottawa Senators",
+    "stadium": "Canadian Tire Centre",
+    "shortName": "Senators",
+    "city": "Ottawa",
+    "state": "Ontario",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Philadelphia Flyers",
+    "stadium": "Wells Fargo Center",
+    "shortName": "Flyers",
+    "city": "Philadelphia",
+    "state": "Pennsylvania",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Pittsburgh Penguins",
+    "stadium": "PPG Paints Arena",
+    "shortName": "Penguins",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania",
+    "conference": "Eastern"
+  },
+  {
+    "team": "San Jose Sharks",
+    "stadium": "SAP Center at San Jose",
+    "shortName": "Sharks",
+    "city": "San Jose",
+    "state": "California",
+    "conference": "Western"
+  },
+  {
+    "team": "Seattle Kraken",
+    "stadium": "Climate Pledge Arena",
+    "shortName": "Kraken",
+    "city": "Seattle",
+    "state": "Washington",
+    "conference": "Western"
+  },
+  {
+    "team": "St. Louis Blues",
+    "stadium": "Enterprise Center",
+    "shortName": "Blues",
+    "city": "St. Louis",
+    "state": "Missouri",
+    "conference": "Western"
+  },
+  {
+    "team": "Tampa Bay Lightning",
+    "stadium": "Amalie Arena",
+    "shortName": "Lightning",
+    "city": "Tampa Bay",
+    "state": "Florida",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Toronto Maple Leafs",
+    "stadium": "Scotiabank Arena",
+    "shortName": "Maple Leafs",
+    "city": "Toronto",
+    "state": "Ontario",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Vancouver Canucks",
+    "stadium": "Rogers Arena",
+    "shortName": "Canucks",
+    "city": "Vancouver",
+    "state": "British Columbia",
+    "conference": "Western"
+  },
+  {
+    "team": "Vegas Golden Knights",
+    "stadium": "T-Mobile Arena",
+    "shortName": "Golden Knights",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "conference": "Western"
+  },
+  {
+    "team": "Washington Capitals",
+    "stadium": "Capital One Arena",
+    "shortName": "Capitals",
+    "city": "Washington, D.C.",
+    "state": "District of Columbia",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Winnipeg Jets",
+    "stadium": "Canada Life Centre",
+    "shortName": "Jets",
+    "city": "Winnipeg",
+    "state": "Manitoba",
+    "conference": "Western"
+  }
+]

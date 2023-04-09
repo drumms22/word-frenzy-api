@@ -1,0 +1,3638 @@
+[
+  {
+    "state": "New York",
+    "city": "New York"
+  },
+  {
+    "state": "New York",
+    "city": "Buffalo"
+  },
+  {
+    "state": "New York",
+    "city": "Rochester"
+  },
+  {
+    "state": "New York",
+    "city": "Yonkers"
+  },
+  {
+    "state": "New York",
+    "city": "Syracuse"
+  },
+  {
+    "state": "New York",
+    "city": "Albany"
+  },
+  {
+    "state": "New York",
+    "city": "New Rochelle"
+  },
+  {
+    "state": "New York",
+    "city": "Mount Vernon"
+  },
+  {
+    "state": "New York",
+    "city": "Schenectady"
+  },
+  {
+    "state": "New York",
+    "city": "Utica"
+  },
+  {
+    "state": "New York",
+    "city": "White Plains"
+  },
+  {
+    "state": "New York",
+    "city": "Hempstead"
+  },
+  {
+    "state": "New York",
+    "city": "Troy"
+  },
+  {
+    "state": "New York",
+    "city": "Niagara Falls"
+  },
+  {
+    "state": "New York",
+    "city": "Binghamton"
+  },
+  {
+    "state": "New York",
+    "city": "Freeport"
+  },
+  {
+    "state": "New York",
+    "city": "Valley Stream"
+  },
+  {
+    "state": "California",
+    "city": "Los Angeles"
+  },
+  {
+    "state": "California",
+    "city": "San Diego"
+  },
+  {
+    "state": "California",
+    "city": "San Jose"
+  },
+  {
+    "state": "California",
+    "city": "San Francisco"
+  },
+  {
+    "state": "California",
+    "city": "Fresno"
+  },
+  {
+    "state": "California",
+    "city": "Sacramento"
+  },
+  {
+    "state": "California",
+    "city": "Long Beach"
+  },
+  {
+    "state": "California",
+    "city": "Oakland"
+  },
+  {
+    "state": "California",
+    "city": "Bakersfield"
+  },
+  {
+    "state": "California",
+    "city": "Anaheim"
+  },
+  {
+    "state": "California",
+    "city": "Santa Ana"
+  },
+  {
+    "state": "California",
+    "city": "Riverside"
+  },
+  {
+    "state": "California",
+    "city": "Stockton"
+  },
+  {
+    "state": "California",
+    "city": "Chula Vista"
+  },
+  {
+    "state": "California",
+    "city": "Irvine"
+  },
+  {
+    "state": "California",
+    "city": "Fremont"
+  },
+  {
+    "state": "California",
+    "city": "San Bernardino"
+  },
+  {
+    "state": "California",
+    "city": "Modesto"
+  },
+  {
+    "state": "California",
+    "city": "Fontana"
+  },
+  {
+    "state": "California",
+    "city": "Oxnard"
+  },
+  {
+    "state": "California",
+    "city": "Moreno Valley"
+  },
+  {
+    "state": "California",
+    "city": "Huntington Beach"
+  },
+  {
+    "state": "California",
+    "city": "Glendale"
+  },
+  {
+    "state": "California",
+    "city": "Santa Clarita"
+  },
+  {
+    "state": "California",
+    "city": "Garden Grove"
+  },
+  {
+    "state": "California",
+    "city": "Oceanside"
+  },
+  {
+    "state": "California",
+    "city": "Santa Rosa"
+  },
+  {
+    "state": "California",
+    "city": "Ontario"
+  },
+  {
+    "state": "California",
+    "city": "Lancaster"
+  },
+  {
+    "state": "California",
+    "city": "Elk Grove"
+  },
+  {
+    "state": "California",
+    "city": "Corona"
+  },
+  {
+    "state": "California",
+    "city": "Palmdale"
+  },
+  {
+    "state": "California",
+    "city": "Salinas"
+  },
+  {
+    "state": "California",
+    "city": "Pomona"
+  },
+  {
+    "state": "California",
+    "city": "Hayward"
+  },
+  {
+    "state": "California",
+    "city": "Escondido"
+  },
+  {
+    "state": "California",
+    "city": "Torrance"
+  },
+  {
+    "state": "California",
+    "city": "Sunnyvale"
+  },
+  {
+    "state": "California",
+    "city": "Orange"
+  },
+  {
+    "state": "California",
+    "city": "Fullerton"
+  },
+  {
+    "state": "California",
+    "city": "Pasadena"
+  },
+  {
+    "state": "California",
+    "city": "Concord"
+  },
+  {
+    "state": "California",
+    "city": "Roseville"
+  },
+  {
+    "state": "California",
+    "city": "Victorville"
+  },
+  {
+    "state": "California",
+    "city": "Santa Clara"
+  },
+  {
+    "state": "California",
+    "city": "Vallejo"
+  },
+  {
+    "state": "California",
+    "city": "Berkeley"
+  },
+  {
+    "state": "California",
+    "city": "El Monte"
+  },
+  {
+    "state": "California",
+    "city": "Downey"
+  },
+  {
+    "state": "California",
+    "city": "Costa Mesa"
+  },
+  {
+    "state": "California",
+    "city": "Inglewood"
+  },
+  {
+    "state": "California",
+    "city": "Carlsbad"
+  },
+  {
+    "state": "California",
+    "city": "Fairfield"
+  },
+  {
+    "state": "California",
+    "city": "West Covina"
+  },
+  {
+    "state": "California",
+    "city": "Murrieta"
+  },
+  {
+    "state": "California",
+    "city": "Richmond"
+  },
+  {
+    "state": "California",
+    "city": "Norwalk"
+  },
+  {
+    "state": "California",
+    "city": "Antioch"
+  },
+  {
+    "state": "California",
+    "city": "Temecula"
+  },
+  {
+    "state": "California",
+    "city": "Burbank"
+  },
+  {
+    "state": "California",
+    "city": "Daly City"
+  },
+  {
+    "state": "California",
+    "city": "Rialto"
+  },
+  {
+    "state": "California",
+    "city": "Santa Maria"
+  },
+  {
+    "state": "California",
+    "city": "El Cajon"
+  },
+  {
+    "state": "California",
+    "city": "San Mateo"
+  },
+  {
+    "state": "California",
+    "city": "Compton"
+  },
+  {
+    "state": "California",
+    "city": "Jurupa Valley"
+  },
+  {
+    "state": "California",
+    "city": "Vista"
+  },
+  {
+    "state": "California",
+    "city": "South Gate"
+  },
+  {
+    "state": "California",
+    "city": "Mission Viejo"
+  },
+  {
+    "state": "California",
+    "city": "Vacaville"
+  },
+  {
+    "state": "California",
+    "city": "Carson"
+  },
+  {
+    "state": "California",
+    "city": "Hesperia"
+  },
+  {
+    "state": "California",
+    "city": "Santa Monica"
+  },
+  {
+    "state": "California",
+    "city": "Westminster"
+  },
+  {
+    "state": "California",
+    "city": "Redding"
+  },
+  {
+    "state": "California",
+    "city": "Santa Barbara"
+  },
+  {
+    "state": "California",
+    "city": "Chico"
+  },
+  {
+    "state": "California",
+    "city": "Newport Beach"
+  },
+  {
+    "state": "California",
+    "city": "San Leandro"
+  },
+  {
+    "state": "California",
+    "city": "San Marcos"
+  },
+  {
+    "state": "California",
+    "city": "Whittier"
+  },
+  {
+    "state": "California",
+    "city": "Hawthorne"
+  },
+  {
+    "state": "California",
+    "city": "Citrus Heights"
+  },
+  {
+    "state": "California",
+    "city": "Tracy"
+  },
+  {
+    "state": "California",
+    "city": "Alhambra"
+  },
+  {
+    "state": "California",
+    "city": "Livermore"
+  },
+  {
+    "state": "California",
+    "city": "Buena Park"
+  },
+  {
+    "state": "California",
+    "city": "Redwood City"
+  },
+  {
+    "state": "California",
+    "city": "Lake Forest"
+  },
+  {
+    "state": "California",
+    "city": "Napa"
+  },
+  {
+    "state": "California",
+    "city": "Tustin"
+  },
+  {
+    "state": "California",
+    "city": "Bellflower"
+  },
+  {
+    "state": "California",
+    "city": "Mountain View"
+  },
+  {
+    "state": "California",
+    "city": "Chino Hills"
+  },
+  {
+    "state": "California",
+    "city": "Baldwin Park"
+  },
+  {
+    "state": "California",
+    "city": "Alameda"
+  },
+  {
+    "state": "California",
+    "city": "Upland"
+  },
+  {
+    "state": "California",
+    "city": "San Ramon"
+  },
+  {
+    "state": "California",
+    "city": "Folsom"
+  },
+  {
+    "state": "California",
+    "city": "Pleasanton"
+  },
+  {
+    "state": "California",
+    "city": "Union City"
+  },
+  {
+    "state": "California",
+    "city": "Perris"
+  },
+  {
+    "state": "California",
+    "city": "Manteca"
+  },
+  {
+    "state": "California",
+    "city": "Lynwood"
+  },
+  {
+    "state": "California",
+    "city": "Apple Valley"
+  },
+  {
+    "state": "California",
+    "city": "Redlands"
+  },
+  {
+    "state": "California",
+    "city": "Redondo Beach"
+  },
+  {
+    "state": "California",
+    "city": "Walnut Creek"
+  },
+  {
+    "state": "California",
+    "city": "Pittsburg"
+  },
+  {
+    "state": "California",
+    "city": "Yuba City"
+  },
+  {
+    "state": "California",
+    "city": "San Clemente"
+  },
+  {
+    "state": "California",
+    "city": "Laguna Niguel"
+  },
+  {
+    "state": "California",
+    "city": "Pico Rivera"
+  },
+  {
+    "state": "California",
+    "city": "Montebello"
+  },
+  {
+    "state": "California",
+    "city": "Lodi"
+  },
+  {
+    "state": "California",
+    "city": "Madera"
+  },
+  {
+    "state": "California",
+    "city": "Santa Cruz"
+  },
+  {
+    "state": "California",
+    "city": "La Habra"
+  },
+  {
+    "state": "California",
+    "city": "Encinitas"
+  },
+  {
+    "state": "California",
+    "city": "Monterey Park"
+  },
+  {
+    "state": "California",
+    "city": "Tulare"
+  },
+  {
+    "state": "California",
+    "city": "Cupertino"
+  },
+  {
+    "state": "California",
+    "city": "Gardena"
+  },
+  {
+    "state": "California",
+    "city": "National City"
+  },
+  {
+    "state": "California",
+    "city": "Rocklin"
+  },
+  {
+    "state": "California",
+    "city": "Petaluma"
+  },
+  {
+    "state": "California",
+    "city": "Huntington Park"
+  },
+  {
+    "state": "California",
+    "city": "San Rafael"
+  },
+  {
+    "state": "California",
+    "city": "La Mesa"
+  },
+  {
+    "state": "California",
+    "city": "Arcadia"
+  },
+  {
+    "state": "California",
+    "city": "Novato"
+  },
+  {
+    "state": "California",
+    "city": "Colton"
+  },
+  {
+    "state": "California",
+    "city": "Cathedral City"
+  },
+  {
+    "state": "California",
+    "city": "Delano"
+  },
+  {
+    "state": "California",
+    "city": "Yucaipa"
+  },
+  {
+    "state": "California",
+    "city": "Watsonville"
+  },
+  {
+    "state": "California",
+    "city": "Placentia"
+  },
+  {
+    "state": "California",
+    "city": "Glendora"
+  },
+  {
+    "state": "California",
+    "city": "Gilroy"
+  },
+  {
+    "state": "California",
+    "city": "Palm Desert"
+  },
+  {
+    "state": "California",
+    "city": "Cerritos"
+  },
+  {
+    "state": "California",
+    "city": "Palm Springs"
+  },
+  {
+    "state": "Illinois",
+    "city": "Chicago"
+  },
+  {
+    "state": "Illinois",
+    "city": "Aurora"
+  },
+  {
+    "state": "Illinois",
+    "city": "Rockford"
+  },
+  {
+    "state": "Illinois",
+    "city": "Joliet"
+  },
+  {
+    "state": "Illinois",
+    "city": "Naperville"
+  },
+  {
+    "state": "Illinois",
+    "city": "Springfield"
+  },
+  {
+    "state": "Illinois",
+    "city": "Peoria"
+  },
+  {
+    "state": "Illinois",
+    "city": "Elgin"
+  },
+  {
+    "state": "Illinois",
+    "city": "Waukegan"
+  },
+  {
+    "state": "Illinois",
+    "city": "Cicero"
+  },
+  {
+    "state": "Illinois",
+    "city": "Champaign"
+  },
+  {
+    "state": "Illinois",
+    "city": "Bloomington"
+  },
+  {
+    "state": "Illinois",
+    "city": "Arlington Heights"
+  },
+  {
+    "state": "Illinois",
+    "city": "Evanston"
+  },
+  {
+    "state": "Illinois",
+    "city": "Decatur"
+  },
+  {
+    "state": "Illinois",
+    "city": "Schaumburg"
+  },
+  {
+    "state": "Illinois",
+    "city": "Bolingbrook"
+  },
+  {
+    "state": "Illinois",
+    "city": "Palatine"
+  },
+  {
+    "state": "Illinois",
+    "city": "Skokie"
+  },
+  {
+    "state": "Illinois",
+    "city": "Des Plaines"
+  },
+  {
+    "state": "Illinois",
+    "city": "Orland Park"
+  },
+  {
+    "state": "Illinois",
+    "city": "Tinley Park"
+  },
+  {
+    "state": "Illinois",
+    "city": "Oak Lawn"
+  },
+  {
+    "state": "Illinois",
+    "city": "Berwyn"
+  },
+  {
+    "state": "Illinois",
+    "city": "Mount Prospect"
+  },
+  {
+    "state": "Illinois",
+    "city": "Normal"
+  },
+  {
+    "state": "Illinois",
+    "city": "Wheaton"
+  },
+  {
+    "state": "Illinois",
+    "city": "Hoffman Estates"
+  },
+  {
+    "state": "Illinois",
+    "city": "Oak Park"
+  },
+  {
+    "state": "Illinois",
+    "city": "Downers Grove"
+  },
+  {
+    "state": "Illinois",
+    "city": "Elmhurst"
+  },
+  {
+    "state": "Illinois",
+    "city": "Glenview"
+  },
+  {
+    "state": "Illinois",
+    "city": "DeKalb"
+  },
+  {
+    "state": "Illinois",
+    "city": "Lombard"
+  },
+  {
+    "state": "Illinois",
+    "city": "Belleville"
+  },
+  {
+    "state": "Illinois",
+    "city": "Moline"
+  },
+  {
+    "state": "Illinois",
+    "city": "Buffalo Grove"
+  },
+  {
+    "state": "Illinois",
+    "city": "Bartlett"
+  },
+  {
+    "state": "Illinois",
+    "city": "Urbana"
+  },
+  {
+    "state": "Illinois",
+    "city": "Quincy"
+  },
+  {
+    "state": "Illinois",
+    "city": "Crystal Lake"
+  },
+  {
+    "state": "Illinois",
+    "city": "Plainfield"
+  },
+  {
+    "state": "Illinois",
+    "city": "Streamwood"
+  },
+  {
+    "state": "Illinois",
+    "city": "Carol Stream"
+  },
+  {
+    "state": "Illinois",
+    "city": "Romeoville"
+  },
+  {
+    "state": "Illinois",
+    "city": "Rock Island"
+  },
+  {
+    "state": "Illinois",
+    "city": "Hanover Park"
+  },
+  {
+    "state": "Illinois",
+    "city": "Carpentersville"
+  },
+  {
+    "state": "Illinois",
+    "city": "Wheeling"
+  },
+  {
+    "state": "Illinois",
+    "city": "Park Ridge"
+  },
+  {
+    "state": "Illinois",
+    "city": "Addison"
+  },
+  {
+    "state": "Illinois",
+    "city": "Calumet City"
+  },
+  {
+    "state": "Texas",
+    "city": "Houston"
+  },
+  {
+    "state": "Texas",
+    "city": "San Antonio"
+  },
+  {
+    "state": "Texas",
+    "city": "Dallas"
+  },
+  {
+    "state": "Texas",
+    "city": "Austin"
+  },
+  {
+    "state": "Texas",
+    "city": "Fort Worth"
+  },
+  {
+    "state": "Texas",
+    "city": "El Paso"
+  },
+  {
+    "state": "Texas",
+    "city": "Arlington"
+  },
+  {
+    "state": "Texas",
+    "city": "Corpus Christi"
+  },
+  {
+    "state": "Texas",
+    "city": "Plano"
+  },
+  {
+    "state": "Texas",
+    "city": "Laredo"
+  },
+  {
+    "state": "Texas",
+    "city": "Lubbock"
+  },
+  {
+    "state": "Texas",
+    "city": "Garland"
+  },
+  {
+    "state": "Texas",
+    "city": "Irving"
+  },
+  {
+    "state": "Texas",
+    "city": "Amarillo"
+  },
+  {
+    "state": "Texas",
+    "city": "Grand Prairie"
+  },
+  {
+    "state": "Texas",
+    "city": "Brownsville"
+  },
+  {
+    "state": "Texas",
+    "city": "Pasadena"
+  },
+  {
+    "state": "Texas",
+    "city": "McKinney"
+  },
+  {
+    "state": "Texas",
+    "city": "Mesquite"
+  },
+  {
+    "state": "Texas",
+    "city": "McAllen"
+  },
+  {
+    "state": "Texas",
+    "city": "Killeen"
+  },
+  {
+    "state": "Texas",
+    "city": "Frisco"
+  },
+  {
+    "state": "Texas",
+    "city": "Waco"
+  },
+  {
+    "state": "Texas",
+    "city": "Carrollton"
+  },
+  {
+    "state": "Texas",
+    "city": "Denton"
+  },
+  {
+    "state": "Texas",
+    "city": "Midland"
+  },
+  {
+    "state": "Texas",
+    "city": "Abilene"
+  },
+  {
+    "state": "Texas",
+    "city": "Beaumont"
+  },
+  {
+    "state": "Texas",
+    "city": "Round Rock"
+  },
+  {
+    "state": "Texas",
+    "city": "Odessa"
+  },
+  {
+    "state": "Texas",
+    "city": "Wichita Falls"
+  },
+  {
+    "state": "Texas",
+    "city": "Richardson"
+  },
+  {
+    "state": "Texas",
+    "city": "Lewisville"
+  },
+  {
+    "state": "Texas",
+    "city": "Tyler"
+  },
+  {
+    "state": "Texas",
+    "city": "College Station"
+  },
+  {
+    "state": "Texas",
+    "city": "Pearland"
+  },
+  {
+    "state": "Texas",
+    "city": "San Angelo"
+  },
+  {
+    "state": "Texas",
+    "city": "Allen"
+  },
+  {
+    "state": "Texas",
+    "city": "League City"
+  },
+  {
+    "state": "Texas",
+    "city": "Sugar Land"
+  },
+  {
+    "state": "Texas",
+    "city": "Longview"
+  },
+  {
+    "state": "Texas",
+    "city": "Edinburg"
+  },
+  {
+    "state": "Texas",
+    "city": "Mission"
+  },
+  {
+    "state": "Texas",
+    "city": "Bryan"
+  },
+  {
+    "state": "Texas",
+    "city": "Baytown"
+  },
+  {
+    "state": "Texas",
+    "city": "Pharr"
+  },
+  {
+    "state": "Texas",
+    "city": "Temple"
+  },
+  {
+    "state": "Texas",
+    "city": "Missouri City"
+  },
+  {
+    "state": "Texas",
+    "city": "Flower Mound"
+  },
+  {
+    "state": "Texas",
+    "city": "Harlingen"
+  },
+  {
+    "state": "Texas",
+    "city": "North Richland Hills"
+  },
+  {
+    "state": "Texas",
+    "city": "Victoria"
+  },
+  {
+    "state": "Texas",
+    "city": "Conroe"
+  },
+  {
+    "state": "Texas",
+    "city": "New Braunfels"
+  },
+  {
+    "state": "Texas",
+    "city": "Mansfield"
+  },
+  {
+    "state": "Texas",
+    "city": "Cedar Park"
+  },
+  {
+    "state": "Texas",
+    "city": "Rowlett"
+  },
+  {
+    "state": "Texas",
+    "city": "Port Arthur"
+  },
+  {
+    "state": "Texas",
+    "city": "Euless"
+  },
+  {
+    "state": "Texas",
+    "city": "Georgetown"
+  },
+  {
+    "state": "Texas",
+    "city": "Pflugerville"
+  },
+  {
+    "state": "Texas",
+    "city": "DeSoto"
+  },
+  {
+    "state": "Texas",
+    "city": "San Marcos"
+  },
+  {
+    "state": "Texas",
+    "city": "Grapevine"
+  },
+  {
+    "state": "Texas",
+    "city": "Bedford"
+  },
+  {
+    "state": "Texas",
+    "city": "Galveston"
+  },
+  {
+    "state": "Texas",
+    "city": "Cedar Hill"
+  },
+  {
+    "state": "Texas",
+    "city": "Texas City"
+  },
+  {
+    "state": "Texas",
+    "city": "Wylie"
+  },
+  {
+    "state": "Texas",
+    "city": "Haltom City"
+  },
+  {
+    "state": "Texas",
+    "city": "Keller"
+  },
+  {
+    "state": "Texas",
+    "city": "Coppell"
+  },
+  {
+    "state": "Texas",
+    "city": "Rockwall"
+  },
+  {
+    "state": "Texas",
+    "city": "Huntsville"
+  },
+  {
+    "state": "Texas",
+    "city": "Duncanville"
+  },
+  {
+    "state": "Texas",
+    "city": "Sherman"
+  },
+  {
+    "state": "Texas",
+    "city": "The Colony"
+  },
+  {
+    "state": "Texas",
+    "city": "Burleson"
+  },
+  {
+    "state": "Texas",
+    "city": "Hurst"
+  },
+  {
+    "state": "Texas",
+    "city": "Lancaster"
+  },
+  {
+    "state": "Texas",
+    "city": "Texarkana"
+  },
+  {
+    "state": "Texas",
+    "city": "Friendswood"
+  },
+  {
+    "state": "Texas",
+    "city": "Weslaco"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Philadelphia"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Pittsburgh"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Allentown"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Erie"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Reading"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Scranton"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Bethlehem"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Lancaster"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Harrisburg"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "Altoona"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "York"
+  },
+  {
+    "state": "Pennsylvania",
+    "city": "State College"
+  },
+  {
+    "state": "Arizona",
+    "city": "Phoenix"
+  },
+  {
+    "state": "Arizona",
+    "city": "Tucson"
+  },
+  {
+    "state": "Arizona",
+    "city": "Mesa"
+  },
+  {
+    "state": "Arizona",
+    "city": "Chandler"
+  },
+  {
+    "state": "Arizona",
+    "city": "Glendale"
+  },
+  {
+    "state": "Arizona",
+    "city": "Scottsdale"
+  },
+  {
+    "state": "Arizona",
+    "city": "Gilbert"
+  },
+  {
+    "state": "Arizona",
+    "city": "Tempe"
+  },
+  {
+    "state": "Arizona",
+    "city": "Peoria"
+  },
+  {
+    "state": "Arizona",
+    "city": "Surprise"
+  },
+  {
+    "state": "Arizona",
+    "city": "Yuma"
+  },
+  {
+    "state": "Arizona",
+    "city": "Avondale"
+  },
+  {
+    "state": "Arizona",
+    "city": "Goodyear"
+  },
+  {
+    "state": "Arizona",
+    "city": "Flagstaff"
+  },
+  {
+    "state": "Arizona",
+    "city": "Buckeye"
+  },
+  {
+    "state": "Arizona",
+    "city": "Lake Havasu City"
+  },
+  {
+    "state": "Arizona",
+    "city": "Casa Grande"
+  },
+  {
+    "state": "Arizona",
+    "city": "Sierra Vista"
+  },
+  {
+    "state": "Arizona",
+    "city": "Maricopa"
+  },
+  {
+    "state": "Arizona",
+    "city": "Oro Valley"
+  },
+  {
+    "state": "Arizona",
+    "city": "Prescott"
+  },
+  {
+    "state": "Arizona",
+    "city": "Bullhead City"
+  },
+  {
+    "state": "Arizona",
+    "city": "Prescott Valley"
+  },
+  {
+    "state": "Arizona",
+    "city": "Marana"
+  },
+  {
+    "state": "Arizona",
+    "city": "Apache Junction"
+  },
+  {
+    "state": "Florida",
+    "city": "Jacksonville"
+  },
+  {
+    "state": "Florida",
+    "city": "Miami"
+  },
+  {
+    "state": "Florida",
+    "city": "Tampa"
+  },
+  {
+    "state": "Florida",
+    "city": "Orlando"
+  },
+  {
+    "state": "Florida",
+    "city": "Hialeah"
+  },
+  {
+    "state": "Florida",
+    "city": "Tallahassee"
+  },
+  {
+    "state": "Florida",
+    "city": "Fort Lauderdale"
+  },
+  {
+    "state": "Florida",
+    "city": "Cape Coral"
+  },
+  {
+    "state": "Florida",
+    "city": "Pembroke Pines"
+  },
+  {
+    "state": "Florida",
+    "city": "Hollywood"
+  },
+  {
+    "state": "Florida",
+    "city": "Miramar"
+  },
+  {
+    "state": "Florida",
+    "city": "Gainesville"
+  },
+  {
+    "state": "Florida",
+    "city": "Coral Springs"
+  },
+  {
+    "state": "Florida",
+    "city": "Miami Gardens"
+  },
+  {
+    "state": "Florida",
+    "city": "Clearwater"
+  },
+  {
+    "state": "Florida",
+    "city": "Palm Bay"
+  },
+  {
+    "state": "Florida",
+    "city": "Pompano Beach"
+  },
+  {
+    "state": "Florida",
+    "city": "West Palm Beach"
+  },
+  {
+    "state": "Florida",
+    "city": "Lakeland"
+  },
+  {
+    "state": "Florida",
+    "city": "Davie"
+  },
+  {
+    "state": "Florida",
+    "city": "Miami Beach"
+  },
+  {
+    "state": "Florida",
+    "city": "Sunrise"
+  },
+  {
+    "state": "Florida",
+    "city": "Plantation"
+  },
+  {
+    "state": "Florida",
+    "city": "Boca Raton"
+  },
+  {
+    "state": "Florida",
+    "city": "Deltona"
+  },
+  {
+    "state": "Florida",
+    "city": "Largo"
+  },
+  {
+    "state": "Florida",
+    "city": "Deerfield Beach"
+  },
+  {
+    "state": "Florida",
+    "city": "Palm Coast"
+  },
+  {
+    "state": "Florida",
+    "city": "Melbourne"
+  },
+  {
+    "state": "Florida",
+    "city": "Boynton Beach"
+  },
+  {
+    "state": "Florida",
+    "city": "Lauderhill"
+  },
+  {
+    "state": "Florida",
+    "city": "Weston"
+  },
+  {
+    "state": "Florida",
+    "city": "Fort Myers"
+  },
+  {
+    "state": "Florida",
+    "city": "Kissimmee"
+  },
+  {
+    "state": "Florida",
+    "city": "Homestead"
+  },
+  {
+    "state": "Florida",
+    "city": "Tamarac"
+  },
+  {
+    "state": "Florida",
+    "city": "Delray Beach"
+  },
+  {
+    "state": "Florida",
+    "city": "Daytona Beach"
+  },
+  {
+    "state": "Florida",
+    "city": "North Miami"
+  },
+  {
+    "state": "Florida",
+    "city": "Wellington"
+  },
+  {
+    "state": "Florida",
+    "city": "North Port"
+  },
+  {
+    "state": "Florida",
+    "city": "Jupiter"
+  },
+  {
+    "state": "Florida",
+    "city": "Ocala"
+  },
+  {
+    "state": "Florida",
+    "city": "Port Orange"
+  },
+  {
+    "state": "Florida",
+    "city": "Margate"
+  },
+  {
+    "state": "Florida",
+    "city": "Coconut Creek"
+  },
+  {
+    "state": "Florida",
+    "city": "Sanford"
+  },
+  {
+    "state": "Florida",
+    "city": "Sarasota"
+  },
+  {
+    "state": "Florida",
+    "city": "Pensacola"
+  },
+  {
+    "state": "Florida",
+    "city": "Bradenton"
+  },
+  {
+    "state": "Florida",
+    "city": "Palm Beach Gardens"
+  },
+  {
+    "state": "Florida",
+    "city": "Pinellas Park"
+  },
+  {
+    "state": "Florida",
+    "city": "Coral Gables"
+  },
+  {
+    "state": "Florida",
+    "city": "Doral"
+  },
+  {
+    "state": "Florida",
+    "city": "Bonita Springs"
+  },
+  {
+    "state": "Florida",
+    "city": "Apopka"
+  },
+  {
+    "state": "Florida",
+    "city": "Titusville"
+  },
+  {
+    "state": "Florida",
+    "city": "North Miami Beach"
+  },
+  {
+    "state": "Florida",
+    "city": "Oakland Park"
+  },
+  {
+    "state": "Florida",
+    "city": "Fort Pierce"
+  },
+  {
+    "state": "Florida",
+    "city": "North Lauderdale"
+  },
+  {
+    "state": "Florida",
+    "city": "Cutler Bay"
+  },
+  {
+    "state": "Florida",
+    "city": "Altamonte Springs"
+  },
+  {
+    "state": "Florida",
+    "city": "Greenacres"
+  },
+  {
+    "state": "Florida",
+    "city": "Ormond Beach"
+  },
+  {
+    "state": "Florida",
+    "city": "Ocoee"
+  },
+  {
+    "state": "Florida",
+    "city": "Hallandale Beach"
+  },
+  {
+    "state": "Florida",
+    "city": "Winter Garden"
+  },
+  {
+    "state": "Florida",
+    "city": "Aventura"
+  },
+  {
+    "state": "Indiana",
+    "city": "Indianapolis"
+  },
+  {
+    "state": "Indiana",
+    "city": "Fort Wayne"
+  },
+  {
+    "state": "Indiana",
+    "city": "Evansville"
+  },
+  {
+    "state": "Indiana",
+    "city": "South Bend"
+  },
+  {
+    "state": "Indiana",
+    "city": "Carmel"
+  },
+  {
+    "state": "Indiana",
+    "city": "Bloomington"
+  },
+  {
+    "state": "Indiana",
+    "city": "Fishers"
+  },
+  {
+    "state": "Indiana",
+    "city": "Hammond"
+  },
+  {
+    "state": "Indiana",
+    "city": "Gary"
+  },
+  {
+    "state": "Indiana",
+    "city": "Muncie"
+  },
+  {
+    "state": "Indiana",
+    "city": "Lafayette"
+  },
+  {
+    "state": "Indiana",
+    "city": "Terre Haute"
+  },
+  {
+    "state": "Indiana",
+    "city": "Kokomo"
+  },
+  {
+    "state": "Indiana",
+    "city": "Anderson"
+  },
+  {
+    "state": "Indiana",
+    "city": "Noblesville"
+  },
+  {
+    "state": "Indiana",
+    "city": "Greenwood"
+  },
+  {
+    "state": "Indiana",
+    "city": "Elkhart"
+  },
+  {
+    "state": "Indiana",
+    "city": "Mishawaka"
+  },
+  {
+    "state": "Indiana",
+    "city": "Lawrence"
+  },
+  {
+    "state": "Indiana",
+    "city": "Jeffersonville"
+  },
+  {
+    "state": "Indiana",
+    "city": "Columbus"
+  },
+  {
+    "state": "Indiana",
+    "city": "Portage"
+  },
+  {
+    "state": "Ohio",
+    "city": "Columbus"
+  },
+  {
+    "state": "Ohio",
+    "city": "Cleveland"
+  },
+  {
+    "state": "Ohio",
+    "city": "Cincinnati"
+  },
+  {
+    "state": "Ohio",
+    "city": "Toledo"
+  },
+  {
+    "state": "Ohio",
+    "city": "Akron"
+  },
+  {
+    "state": "Ohio",
+    "city": "Dayton"
+  },
+  {
+    "state": "Ohio",
+    "city": "Parma"
+  },
+  {
+    "state": "Ohio",
+    "city": "Canton"
+  },
+  {
+    "state": "Ohio",
+    "city": "Youngstown"
+  },
+  {
+    "state": "Ohio",
+    "city": "Lorain"
+  },
+  {
+    "state": "Ohio",
+    "city": "Hamilton"
+  },
+  {
+    "state": "Ohio",
+    "city": "Springfield"
+  },
+  {
+    "state": "Ohio",
+    "city": "Kettering"
+  },
+  {
+    "state": "Ohio",
+    "city": "Elyria"
+  },
+  {
+    "state": "Ohio",
+    "city": "Lakewood"
+  },
+  {
+    "state": "Ohio",
+    "city": "Cuyahoga Falls"
+  },
+  {
+    "state": "Ohio",
+    "city": "Middletown"
+  },
+  {
+    "state": "Ohio",
+    "city": "Euclid"
+  },
+  {
+    "state": "Ohio",
+    "city": "Newark"
+  },
+  {
+    "state": "Ohio",
+    "city": "Mansfield"
+  },
+  {
+    "state": "Ohio",
+    "city": "Mentor"
+  },
+  {
+    "state": "Ohio",
+    "city": "Beavercreek"
+  },
+  {
+    "state": "Ohio",
+    "city": "Cleveland Heights"
+  },
+  {
+    "state": "Ohio",
+    "city": "Strongsville"
+  },
+  {
+    "state": "Ohio",
+    "city": "Dublin"
+  },
+  {
+    "state": "Ohio",
+    "city": "Fairfield"
+  },
+  {
+    "state": "Ohio",
+    "city": "Findlay"
+  },
+  {
+    "state": "Ohio",
+    "city": "Warren"
+  },
+  {
+    "state": "Ohio",
+    "city": "Lancaster"
+  },
+  {
+    "state": "Ohio",
+    "city": "Lima"
+  },
+  {
+    "state": "Ohio",
+    "city": "Huber Heights"
+  },
+  {
+    "state": "Ohio",
+    "city": "Westerville"
+  },
+  {
+    "state": "Ohio",
+    "city": "Marion"
+  },
+  {
+    "state": "Ohio",
+    "city": "Grove City"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Charlotte"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Raleigh"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Greensboro"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Durham"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Fayetteville"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Cary"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Wilmington"
+  },
+  {
+    "state": "North Carolina",
+    "city": "High Point"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Greenville"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Asheville"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Concord"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Gastonia"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Jacksonville"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Chapel Hill"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Rocky Mount"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Burlington"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Wilson"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Huntersville"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Kannapolis"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Apex"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Hickory"
+  },
+  {
+    "state": "North Carolina",
+    "city": "Goldsboro"
+  },
+  {
+    "state": "Michigan",
+    "city": "Detroit"
+  },
+  {
+    "state": "Michigan",
+    "city": "Grand Rapids"
+  },
+  {
+    "state": "Michigan",
+    "city": "Warren"
+  },
+  {
+    "state": "Michigan",
+    "city": "Sterling Heights"
+  },
+  {
+    "state": "Michigan",
+    "city": "Ann Arbor"
+  },
+  {
+    "state": "Michigan",
+    "city": "Lansing"
+  },
+  {
+    "state": "Michigan",
+    "city": "Flint"
+  },
+  {
+    "state": "Michigan",
+    "city": "Dearborn"
+  },
+  {
+    "state": "Michigan",
+    "city": "Livonia"
+  },
+  {
+    "state": "Michigan",
+    "city": "Westland"
+  },
+  {
+    "state": "Michigan",
+    "city": "Troy"
+  },
+  {
+    "state": "Michigan",
+    "city": "Farmington Hills"
+  },
+  {
+    "state": "Michigan",
+    "city": "Kalamazoo"
+  },
+  {
+    "state": "Michigan",
+    "city": "Wyoming"
+  },
+  {
+    "state": "Michigan",
+    "city": "Southfield"
+  },
+  {
+    "state": "Michigan",
+    "city": "Rochester Hills"
+  },
+  {
+    "state": "Michigan",
+    "city": "Taylor"
+  },
+  {
+    "state": "Michigan",
+    "city": "Pontiac"
+  },
+  {
+    "state": "Michigan",
+    "city": "Royal Oak"
+  },
+  {
+    "state": "Michigan",
+    "city": "Novi"
+  },
+  {
+    "state": "Michigan",
+    "city": "Dearborn Heights"
+  },
+  {
+    "state": "Michigan",
+    "city": "Battle Creek"
+  },
+  {
+    "state": "Michigan",
+    "city": "Saginaw"
+  },
+  {
+    "state": "Michigan",
+    "city": "Kentwood"
+  },
+  {
+    "state": "Michigan",
+    "city": "East Lansing"
+  },
+  {
+    "state": "Michigan",
+    "city": "Roseville"
+  },
+  {
+    "state": "Michigan",
+    "city": "Portage"
+  },
+  {
+    "state": "Michigan",
+    "city": "Midland"
+  },
+  {
+    "state": "Michigan",
+    "city": "Lincoln Park"
+  },
+  {
+    "state": "Michigan",
+    "city": "Muskegon"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Memphis"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Nashville"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Knoxville"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Chattanooga"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Clarksville"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Murfreesboro"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Jackson"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Franklin"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Johnson City"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Bartlett"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Hendersonville"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Kingsport"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Collierville"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Cleveland"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Smyrna"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Germantown"
+  },
+  {
+    "state": "Tennessee",
+    "city": "Brentwood"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Boston"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Worcester"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Springfield"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Lowell"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Cambridge"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "New Bedford"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Brockton"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Quincy"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Lynn"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Fall River"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Newton"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Lawrence"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Somerville"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Waltham"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Haverhill"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Malden"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Medford"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Taunton"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Chicopee"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Revere"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Peabody"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Methuen"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Pittsfield"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Attleboro"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Everett"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Salem"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Westfield"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Leominster"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Fitchburg"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Beverly"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Holyoke"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Marlborough"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Woburn"
+  },
+  {
+    "state": "Massachusetts",
+    "city": "Chelsea"
+  },
+  {
+    "state": "Washington",
+    "city": "Seattle"
+  },
+  {
+    "state": "Washington",
+    "city": "Spokane"
+  },
+  {
+    "state": "Washington",
+    "city": "Tacoma"
+  },
+  {
+    "state": "Washington",
+    "city": "Vancouver"
+  },
+  {
+    "state": "Washington",
+    "city": "Bellevue"
+  },
+  {
+    "state": "Washington",
+    "city": "Kent"
+  },
+  {
+    "state": "Washington",
+    "city": "Everett"
+  },
+  {
+    "state": "Washington",
+    "city": "Renton"
+  },
+  {
+    "state": "Washington",
+    "city": "Yakima"
+  },
+  {
+    "state": "Washington",
+    "city": "Federal Way"
+  },
+  {
+    "state": "Washington",
+    "city": "Spokane Valley"
+  },
+  {
+    "state": "Washington",
+    "city": "Bellingham"
+  },
+  {
+    "state": "Washington",
+    "city": "Kennewick"
+  },
+  {
+    "state": "Washington",
+    "city": "Auburn"
+  },
+  {
+    "state": "Washington",
+    "city": "Pasco"
+  },
+  {
+    "state": "Washington",
+    "city": "Marysville"
+  },
+  {
+    "state": "Washington",
+    "city": "Lakewood"
+  },
+  {
+    "state": "Washington",
+    "city": "Redmond"
+  },
+  {
+    "state": "Washington",
+    "city": "Shoreline"
+  },
+  {
+    "state": "Washington",
+    "city": "Richland"
+  },
+  {
+    "state": "Washington",
+    "city": "Kirkland"
+  },
+  {
+    "state": "Washington",
+    "city": "Burien"
+  },
+  {
+    "state": "Washington",
+    "city": "Sammamish"
+  },
+  {
+    "state": "Washington",
+    "city": "Olympia"
+  },
+  {
+    "state": "Washington",
+    "city": "Lacey"
+  },
+  {
+    "state": "Washington",
+    "city": "Edmonds"
+  },
+  {
+    "state": "Washington",
+    "city": "Bremerton"
+  },
+  {
+    "state": "Washington",
+    "city": "Puyallup"
+  },
+  {
+    "state": "Colorado",
+    "city": "Denver"
+  },
+  {
+    "state": "Colorado",
+    "city": "Colorado Springs"
+  },
+  {
+    "state": "Colorado",
+    "city": "Aurora"
+  },
+  {
+    "state": "Colorado",
+    "city": "Fort Collins"
+  },
+  {
+    "state": "Colorado",
+    "city": "Lakewood"
+  },
+  {
+    "state": "Colorado",
+    "city": "Thornton"
+  },
+  {
+    "state": "Colorado",
+    "city": "Arvada"
+  },
+  {
+    "state": "Colorado",
+    "city": "Westminster"
+  },
+  {
+    "state": "Colorado",
+    "city": "Pueblo"
+  },
+  {
+    "state": "Colorado",
+    "city": "Centennial"
+  },
+  {
+    "state": "Colorado",
+    "city": "Boulder"
+  },
+  {
+    "state": "Colorado",
+    "city": "Greeley"
+  },
+  {
+    "state": "Colorado",
+    "city": "Longmont"
+  },
+  {
+    "state": "Colorado",
+    "city": "Loveland"
+  },
+  {
+    "state": "Colorado",
+    "city": "Grand Junction"
+  },
+  {
+    "state": "Colorado",
+    "city": "Broomfield"
+  },
+  {
+    "state": "Colorado",
+    "city": "Castle Rock"
+  },
+  {
+    "state": "Colorado",
+    "city": "Commerce City"
+  },
+  {
+    "state": "Colorado",
+    "city": "Parker"
+  },
+  {
+    "state": "Colorado",
+    "city": "Littleton"
+  },
+  {
+    "state": "Colorado",
+    "city": "Northglenn"
+  },
+  {
+    "state": "District of Columbia",
+    "city": "Washington"
+  },
+  {
+    "state": "Maryland",
+    "city": "Baltimore"
+  },
+  {
+    "state": "Maryland",
+    "city": "Frederick"
+  },
+  {
+    "state": "Maryland",
+    "city": "Rockville"
+  },
+  {
+    "state": "Maryland",
+    "city": "Gaithersburg"
+  },
+  {
+    "state": "Maryland",
+    "city": "Bowie"
+  },
+  {
+    "state": "Maryland",
+    "city": "Hagerstown"
+  },
+  {
+    "state": "Maryland",
+    "city": "Annapolis"
+  },
+  {
+    "state": "Kentucky",
+    "city": "Louisville"
+  },
+  {
+    "state": "Kentucky",
+    "city": "Lexington"
+  },
+  {
+    "state": "Kentucky",
+    "city": "Bowling Green"
+  },
+  {
+    "state": "Kentucky",
+    "city": "Owensboro"
+  },
+  {
+    "state": "Kentucky",
+    "city": "Covington"
+  },
+  {
+    "state": "Oregon",
+    "city": "Portland"
+  },
+  {
+    "state": "Oregon",
+    "city": "Eugene"
+  },
+  {
+    "state": "Oregon",
+    "city": "Salem"
+  },
+  {
+    "state": "Oregon",
+    "city": "Gresham"
+  },
+  {
+    "state": "Oregon",
+    "city": "Hillsboro"
+  },
+  {
+    "state": "Oregon",
+    "city": "Beaverton"
+  },
+  {
+    "state": "Oregon",
+    "city": "Bend"
+  },
+  {
+    "state": "Oregon",
+    "city": "Medford"
+  },
+  {
+    "state": "Oregon",
+    "city": "Springfield"
+  },
+  {
+    "state": "Oregon",
+    "city": "Corvallis"
+  },
+  {
+    "state": "Oregon",
+    "city": "Albany"
+  },
+  {
+    "state": "Oregon",
+    "city": "Tigard"
+  },
+  {
+    "state": "Oregon",
+    "city": "Lake Oswego"
+  },
+  {
+    "state": "Oregon",
+    "city": "Keizer"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Oklahoma City"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Tulsa"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Norman"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Broken Arrow"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Lawton"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Edmond"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Moore"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Midwest City"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Enid"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Stillwater"
+  },
+  {
+    "state": "Oklahoma",
+    "city": "Muskogee"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Milwaukee"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Madison"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Green Bay"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Kenosha"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Racine"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Appleton"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Waukesha"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Eau Claire"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Oshkosh"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Janesville"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "West Allis"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "La Crosse"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Sheboygan"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Wauwatosa"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Fond du Lac"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "New Berlin"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Wausau"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Brookfield"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Greenfield"
+  },
+  {
+    "state": "Wisconsin",
+    "city": "Beloit"
+  },
+  {
+    "state": "Nevada",
+    "city": "Las Vegas"
+  },
+  {
+    "state": "Nevada",
+    "city": "Henderson"
+  },
+  {
+    "state": "Nevada",
+    "city": "Reno"
+  },
+  {
+    "state": "Nevada",
+    "city": "Sparks"
+  },
+  {
+    "state": "Nevada",
+    "city": "Carson City"
+  },
+  {
+    "state": "New Mexico",
+    "city": "Albuquerque"
+  },
+  {
+    "state": "New Mexico",
+    "city": "Las Cruces"
+  },
+  {
+    "state": "New Mexico",
+    "city": "Rio Rancho"
+  },
+  {
+    "state": "New Mexico",
+    "city": "Santa Fe"
+  },
+  {
+    "state": "New Mexico",
+    "city": "Roswell"
+  },
+  {
+    "state": "New Mexico",
+    "city": "Farmington"
+  },
+  {
+    "state": "New Mexico",
+    "city": "Clovis"
+  },
+  {
+    "state": "Missouri",
+    "city": "Kansas City"
+  },
+  {
+    "state": "Missouri",
+    "city": "Springfield"
+  },
+  {
+    "state": "Missouri",
+    "city": "Independence"
+  },
+  {
+    "state": "Missouri",
+    "city": "Columbia"
+  },
+  {
+    "state": "Missouri",
+    "city": "Blue Springs"
+  },
+  {
+    "state": "Missouri",
+    "city": "Florissant"
+  },
+  {
+    "state": "Missouri",
+    "city": "Joplin"
+  },
+  {
+    "state": "Missouri",
+    "city": "Chesterfield"
+  },
+  {
+    "state": "Missouri",
+    "city": "Jefferson City"
+  },
+  {
+    "state": "Missouri",
+    "city": "Cape Girardeau"
+  },
+  {
+    "state": "Missouri",
+    "city": "St Louis"
+  },
+  {
+    "state": "Virginia",
+    "city": "Virginia Beach"
+  },
+  {
+    "state": "Virginia",
+    "city": "Norfolk"
+  },
+  {
+    "state": "Virginia",
+    "city": "Chesapeake"
+  },
+  {
+    "state": "Virginia",
+    "city": "Richmond"
+  },
+  {
+    "state": "Virginia",
+    "city": "Newport News"
+  },
+  {
+    "state": "Virginia",
+    "city": "Alexandria"
+  },
+  {
+    "state": "Virginia",
+    "city": "Hampton"
+  },
+  {
+    "state": "Virginia",
+    "city": "Roanoke"
+  },
+  {
+    "state": "Virginia",
+    "city": "Portsmouth"
+  },
+  {
+    "state": "Virginia",
+    "city": "Suffolk"
+  },
+  {
+    "state": "Virginia",
+    "city": "Lynchburg"
+  },
+  {
+    "state": "Virginia",
+    "city": "Harrisonburg"
+  },
+  {
+    "state": "Virginia",
+    "city": "Leesburg"
+  },
+  {
+    "state": "Virginia",
+    "city": "Charlottesville"
+  },
+  {
+    "state": "Virginia",
+    "city": "Danville"
+  },
+  {
+    "state": "Virginia",
+    "city": "Blacksburg"
+  },
+  {
+    "state": "Virginia",
+    "city": "Manassas"
+  },
+  {
+    "state": "Georgia",
+    "city": "Atlanta"
+  },
+  {
+    "state": "Georgia",
+    "city": "Columbus"
+  },
+  {
+    "state": "Georgia",
+    "city": "Augusta"
+  },
+  {
+    "state": "Georgia",
+    "city": "Savannah"
+  },
+  {
+    "state": "Georgia",
+    "city": "Athens"
+  },
+  {
+    "state": "Georgia",
+    "city": "Sandy Springs"
+  },
+  {
+    "state": "Georgia",
+    "city": "Roswell"
+  },
+  {
+    "state": "Georgia",
+    "city": "Macon"
+  },
+  {
+    "state": "Georgia",
+    "city": "Johns Creek"
+  },
+  {
+    "state": "Georgia",
+    "city": "Albany"
+  },
+  {
+    "state": "Georgia",
+    "city": "Warner Robins"
+  },
+  {
+    "state": "Georgia",
+    "city": "Alpharetta"
+  },
+  {
+    "state": "Georgia",
+    "city": "Marietta"
+  },
+  {
+    "state": "Georgia",
+    "city": "Valdosta"
+  },
+  {
+    "state": "Georgia",
+    "city": "Smyrna"
+  },
+  {
+    "state": "Georgia",
+    "city": "Dunwoody"
+  },
+  {
+    "state": "Nebraska",
+    "city": "Omaha"
+  },
+  {
+    "state": "Nebraska",
+    "city": "Lincoln"
+  },
+  {
+    "state": "Nebraska",
+    "city": "Bellevue"
+  },
+  {
+    "state": "Nebraska",
+    "city": "Grand Island"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Minneapolis"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Rochester"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Duluth"
+  },
+  {
+    "state": "Minnesota",
+    "city": "St Paul"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Bloomington"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Brooklyn Park"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Plymouth"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Eagan"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Woodbury"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Maple Grove"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Eden Prairie"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Coon Rapids"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Burnsville"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Blaine"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Lakeville"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Minnetonka"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Apple Valley"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Edina"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Mankato"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Maplewood"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Moorhead"
+  },
+  {
+    "state": "Minnesota",
+    "city": "Shakopee"
+  },
+  {
+    "state": "Kansas",
+    "city": "Wichita"
+  },
+  {
+    "state": "Kansas",
+    "city": "Overland Park"
+  },
+  {
+    "state": "Kansas",
+    "city": "Kansas City"
+  },
+  {
+    "state": "Kansas",
+    "city": "Olathe"
+  },
+  {
+    "state": "Kansas",
+    "city": "Topeka"
+  },
+  {
+    "state": "Kansas",
+    "city": "Lawrence"
+  },
+  {
+    "state": "Kansas",
+    "city": "Shawnee"
+  },
+  {
+    "state": "Kansas",
+    "city": "Manhattan"
+  },
+  {
+    "state": "Kansas",
+    "city": "Lenexa"
+  },
+  {
+    "state": "Kansas",
+    "city": "Salina"
+  },
+  {
+    "state": "Kansas",
+    "city": "Hutchinson"
+  },
+  {
+    "state": "Louisiana",
+    "city": "New Orleans"
+  },
+  {
+    "state": "Louisiana",
+    "city": "Baton Rouge"
+  },
+  {
+    "state": "Louisiana",
+    "city": "Shreveport"
+  },
+  {
+    "state": "Louisiana",
+    "city": "Lafayette"
+  },
+  {
+    "state": "Louisiana",
+    "city": "Lake Charles"
+  },
+  {
+    "state": "Louisiana",
+    "city": "Kenner"
+  },
+  {
+    "state": "Louisiana",
+    "city": "Bossier City"
+  },
+  {
+    "state": "Louisiana",
+    "city": "Monroe"
+  },
+  {
+    "state": "Louisiana",
+    "city": "Alexandria"
+  },
+  {
+    "state": "Hawaii",
+    "city": "Honolulu"
+  },
+  {
+    "state": "Alaska",
+    "city": "Anchorage"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Newark"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Jersey City"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Paterson"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Elizabeth"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Clifton"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Trenton"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Camden"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Passaic"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Union City"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Bayonne"
+  },
+  {
+    "state": "New Jersey",
+    "city": "East Orange"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Vineland"
+  },
+  {
+    "state": "New Jersey",
+    "city": "New Brunswick"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Hoboken"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Perth Amboy"
+  },
+  {
+    "state": "New Jersey",
+    "city": "West New York"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Plainfield"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Hackensack"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Sayreville"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Kearny"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Linden"
+  },
+  {
+    "state": "New Jersey",
+    "city": "Atlantic City"
+  },
+  {
+    "state": "Idaho",
+    "city": "Boise"
+  },
+  {
+    "state": "Idaho",
+    "city": "Nampa"
+  },
+  {
+    "state": "Idaho",
+    "city": "Meridian"
+  },
+  {
+    "state": "Idaho",
+    "city": "Idaho Falls"
+  },
+  {
+    "state": "Idaho",
+    "city": "Pocatello"
+  },
+  {
+    "state": "Idaho",
+    "city": "Caldwell"
+  },
+  {
+    "state": "Idaho",
+    "city": "Twin Falls"
+  },
+  {
+    "state": "Alabama",
+    "city": "Birmingham"
+  },
+  {
+    "state": "Alabama",
+    "city": "Montgomery"
+  },
+  {
+    "state": "Alabama",
+    "city": "Mobile"
+  },
+  {
+    "state": "Alabama",
+    "city": "Huntsville"
+  },
+  {
+    "state": "Alabama",
+    "city": "Tuscaloosa"
+  },
+  {
+    "state": "Alabama",
+    "city": "Hoover"
+  },
+  {
+    "state": "Alabama",
+    "city": "Dothan"
+  },
+  {
+    "state": "Alabama",
+    "city": "Auburn"
+  },
+  {
+    "state": "Alabama",
+    "city": "Decatur"
+  },
+  {
+    "state": "Alabama",
+    "city": "Madison"
+  },
+  {
+    "state": "Alabama",
+    "city": "Florence"
+  },
+  {
+    "state": "Alabama",
+    "city": "Gadsden"
+  },
+  {
+    "state": "Iowa",
+    "city": "Des Moines"
+  },
+  {
+    "state": "Iowa",
+    "city": "Cedar Rapids"
+  },
+  {
+    "state": "Iowa",
+    "city": "Davenport"
+  },
+  {
+    "state": "Iowa",
+    "city": "Sioux City"
+  },
+  {
+    "state": "Iowa",
+    "city": "Iowa City"
+  },
+  {
+    "state": "Iowa",
+    "city": "Waterloo"
+  },
+  {
+    "state": "Iowa",
+    "city": "Council Bluffs"
+  },
+  {
+    "state": "Iowa",
+    "city": "Ames"
+  },
+  {
+    "state": "Iowa",
+    "city": "Dubuque"
+  },
+  {
+    "state": "Iowa",
+    "city": "Ankeny"
+  },
+  {
+    "state": "Iowa",
+    "city": "Urbandale"
+  },
+  {
+    "state": "Iowa",
+    "city": "Cedar Falls"
+  },
+  {
+    "state": "Arkansas",
+    "city": "Little Rock"
+  },
+  {
+    "state": "Arkansas",
+    "city": "Fort Smith"
+  },
+  {
+    "state": "Arkansas",
+    "city": "Fayetteville"
+  },
+  {
+    "state": "Arkansas",
+    "city": "Springdale"
+  },
+  {
+    "state": "Arkansas",
+    "city": "Jonesboro"
+  },
+  {
+    "state": "Arkansas",
+    "city": "Conway"
+  },
+  {
+    "state": "Arkansas",
+    "city": "Rogers"
+  },
+  {
+    "state": "Arkansas",
+    "city": "Pine Bluff"
+  },
+  {
+    "state": "Arkansas",
+    "city": "Bentonville"
+  },
+  {
+    "state": "Utah",
+    "city": "Salt Lake City"
+  },
+  {
+    "state": "Utah",
+    "city": "West Valley City"
+  },
+  {
+    "state": "Utah",
+    "city": "Provo"
+  },
+  {
+    "state": "Utah",
+    "city": "West Jordan"
+  },
+  {
+    "state": "Utah",
+    "city": "Orem"
+  },
+  {
+    "state": "Utah",
+    "city": "Sandy"
+  },
+  {
+    "state": "Utah",
+    "city": "Ogden"
+  },
+  {
+    "state": "Utah",
+    "city": "Layton"
+  },
+  {
+    "state": "Utah",
+    "city": "Taylorsville"
+  },
+  {
+    "state": "Utah",
+    "city": "South Jordan"
+  },
+  {
+    "state": "Utah",
+    "city": "Lehi"
+  },
+  {
+    "state": "Utah",
+    "city": "Logan"
+  },
+  {
+    "state": "Utah",
+    "city": "Murray"
+  },
+  {
+    "state": "Utah",
+    "city": "Draper"
+  },
+  {
+    "state": "Utah",
+    "city": "Bountiful"
+  },
+  {
+    "state": "Utah",
+    "city": "Riverton"
+  },
+  {
+    "state": "Utah",
+    "city": "Roy"
+  },
+  {
+    "state": "Rhode Island",
+    "city": "Providence"
+  },
+  {
+    "state": "Rhode Island",
+    "city": "Warwick"
+  },
+  {
+    "state": "Rhode Island",
+    "city": "Cranston"
+  },
+  {
+    "state": "Rhode Island",
+    "city": "Pawtucket"
+  },
+  {
+    "state": "Rhode Island",
+    "city": "Woonsocket"
+  },
+  {
+    "state": "Mississippi",
+    "city": "Jackson"
+  },
+  {
+    "state": "Mississippi",
+    "city": "Gulfport"
+  },
+  {
+    "state": "Mississippi",
+    "city": "Southaven"
+  },
+  {
+    "state": "Mississippi",
+    "city": "Hattiesburg"
+  },
+  {
+    "state": "Mississippi",
+    "city": "Biloxi"
+  },
+  {
+    "state": "Mississippi",
+    "city": "Meridian"
+  },
+  {
+    "state": "South Dakota",
+    "city": "Sioux Falls"
+  },
+  {
+    "state": "South Dakota",
+    "city": "Rapid City"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Bridgeport"
+  },
+  {
+    "state": "Connecticut",
+    "city": "New Haven"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Stamford"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Hartford"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Waterbury"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Norwalk"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Danbury"
+  },
+  {
+    "state": "Connecticut",
+    "city": "New Britain"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Meriden"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Bristol"
+  },
+  {
+    "state": "Connecticut",
+    "city": "West Haven"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Milford"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Middletown"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Norwich"
+  },
+  {
+    "state": "Connecticut",
+    "city": "Shelton"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Columbia"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Charleston"
+  },
+  {
+    "state": "South Carolina",
+    "city": "North Charleston"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Mount Pleasant"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Rock Hill"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Greenville"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Summerville"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Sumter"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Goose Creek"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Hilton Head Island"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Florence"
+  },
+  {
+    "state": "South Carolina",
+    "city": "Spartanburg"
+  },
+  {
+    "state": "New Hampshire",
+    "city": "Manchester"
+  },
+  {
+    "state": "New Hampshire",
+    "city": "Nashua"
+  },
+  {
+    "state": "New Hampshire",
+    "city": "Concord"
+  },
+  {
+    "state": "North Dakota",
+    "city": "Fargo"
+  },
+  {
+    "state": "North Dakota",
+    "city": "Bismarck"
+  },
+  {
+    "state": "North Dakota",
+    "city": "Grand Forks"
+  },
+  {
+    "state": "North Dakota",
+    "city": "Minot"
+  },
+  {
+    "state": "Montana",
+    "city": "Billings"
+  },
+  {
+    "state": "Montana",
+    "city": "Missoula"
+  },
+  {
+    "state": "Montana",
+    "city": "Great Falls"
+  },
+  {
+    "state": "Montana",
+    "city": "Bozeman"
+  },
+  {
+    "state": "Delaware",
+    "city": "Wilmington"
+  },
+  {
+    "state": "Delaware",
+    "city": "Dover"
+  },
+  {
+    "state": "Maine",
+    "city": "Portland"
+  },
+  {
+    "state": "Wyoming",
+    "city": "Cheyenne"
+  },
+  {
+    "state": "Wyoming",
+    "city": "Casper"
+  },
+  {
+    "state": "West Virginia",
+    "city": "Charleston"
+  },
+  {
+    "state": "West Virginia",
+    "city": "Huntington"
+  },
+  {
+    "state": "Vermont",
+    "city": "Burlington"
+  }
+]

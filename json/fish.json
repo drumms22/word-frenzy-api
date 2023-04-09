@@ -1,0 +1,1146 @@
+[
+  {
+    "name": "Abalone",
+    "image": false,
+    "rating_description": "one",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_01_1.svg",
+    "latin_name": "Haliotis discus hannai; Haliotis tuberculata",
+    "description": "Abalone (called ormer in France and elsewhere) are molluscs, belonging to a group of animals known as gastropods (the same group as whelks). Abalone can be farmed on land in aquaculture systems that are enclosed, referred to as  \"recirculating systems\", which means that all water and waste are contained. Abalone graze on seaweeds. As there are no environmental interactions and no depletion of resources for food this makes abalone a really sustainable seafood choice. Abalone can be farmed on land in aquaculture systems that are enclosed, referred to as \"recirculating systems\", which means that all water and waste are contained. Abalone graze on seaweeds for food. As there are no environmental interactions and no depletion of resources for food this makes abalone a really sustainable seafood choice."
+  },
+  {
+    "name": "Anchovy, anchovies",
+    "image": "/images/goodfishguide/004.jpg",
+    "rating_description": "from two to three",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_02_23.svg",
+    "latin_name": "Engraulis encrasicolus",
+    "description": "As an oily fish, their strong flavour is used to add a kick to many dishes and sauces, including Worcestershire Sauce, and they are widely used in Mediterranean cooking. Anchovy fillets are generally packed in oil or salt and sold in jars  or tins. Often used as a topping for pizza, caesar salads or just on toast. Also in paste or rolled and accompanied with other foods such as olives. Anchovy can also be processed into fish meal.They are small green fish with a silver stripe that gives them a bluish hue. A relative of the herring, they are a short-lived, schooling fish feeding on small fry (recently hatched fish) and plankton at the bottom of the food-chain. The Bay of Biscay fishery is a sustainable choice. The Cantabrian Sea (Bay of Biscay) purse seine anchovy fishery is certified by the Marine Stewardship Council (MSC) as sustainable. Anchovy are a species with a low vulnerability and high resilience and as such can sustain high levels of fishing pressure. However, recruitment of young fish to the stock is affected by environmental factors including climatic fluctuations. If recruitment is low and fishing pressure too high the stock becomes vulnerable to collapse. Anchovy are also a species at or near the base of the food chain and the impact of their large-scale removal on the marine ecosystem is poorly understood."
+  },
+  {
+    "name": "Anchovy, Peruvian, anchovies",
+    "image": "/images/goodfishguide/PeruvianAnchovySFYB.jpg",
+    "rating_description": "from four to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_04_4-55.svg",
+    "latin_name": "Engraulis ringens",
+    "description": "As an oily fish, their strong flavour is used to add a kick to many dishes and sauces, including Worcestershire Sauce, and they are widely used in Mediterranean cooking. Anchovy fillets are generally packed in oil or salt and sold in jars  or tins. Often used as a topping for pizza, caesar salads or just on toast. Also in paste or rolled and accompanied with other foods such as olives. Anchovy can also be processed into fish meal. They are small green fish with a silver stripe that gives them a bluish hue. A relative of the herring, they are a short-lived, schooling fish feeding on small fry (recently hatched fish) and plankton at the bottom of the food-chain Anchovy populations fluctuate largely because of environmental variability. It is important that their populations are maintained at an appropriate level because anchovy are a very important part of the food chain. Their catches need to be appropriate to maintain an ecosystem balance. Due to the last El Nino, anchovy populations are low and therefore a suite of management measures have been implemented to ensure anchovy populations can rebuild. However, there needs to be more transparency in stock assessments and quotas need to be made more appropriate for predators of anchovy."
+  },
+  {
+    "name": "Arctic char",
+    "image": "/images/goodfishguide/ArcticChar.jpg",
+    "rating_description": "one",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_01_1.svg",
+    "latin_name": "Salvelinus alpinus",
+    "description": "Land based farmed Arctic char is a good choice to make when looking for an oily fish. The use of land based production systems addresses many issues of environmental concern that can be associated with farmed fish production. Artic charr  has a lower requirement for fish in its diet compared to other salmonid species and in UK and Icelandic production responsibly sourced feed is used."
+  },
+  {
+    "name": "Basa, Tra, Catfish or Vietnamese River Cobbler",
+    "image": false,
+    "rating_description": "from two to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_02_234.svg",
+    "latin_name": "Pangasius bocourti & Pangasius hypophthalmus",
+    "description": "The group of freshwater fish known as catfish are captured from the wild or farmed for food and displayed in public aquaria dependant on the species. This farmed species natural habitat is medium to large rivers in Asian countries such as  Vietnam, where they can grow up to 44kg.There are omnivores, feeding on a diet of other fish, vegetable matter and crustacea. Pangasius bocourti is one of the most important farmed species in Vietnam. Pangasius farmed to Aquaculture Stewardship Council (ASC) certified production standards is currently the best choice to make for this farmed species. The ASC standard certification addresses a number of issues of environmental concern, the auditing of which requires farm inspections and standard enforcement. In general there are a number of issues of environmental concern associated with production, these include: habitat alteration; nutrient and organic pollution; escapes; interactions with local wildlife and enforcement of regulations. Pangasius is a an omnivore and as such is not heavily reliant on marine proteins and oils to form part of its diet, however the fish used to produce the feed is currently not certified as being responsibly managed or sustainable."
+  },
+  {
+    "name": "Bass, seabass (Caught at sea)",
+    "image": "/images/goodfishguide/091.jpg",
+    "rating_description": "from three to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_03_34.svg",
+    "latin_name": "Dicentrarchus labrax",
+    "description": "The combination of slow growth, late maturity, spawning aggregation, and strong summer site fidelity, plus high value of this species make it vulnerable over-exploitation and localised depletion and so needs to be carefully managed. The  main seabass stock around the UK was heavily overfished but improvements to management in recent years have reduced fishing pressure and it is hoped these are maintained so the stock can recover to healthy levels. There remain issues regarding accurate data collection and compliance with management measures."
+  },
+  {
+    "name": "Bass, seabass (Farmed)",
+    "image": "/images/goodfishguide/091.jpg",
+    "rating_description": "from one to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_04_01_1234.svg",
+    "latin_name": "Dicentrarchus labrax",
+    "description": "Can be roasted, grilled, baked or barbecued, also be steamed or poached. Good with rosemary, garlic or lemon. Seabass are thick-set fish with silvery-scales and a rapid swimming predator, prized by anglers and chefs alike."
+  },
+  {
+    "name": "Bream, Black or porgy or seabream",
+    "image": "/images/goodfishguide/008.jpg",
+    "rating_description": "from three to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_04_03_34-55.svg",
+    "latin_name": "Spondyliosoma cantharus",
+    "description": "Seabream are a group of compact, medium-sized fishes known as Sparidae. Their firm white meat is similar in taste and texture to bass and is ideal for grilling, steaming, baking and pan-frying whole. Black bream or porgy are commonly found  in northern European seas and are commercially fished. However the bulk of the seabream in the UK market comes from imports of Mediterranean farmed gilthead bream. Black bream is a pretty inexpensive fish to eat as it's not massively popular despite the fact it's delicious. Its taste is distinctive and on the sweet side so best grilled or stuffed and baked whole (after removing its scales). Fascinating fact - Black bream all mature as females at around 20cm; but once they reach about 30cm they may change into males and all fish over 40cms are males! They lay their eggs in nests which males excavate with their tails and guard against predators. Black seabream are vulnerable to overfishing because they change sex during their lives, they aggregate to spawn (and therefore are easier to catch) and are very picky about where they lay eggs. Look up The Black Bream Project for further details. More management is needed to protect the species. If choosing Black seabream, choose it from the Sussex IFCA district, who have implemented better management."
+  },
+  {
+    "name": "Bream, Gilthead (Caught at sea)",
+    "image": false,
+    "rating_description": "from three to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_03_34.svg",
+    "latin_name": "Sparus auratus",
+    "description": ""
+  },
+  {
+    "name": "Bream, Gilthead (Farmed)",
+    "image": "/images/goodfishguide/124.jpg",
+    "rating_description": "from one to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_04_01_1234.svg",
+    "latin_name": "Sparus auratus",
+    "description": "Seabream are a group of compact, medium-sized fishes known as Sparidae. Their firm white meat is similar in taste and texture to bass and is ideal for grilling, steaming, baking and pan-frying whole. The black bream or porgy and the red or  blackspot bream, a deep water species, are commonly found in northern European seas and are commercially fished. However the bulk of the seabream in the UK market comes from imports of Mediterranean farmed gilthead bream. Of the two wild-caught species black bream or porgy is the more sustainable. Black bream is a pretty cheap fish to eat as it is not massively popular despite the fact it is delicious. Its taste is distinctive and on the sweet side so best grilled or stuffed and baked whole (after removing its scales). Fascinating fact - Black bream all mature as females at around 20cm; but once they reach about 30cm they may change into males and all fish over 40cms are males! They lay their eggs in nests which males excavate with their tails and guard against predators. Fact: Red seabream have a low resilience to fishing due to their being hermaphroditic (sex-changing) and slow growing and are best avoided. Bream are generally farmed in open sea pens and are fed a diet reliant on wild fish capture. Bream farmed in this way can cause some environmental concerns, which is why bream farmed in recirculating aquaculture systems that have no interaction with the surrounding environment are a good choice. Many of the concerns of open water production are addressed by organic production standards, making both organically and land based farmed bream good seafood choices. These concerns include pollution from both nutrients and organic matters that lead to environmental changes; escaped farmed fish; disease transfer between farmed and wild species; widespread use of chemicals and some remaining concerns surrounding enforcement and regulatory controls. Bream are carnivorous fish that require more fish in their diet than farming them actually produces, leading to a net loss of marine proteins and oils. The fish used to produce their feed cannot be assured to be sourced from a sustainable supply."
+  },
+  {
+    "name": "Brill",
+    "image": "/images/goodfishguide/011.jpg",
+    "rating_description": "from three to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_03_34.svg",
+    "latin_name": "Scophthalmus rhombus",
+    "description": "Brill in these regions is mainly landed as bycatch in beam trawl and pulse beam trawl fisheries for plaice and sole, particularly in the North Sea. Although data-limited, it would appear that the population is not subject to overfishing  and is not in an overfished state. Management measures are combined with those for turbot, which prevents effective control and could lead to high grading of the lower value species (brill) or overexploitation of turbot. Despite this, catches of brill in recent years have been below the recommended level. Avoid eating immature brill (less than 30cm) and during their breeding time in spring and summer."
+  },
+  {
+    "name": "Clam, Manila (Farmed)",
+    "image": "/images/goodfishguide/019.jpg",
+    "rating_description": "one",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_01_1.svg",
+    "latin_name": "Ruditapes philippinarium",
+    "description": "Clams are versatile shellfish which you should only eat if they are from farmed sources (e.g. Manila or American hardshell clams) or harvested from the wild (e.g. carpet or razor clams) using sustainable manual methods such as hand  gathering. They can be eaten raw, boiled, baked or fried and are most popularly made into clam chowder - a brothy soup, containing potatoes and other vegetables, and often cream. Clams, like many fish, were served in restaurants on Fridays to provide an option for Catholics who abstained from eating \"meat' on this day, as well as during important Christian periods such as Lent. All Manila clams in the UK are progeny of broodstock imported from the west coast of USA. They are grown in trays on trestles in the sea before planting out in ground plots or seabed. Only a small number of Manila clams are farmed for the table in UK (5 tonnes, 2012), the biggest production is seed for ongrowing. Clams may be harvested by manual digging or raking, or by mechanical methods, e.g. suction or hydraulic dredge. Manual harvesting methods cause less disturbance to sediment than mechanical methods. Shellfish farming is a low-impact method of producing farmed seafood and high quality water standards are required for cultivation of shellfish for human consumption."
+  },
+  {
+    "name": "Clam, Manila, Japanese carpet shell (Caught at sea)",
+    "image": "/images/goodfishguide/019.jpg",
+    "rating_description": "rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_00_00_q.svg",
+    "latin_name": "Tapes philippinarum, Venerupis philippinarum, Ruditapes philippinarium",
+    "description": "Clams are versatile shellfish which you should only eat if they are from farmed sources (e.g. Manila or American hardshell clams) or harvested from the wild (e.g. carpet or razor clams) using sustainable manual methods such as hand  gathering. They can be eaten raw, boiled, baked or fried and are most popularly made into clam chowder - a brothy soup, containing potatoes and other vegetables, and often cream. Clams, like many fish, were served in restaurants on Fridays to provide an option for Catholics who abstained from eating \"meat' on this day, as well as during important Christian periods such as Lent. All Manila clams in the UK are progeny of broodstock imported from the west coast of USA. They are grown in trays on trestles in the sea before planting out in ground plots or seabed. Only a small number of Manila clams are farmed for the table in UK (5 tonnes, 2012), the biggest production is seed for ongrowing. Clams may be harvested by manual digging or raking, or by mechanical methods, e.g. suction or hydraulic dredge. Manual harvesting methods cause less disturbance to sediment than mechanical methods. Shellfish farming is a low-impact method of producing farmed seafood and high quality water standards are required for cultivation of shellfish for human consumption."
+  },
+  {
+    "name": "Clam, Razor, clams",
+    "image": "/images/goodfishguide/020.jpg",
+    "rating_description": "from three to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_04_03_34-55.svg",
+    "latin_name": "Ensis spp.",
+    "description": "Clams are versatile shellfish which you should only eat if they are from farmed sources (e.g. Manila or American hardshell clams) or harvested from the wild (e.g. carpet or razor clams) using sustainable manual methods such as hand  gathering. Avoid eating clams that have been harvested using illegal methods such as by electrical fishing. They can be eaten raw, boiled, baked or fried and are most popularly made into clam chowder - a brothy soup, containing potatoes and other vegetables, and often cream. Clams, like many fish, were served in restaurants on Fridays to provide an option for Catholics who abstained from eating meat on this day, as well as during important Christian periods such as Lent.In Scotland, razor clams are also known as spoots, a reference to the jets of water they produce when rapidly burrowing into sand when exposed at low tides. Widely distributed in intertidal waters throughout UK and temperate waters.The commercial rearing or farming of razor clams is well established in some areas of Spain, and its commercial potential is now being developed in the UK and Ireland. Avoid eating clams harvested using illegal methods such as electrical fishing. Choose clams harvested in the wild by sustainable methods such as hand-gathering only. Avoid eating undersized animals (less than 10cm) and wild clams harvested during the spawning season (May - September)."
+  },
+  {
+    "name": "Cockle, cockles",
+    "image": false,
+    "rating_description": "from three to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_04_03_34-55.svg",
+    "latin_name": "Cerastoderma edule",
+    "description": "Best boiled then seasoned with malt vinegar and pepper, they are often pickled but also sold in a sealed packet to eat on the go. A traditional Welsh breakfast is cockles fried with bacon and served with laver bread. Cockles have  distinctive rounded shells that are slightly heart shaped. It is a bivalve (two identical shells) belonging to the family Cardidae meaning 'heart-shaped'. They can jump by bending and straightening the foot - the end bit- which is often coloured red and called the 'red nose'. Choose Marine Stewardship Council-certified cockles or from well-managed inshore fisheries such as the Wash. Avoid eating them during their breeding season from March to July."
+  },
+  {
+    "name": "Cod, Atlantic Cod",
+    "image": "/images/goodfishguide/023.jpg",
+    "rating_description": "from one to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_06_12345.svg",
+    "latin_name": "Gadus morhua",
+    "description": "There are a many different Atlantic cod populations and whilst some are being well managed and are in a healthy state, many others are in a poor state, particularly around the UK. Many of the well managed fisheries are certified as  sustainable by the Marine Stewardship Council (MSC) which can be identified in shops and on menus by a blue ecolabel with a white tick. Avoid eating cod from stocks which are depleted and where fishing is at unsustainable levels."
+  },
+  {
+    "name": "Cod, Pacific Cod",
+    "image": false,
+    "rating_description": "from three to four with at least one rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_03_34q.svg",
+    "latin_name": "Gadus macrocephalus",
+    "description": "Choose Pacific Cod caught in Alaska. Their stocks are generally healthy. They are managed by a suite of management measures. The fisheries generally pose a low risk to habitats and bycatch. There are some concerns over bycatch in the  longline and trawl fisheries. Therefore, choose cod caught through lower impact methods like jig or pots."
+  },
+  {
+    "name": "Coley, Saithe",
+    "image": "/images/goodfishguide/026.jpg",
+    "rating_description": "from one to three",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_01_123.svg",
+    "latin_name": "Pollachius virens",
+    "description": "Coley or saithe is generally a good choice. Stocks are not overfished, and are not subject to overfishing except in the Faroe Islands. Avoid eating immature saithe below about 60 cm and during its breeding time (January to March). Look out  for MSC certified options, are number of which are available - these fisheries are required to reduce bycatch of vulnerable species and minimise the impacts of fishing gear on seabed species and habitats."
+  },
+  {
+    "name": "Crab, brown or edible",
+    "image": "/images/goodfishguide/012.jpg",
+    "rating_description": "from two to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_02_234.svg",
+    "latin_name": "Cancer pagurus",
+    "description": "Brown crab, also known as edible crab, is the heaviest British crab and looks a bit like a pie on legs with its distinctive reddish-brown shell and pastry crust rim. About a third of the weight of the crab is meat, two thirds is white and  third is brown. It's used to make 'dressed crab' where the shell is cleaned out and used as the dish. Crab is also used to make fish cakes, crab sticks and paste. Brown crabs mature at about 10 years and averagely lives for 30 years, but some have been known to go on till they're 100! The vast majority of brown crabs in the UK are caught by potting. This is a low impact and relatively selective method of fishing, any bycatch or discards can be returned alive to the sea with high survival rates. Brown crab from the Inshore Potting Agreement Area in Devon, the Western Channel or Cornwall are the best choices for crab in the UK. Avoid eating crabs below the minimum landing size (13-14 cm in most areas of the UK) and crab claws, unless it is certain they have been removed from the animal after landing. Egg-bearing or \"berried\" females should be avoided at all times to allow them to spawn."
+  },
+  {
+    "name": "Crab, spider",
+    "image": "/images/goodfishguide/099.jpg",
+    "rating_description": "from three to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_03_34.svg",
+    "latin_name": "Maia squinado",
+    "description": "As the name suggests this is a crab with very long legs! It is the largest crab found in British waters, with a shell width of up to 200 mm and a leg span of 500 mm or more. There's lots of brown meat inside the top shell, it's tasty but  the texture isn't to everyone's taste. The claws, however, have lots of sweet white meat. The majority of UK spider crab is exported to France and Spain where it is sold as a delicacy. If choosing velvet crabs, make sure they are caught in inshore waters which are managed by the Inshore Fisheries Conservation Authorities (IFCAs). Avoid eating immature crabs below legal minimum landing size (120 mm maximum body width) and egg-bearing crabs and fresh (not previously frozen) crabs caught during the spawning season (April-July)."
+  },
+  {
+    "name": "Crab, Velvet swimming",
+    "image": false,
+    "rating_description": "from three to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_03_34.svg",
+    "latin_name": "Necora puber",
+    "description": "The velvet swimming crab is the largest swimming crab in British coastal waters. It is named after its short hairs on its body. They are small, but tasty and popular in Spanish cuisine and have a sweet and delicate meat."
+  },
+  {
+    "name": "Crawfish",
+    "image": false,
+    "rating_description": "from four to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_04_4-55.svg",
+    "latin_name": "Palinurus elephas",
+    "description": ""
+  },
+  {
+    "name": "Cuttlefish",
+    "image": "/images/goodfishguide/028.jpg",
+    "rating_description": "from three to four with at least one rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_03_34q.svg",
+    "latin_name": "Sepia officinalis",
+    "description": "Cuttlefish (family Sepiidae) belong to a specialised group of molluscs, known as cephalopods, which also includes octopus and squid. It is one of the most commercially important cephalopod species and is also used in aquaculture. A wide  range of cuttlefish products are found including fresh, whole, fish and block-frozen baby cuttlefish. Widely sold to Japanese, Korean, Italian and Spanish markets. Their flesh is marketed primarily for human consumption but their cuttles -or bones- are sold as sources of calcium for caged birds such as canaries. Their ink (sepia) is also prized as a colouring agent in cooking, textiles and paint. Choose cuttlefish from traps or hook &amp; line fisheries as they are generally more selective fishing methods and less damaging than trawl fishing. If choosing cuttlefish caught using traps buy it from areas where cuttlefish fisheries protect cuttlefish eggs, e.g. Dorset (Poole, Christchurch) and Brittany. This is because cuttlefish often lay their eggs on traps which need to be protected. More management is required to protect cuttlefish."
+  },
+  {
+    "name": "Cuttlefish, Pharaoh",
+    "image": false,
+    "rating_description": "rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_00_00_q.svg",
+    "latin_name": "Sepia pharaonis",
+    "description": "Cuttlefish (family Sepiidae) belong to a specialised group of molluscs, known as cephalopods, which also includes octopus and squid. A wide range of cuttlefish products are found including fresh,whole, fish and block-frozen baby  cuttlefish. Their flesh is marketed primarily for human consumption but their cuttles -or bones- are sold as sources of calcium for caged birds such as canaries. Their ink (sepia) is also prized as a colouring agent in cooking, textiles and paint. Taking cuttlefish in traps is generally a more selective fishing method and less damaging than trawl fishing. However, cuttlefish are caught in traps when they come into inshore waters to lay their eggs, and when eggs are laid on the traps they are destroyed during harvest. Given their short lifespan, low fecundity (egg production) and potential targeting during their breeding season, some form of precautionary management seems appropriate, especially if stocks are fully fished. Where available, look for cuttlefish taken in fisheries where measures have been adopted to protect cuttlefish eggs, e.g. Dorset (Poole, Christchurch) and Brittany. These measures include leaving egg encrusted cuttlefish traps in sheltered areas of the sea to allow the eggs to hatch, and providing a removable surface on the outside of the traps on which cuttlefish can lay their eggs."
+  },
+  {
+    "name": "Dab",
+    "image": "/images/goodfishguide/029.jpg",
+    "rating_description": "from two to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_02_234.svg",
+    "latin_name": "Limanda limanda",
+    "description": "A versatile fish, dab can be grilled, baked or pan-fried whole, whilst fillets can be poached. Fresh dab tastes delicious and it looks a bit like plaice or flounder with both its eyes on the right side of its head."
+  },
+  {
+    "name": "Devil fish, Giant Devil ray",
+    "image": false,
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Mobula mobular",
+    "description": "Sharks and rays are found in all the worlds oceans, from the poles to the tropics to shallow water coral reefs to water over 3,000m deep. Sharks, skates and rays are fish but unlike bony fish (teleosts), they have a cartilaginous  skeletons. There are four main types of cartilaginous fish; sharks, skates and rays (collectively called elasmobranchs) and chimaeras (found in deep water). Reproduction in sharks and rays is a very slow process as they generally have a late age of sexual maturity, produce few young and have a long gestation period. Shark eggs may develop in one of three different ways: Eggs are held within a leathery case (Oviparity), known as a mermaids purse e.g. catshark; embryos develop within the mother and are nourished by the egg (Ovoviparity) e.g. basking shark; Embryos develop within the mother and are provided with nutrients from a placenta (Viviparity) e.g. smoothhound. World-wide sharks are being removed from our seas at an alarming rate. Yet, they are slow growing, long-lived and have low reproduction rates so it is difficult for their populations to recover. Finning is perhaps the most damaging and distasteful of all shark fisheries. The process is cruel and wasteful, involving the removal and retention of fins, while the rest of the shark, is discarded, often still alive, to drown or be eaten. Fins are consumed principally in the Far East but Europe and the USA are sizeable markets for shark fin. A single basking shark fin can fetch up to 250,000 USD. Blue sharks and other oceanic species are the preferred species taken. Classified as Endangered by the IUCN. They have been heavily exploited and their populations take a very long time to repair (because they grow slowly, mature at a late age and produce very few young). Because of this, they are automatically a red-rated species."
+  },
+  {
+    "name": "Dogfish, Lesser Spotted",
+    "image": "/images/goodfishguide/015.jpg",
+    "rating_description": "four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_04_4.svg",
+    "latin_name": "Scyliorhinus canicula",
+    "description": "Sharks and rays are found in all the worlds oceans, from the poles to the tropics to shallow water coral reefs to water over 3,000 m deep. The Bull Shark (Carcharhinus leucas) is unusual as it is able to enter fresh water river systems  where it gives birth. Sharks, skates and rays are fish, but they can be distinguished from bony fish (teleosts) by their cartilaginous skeletons. There are four main types of cartilaginous fish; sharks, skates and rays, collectively called elasmobranchs, and the rarely encountered chimaeras, a more distant relative only found in deep water. They are also distinguished from bony fish by the way they breed. Reproduction in sharks and rays is a very slow process as they have a late age of sexual maturity, produce few young and have a long gestation period. No maternal care is provided to shark pups, instead they are well-developed and ready to hunt when born in order to maximise their chance of survival. All shark eggs are fertilised internally but may develop in one of three different ways: Eggs are held within a leathery case (Oviparity), known as a mermaids purse, e.g. catshark; Embryos develop within the mother and are nourished by the egg (Oviparity) e.g. basking shark; Embryos develop within the mother and are provided with nutrients from a placenta (Viviparity) e.g. smooth-hound. World-wide sharks are being removed from our seas at an alarming rate. Sharks are slow growing, long-lived with low reproduction. Finning is perhaps the most damaging and distasteful of all shark fisheries. The process is cruel and wasteful, involving the removal and retention of fins, while the rest of the shark, is discarded, often still alive, to drown or be eaten. Finning takes place all over the world (including Europe) to feed the continual and increasing demand for sharkfin soup. Fins are consumed principally in the Far East but Europe and the USA are sizeable markets for shark fin. Blue sharks and other oceanic species are the preferred species taken. British seas are home to over 30 shark species including the fastest shark in the world (the shortfin Mako) and the second largest fish in the world (the Basking shark) and we even get tropical rare visitors such as hammerheads. Lesser spotted dogfish populations have been increasing over time with a slight decrease in the past year. Discards are still very high. Better monitoring and management is needed for the stock. Bottom trawling is associated with discarding of unwanted fish, the occasional catch of endangered species and have the potential to cause significant damage to the seafloor. Generally, fisheries managed by inshore management bodies have implemented management measures to reduce this damage."
+  },
+  {
+    "name": "Eel, Conger",
+    "image": "/images/goodfishguide/congerconger.jpg",
+    "rating_description": "from four to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_04_4-55.svg",
+    "latin_name": "Conger conger",
+    "description": "Conger eels are very susceptible to fishing pressure. Avoid eating."
+  },
+  {
+    "name": "Eel, European (Caught at sea)",
+    "image": "/images/goodfishguide/European_eel.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Anguilla anguilla",
+    "description": "Eels are exploited in all life stages and those that are fished do not have the chance to breed. European eel populations are at an all time low. Their status remains critical and urgent action is needed to recover the stock. Scientists  advise that all anthropogenic mortality (habitat alteration, barriers to passage, pollution, recreational and commercial fishing) must be reduced to \"as close to zero as possible\", until the stock status is proven to improve. European eel is listed under CITES Appendix II. This listing implies that international trade in eel requires special permission and is complementary to conservation actions developed in the EU management plan.European eel is not farmed like other aquaculture species, the process comprises of catching of juvenile eels from the wild and growing them in captivity. This form of aquaculture is called ranching. European eel is assessed as Critically Endangered in the wild and is a IUCN Red List species. Eel ranching contributes to depletion of endangered wild stocks and does not provide a farmed alternative to reduce pressure on wild stocks. Eel are carnivorous species requiring high protein diets including fishmeal and fish oil which cannot be assured as being sourced from a sustainable supply. Eels cannot currently be bred in captivity so all farmed eel is grown from wild caught glass eels. Avoid all European eel (farmed and wild caught)."
+  },
+  {
+    "name": "Eel, European (Farmed)",
+    "image": "/images/goodfishguide/European_eel.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Anguilla anguilla",
+    "description": "Eels are exploited in all life stages and those that are fished do not have the chance to breed. European eel populations are at an all time low. Their status remains critical and urgent action is needed to recover the stock. Scientists  advise that all anthropogenic mortality (habitat alteration, barriers to passage, pollution, recreational and commercial fishing) must be reduced to \"as close to zero as possible\", until the stock status is proven to improve. European eel is listed under CITES Appendix II. This listing implies that international trade in eel requires special permission and is complementary to conservation actions developed in the EU management plan. European eel is not farmed like other aquaculture species, the process comprises of catching of juvenile eels from the wild and growing them in captivity. This form of aquaculture is called ranching. European eel is assessed as Critically Endangered in the wild and is a IUCN Red List species. Eel ranching contributes to depletion of endangered wild stocks and does not provide a farmed alternative to reduce pressure on wild stocks. Eel are carnivorous species requiring high protein diets including fishmeal and fish oil which cannot be assured as being sourced from a sustainable supply. Eels cannot currently be bred in captivity so all farmed eel is grown from wild caught glass eels. Avoid all European eel (farmed and wild caught)."
+  },
+  {
+    "name": "Flounder",
+    "image": "/images/goodfishguide/034.jpg",
+    "rating_description": "three",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_03_3.svg",
+    "latin_name": "Platichthys flesus",
+    "description": "There are no targeted fisheries for flounder, they are taken as by-catch in trawl nets. Stocks are not formally assessed but abundance appears to be increasing. It provides a more sustainable alternative to more vulnerable, longer-lived  and overfished species of flatfish such as plaice. In Cornwall and North Western &amp; North Wales Inshore Fisheries Conservation Authority (IFCAs) areas landing flounder below 25 cm is prohibited. Choose fish from these areas where available. Avoid eating immature fish (less than 25 cm) and fresh (not previously frozen) fish caught during the spawning season (February-May in the North Sea)."
+  },
+  {
+    "name": "Grouper",
+    "image": "/images/goodfishguide/038.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Epinephelus spp.",
+    "description": "The combination of facts for grouper are that they are: largely overfished; assessed as vulnerable to highly vulnerable to overfishing; not managed; and often caught with fishing methods detrimental to their vulnerable reef habitat, makes  the species in general a fish to avoid. Some species in some areas may be fished sustainably, but MCS is currently unaware of any. Many species of grouper are now farmed, the sustainability of their production will inevitably vary. Only if the fish being farmed are bred from captive stock and do not rely on harvesting of juveniles in the wild, and responsible farming practices are used, including management of feed resources, can farmed grouper be considered more sustainable than wild-caught fish."
+  },
+  {
+    "name": "Guitarfish",
+    "image": false,
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Rhinobatos rhinobatos",
+    "description": "Sharks and rays are found in all the worlds oceans, from the poles to the tropics to shallow water coral reefs to water over 3,000m deep. The Bull Shark (Carcharhinus leucas) is unusual as it is able to enter fresh water river systems  where it gives birth. Sharks, skates and rays are fish, but they can be distinguished from bony fish (teleosts) by their cartilaginous skeletons. There are four main types of cartilaginous fish; sharks, skates and rays, collectively called elasmobranchs, and the rarely encountered chimaeras, a more distant relative only found in deep water. They are also distinguished from bony fish by the way they breed. Reproduction in sharks and rays is a very slow process as they have a late age of sexual maturity, produce few young and have a long gestation period. No maternal care is provided to shark pups, instead they are well-developed and ready to hunt when born in order to maximise their chance of survival. All shark eggs are fertilised internally but may develop in one of three different ways: Eggs are held within a leathery case (Oviparity), known as a mermaids purse, e.g. catshark; Embryos develop within the mother and are nourished by the egg (Ovoviparity) e.g. basking shark; Embryos develop within the mother and are provided with nutrients from a placenta (Viviparity) e.g. smoothhound. World-wide sharks are being removed from our seas at an alarming rate. Sharks are slow growing, long-lived with low reproduction. Finning is perhaps the most damaging and distasteful of all shark fisheries. The process is cruel and wasteful, involving the removal and retention of fins, while the rest of the shark, is discarded, often still alive, to drown or be eaten. Finning takes place all over the world (including Europe) to feed the continual and increasing demand for sharkfin soup. Fins are consumed principally in the Far East but Europe and the USA are sizeable markets for shark fin. Fins may fetch over 30 per kilo and a single basking shark tail fin can fetch up to 5,250 in Hong Kong. Blue sharks and other oceanic species are the preferred species taken. Guitarfish are listed by IUCN as Endangered. It's biology and inshore habitat make it highly susceptible to population depletion. Because of this, they are automatically a red-rated species."
+  },
+  {
+    "name": "Gurnard, Grey",
+    "image": "/images/goodfishguide/036.jpg",
+    "rating_description": "three",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_03_3.svg",
+    "latin_name": "Eutrigla gurnardus",
+    "description": "Quite a bony fish and should be bought with fins and skin removed. It's not got a strong flavour and so is often used in soups or stock or stuffed. It's also a pretty ugly fish - but don't let that put you off! Gurnards belong to a family  of fish known as 'sea robins'. There are three common varieties - red, grey and yellow or tub. Red gurnard is most commonly used. It lives on the seabed and stirs up food with its 'legs', narrow spiny fins adapted for the purpose. Gurnards are non-quota species and often discarded due to low market demand. Increased consumption and demand for the species will alleviate the need to waste fish through the practice of discarding, but efforts must be made to understand the biology of the stocks and manage them appropriately, if the species are to become commercially targeted. Grey gurnard is a fast growing fish and matures early at a large size. Avoid eating immature fish (less than 24cm) and fresh (not previously frozen) fish caught during the spawning season (April-August). Red gurnard is a fast growing fish and matures early at a large size. Avoid eating immature fish (less than 25 cm) and fresh (not previously frozen) fish caught during the spawning season (summer). The largest European gurnard, yellow or tub gurnard, is more vulnerable to fishing than either red or grey gurnard. Avoid eating immature fish, and during their breeding season (May to July)."
+  },
+  {
+    "name": "Gurnard, Red",
+    "image": "/images/goodfishguide/081.jpg",
+    "rating_description": "from three to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_03_34.svg",
+    "latin_name": "Aspitrigla cuculus",
+    "description": "Quite a bony fish and should be bought with fins and skin removed. It's not got a strong flavour and so is often used in soups or stock or stuffed. It's also a pretty ugly fish - but don't let that put you off! Gurnards belong to a family  of fish known as 'sea robins'. There are three common varieties - red, grey and yellow or tub. Red gurnard is most commonly used. It lives on the seabed and stirs up food with its 'legs', narrow spiny fins adapted for the purpose. Gurnards are non-quota species and often discarded due to low market demand. Increased consumption and demand for the species will alleviate the need to waste fish through the practice of discarding, but efforts must be made to understand the biology of the stocks and manage them appropriately, if the species are to become commercially targeted. Grey gurnard is a fast growing fish and matures early at a large size. Avoid eating immature fish (less than 24cm) and fresh (not previously frozen) fish caught during the spawning season (April-August). Red gurnard is a fast growing fish and matures early at a large size. Avoid eating immature fish (less than 25 cm) and fresh (not previously frozen) fish caught during the spawning season (summer). The largest European gurnard, yellow or tub gurnard, is more vulnerable to fishing than either red or grey gurnard. Avoid eating immature fish, and during their breeding season (May to July)."
+  },
+  {
+    "name": "Gurnard, Yellow or Tub",
+    "image": "/images/goodfishguide/tub-gurnard.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Triglia or Chelidonichthys lucerna",
+    "description": "Quite a bony fish and should be bought with fins and skin removed. It's not got a strong flavour and so is often used in soups or stock or stuffed. Gurnards belong to a family of fish known as 'sea robins'. There are three common varieties  - red, grey and yellow or tub. Red gurnard is most commonly used and is very easily mixed up with the tub gurnard, because the tub gurnard can be as brightly red as the red gurnard. They can be distinguished by their fins, the tub gurnard has stunningly coloured, brilliant blue fins. It lives on the seabed and stirs up food with its 'legs', narrow spiny fins adapted for the purpose. More management is required to protect tub gurnards. We recommend to avoid eating Tub Gurnards."
+  },
+  {
+    "name": "Haddock",
+    "image": "/images/goodfishguide/039.jpg",
+    "rating_description": "from one to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_04_01_1234.svg",
+    "latin_name": "Melanogrammus aeglefinus",
+    "description": "Haddock from Irish Sea, Rockall, Northeast Arctic and Iceland are at healthy or sustainable levels and being fished sustainably. When buying longline-caught haddock, ask for fish caught using 'seabird-friendly' methods. To learn more about  how fish are caught see our Fishing methods guide. The Scottish Fisheries Sustainable Accreditation Group (SFSAG) Rockall haddock was certified as a responsibly managed and sustainable fishery by the Marine Stewardship Council (MSC) in July 2018. Avoid eating immature fish, below 30 cm, and during their main breeding season in March and April."
+  },
+  {
+    "name": "Hake, Cape",
+    "image": "/images/goodfishguide/041.jpg",
+    "rating_description": "two with at least one rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_02_2q.svg",
+    "latin_name": "Merluccius capensis, Merluccius paradoxus",
+    "description": "Hake has a mild flavour with a medium but firm textured meat and is best poached with lemon juice. The Hake family comprise 13 species but only one, the European hake, is found in waters close to home. Although closely related, it is  separated from cod by it's long slender body. Hake is a slow growing fish with a lifespan of about 14 years. M. capensis, mainly taken in inshore waters, is above sustainable levels and catches below Maximum Sustainable Yield (MSY). The deepwater paradoxus stock is below precautionary levels and a rebuilding plan is in place. Measures to reduce bycatch of seabirds and other fish species have been adopted through a comprehensive managment plan and observer programme. The Cape hake fishery has been certified as a responsible fishery by the Marine Stewardship Council (MSC) since 2004. Only buy fish from inshore waters and certified by the MSC."
+  },
+  {
+    "name": "Hake, European",
+    "image": "/images/goodfishguide/040.jpg",
+    "rating_description": "from one to two",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_01_12.svg",
+    "latin_name": "Merluccius merluccius",
+    "description": "There are two main stocks for European hake - a northern and a southern one. The biomass for the northern stock has recovered from depleted levels following good management and is now at a record high. Fishing effort on the southern stock  however remains too high. Avoid eating immature fish below about 50cms, and during their breeding season, February to July. The Cornish hake gill net fishery was certified by the Marine Stewardship Council (MSC) as a sustainable fishery in June 2015."
+  },
+  {
+    "name": "Halibut, Atlantic (Caught at sea)",
+    "image": "/images/goodfishguide/043.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Hippoglossus hippoglossus",
+    "description": "Atlantic halibut can grow up to 8ft long and 4ft wide and is the largest and longest lived of all flatfish. The species is heavily overfished and listed as an Endangered species so avoid eating. Levels of mercury can be very high in large  halibut! Farmed Atlantic or wild-caught Pacific halibut from the Northeast Pacific and Northwest Atlantic and certified to the Marine Stewardship Council (MSC) standard for responsible fishing are more sustainable options. Atlantic halibut is a highly vulnerable species, and has been heavily overfished throughout its range. Its stock status is unknown as there is not enough information about the species. Nor is there robust management to protect the species. Norway employs better management for the species. Atlantic halibut was assessed as Endangered by the IUCN. Avoid eating wild caught Atlantic halibut unless certified by MSC."
+  },
+  {
+    "name": "Halibut, Atlantic (Farmed)",
+    "image": "/images/goodfishguide/043.jpg",
+    "rating_description": "from one to three",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_01_123.svg",
+    "latin_name": "Hippoglossus hippoglossus",
+    "description": "Atlantic halibut is widely farmed although in small quantities compared to other species. Unlike salmon and cod, halibut can be farmed in closed tanks as well as in open pens. Choose halibut farmed in closed, shore based production systems  such as those used in Scotland, as environmental impacts of production are mitigated. Halibut do have a large dependency on fish to form the majority of their diet, and the fish required to make their feed cannot be assured to come from a sustainable supply. Scottish production is independently addressing this feed concern making it a good choice."
+  },
+  {
+    "name": "Halibut, Greenland",
+    "image": "/images/goodfishguide/044.jpg",
+    "rating_description": "from three to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_03_34.svg",
+    "latin_name": "Reinhardtius hippoglossoides",
+    "description": "Halibut is mild, sweet tasting and really versatile - think about baking, poaching, frying, grilling or sauteing . But don't leave it hanging around, it'll dry out very quickly as it doesn't contain very much oil. Atlantic halibut can grow  up to 8ft long and 4ft wide, is the largest and longest lived of all flatfish, is heavily overfished and listed as an Endangered species so avoid eating! Farmed Atlantic or wild-caught Pacific halibut from the Northeast Pacific and Northwest Atlantic and certified to the Marine Stewardship Council (MSC) standard for responsible fishing are more sustainable options. Greenland halibut is a long-lived, slow-growing species, making it vulnerable to exploitation by commercial fisheries, but their populations appear to be healthy. Northeast Atlantic halibut are still deemed endangered with low catch rates. If choosing wild halibut, choose those certified by the MSC - look for the blue tick!"
+  },
+  {
+    "name": "Halibut, Pacific",
+    "image": "/images/goodfishguide/045.jpg",
+    "rating_description": "two",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_02_2.svg",
+    "latin_name": "Hippoglossus stenolepis",
+    "description": "Halibut is mild, sweet tasting and really versatile - think about baking, poaching, frying, grilling or sauteing . But don't leave it hanging around, it'll dry out very quickly as it doesn't contain very much oil. Atlantic halibut can grow  up to 8ft long and 4ft wide, is the largest and longest lived of all flatfish, is heavily overfished and listed as an Endangered species so avoid eating! Farmed Atlantic or wild-caught Pacific halibut from the Northeast Pacific and Northwest Atlantic and certified to the Marine Stewardship Council (MSC) standard for responsible fishing are more sustainable options. Pacific halibut stocks are well managed by the International Pacific Halibut Commission who apply strict harvesting conditions. Longline fisheries for Pacific halibut in the waters of Alaska, Washington, Oregon and British Columbia have been certified by the MSC as environmentally sustainable. These are the best choice for the fishery."
+  },
+  {
+    "name": "Herring or sild",
+    "image": "/images/goodfishguide/046.jpg",
+    "rating_description": "from one to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_06_12345.svg",
+    "latin_name": "Clupea harengus",
+    "description": "Herring is caught in large fisheries using methods that are relatively selective or 'clean' in terms of bycatch and non-damaging to the seabed. However, herring have a very important role in the marine ecosystem and are prey for a wide  range of species and this means they need to be very well managed. Some stocks are doing well, but others are overfished so it pays to know where your herring has been caught."
+  },
+  {
+    "name": "John Dory",
+    "image": "/images/goodfishguide/049.jpg",
+    "rating_description": "four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_04_4.svg",
+    "latin_name": "Zeus faber",
+    "description": "Very little is known about John dory, particularly when it comes to population sizes. Although there is no management to control the level of fishing for John dory, it is not a targeted species and therefore fishing pressure is not a  concern. If a targeted fishery was to develop, this could become cause for concern, but for now it is mainly caught as bycatch in hake, anglerfish and megrim fisheries. Due to the John Dory's unusual shape, few gear adaptations can feasibly be implemented to increase selectivity, so avoid eating small fish (below 35cm), which won't haven't had the opportunity to reproduce yet."
+  },
+  {
+    "name": "Limpet, Slipper",
+    "image": false,
+    "rating_description": "two",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_02_2.svg",
+    "latin_name": "Crepidula fornicata",
+    "description": ""
+  },
+  {
+    "name": "Ling",
+    "image": "/images/goodfishguide/052.jpg",
+    "rating_description": "from three to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_03_34.svg",
+    "latin_name": "Molva molva",
+    "description": "Ling is found in both shallow coastal waters and the deep sea. Although more resilient to fishing than other deep-water species, when occurring in deep water, it often occupies habitats which are vulnerable to the impacts of trawling. Also  other more vulnerable fish species are taken as bycatch in ling fisheries, which can have detrimental effects on the deep sea ecosystem. In general there is very little formal or analytical stock assessment for the species and scientific advice for ling in the Northeast Atlantic is to constrain catches. Current management measures are not deemed sufficient to restore abundance or achieve maximum sustainable yield. Hand and longline caught fish is the more sustainable choice. Avoid ling taken in deep-sea trawl fisheries."
+  },
+  {
+    "name": "Lobster, American",
+    "image": "/images/goodfishguide/176.jpg",
+    "rating_description": "rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_00_00_q.svg",
+    "latin_name": "Homarus americanus",
+    "description": "The very large claws of unequal size, along with the abdomen, are full of tasty white meat. Can be bought fresh or frozen. There are many popular lobster recipes including Thermidor and Bisque or of course you can boil, steam or grill it.  The main products exported from the fishery are live, processed and value-added lobster products which are sold to domestic (low quality lobsters which have a new shell and are of low blood protein are often processed) and international markets (high quality lobster i.e. old shell, high blood protein). Processed lobster products include frozen raw lobster tails, frozen whole raw lobster, frozen whole cooked lobster, frozen and fresh cooked lobster meat. The RSPCA recommends freezing lobster for two hours before boiling it. Although some writers and cooks believe this to spoil the texture of lobsters, we strongly believe that the lobster should be treated humanely as the RSPCA advises. When choosing American lobster, look for lobster from the Gulf of Maine, Georges Bank and Marine Stewardship certified fisheries from Canada. Lobsters are relatively slow growing and are long-lived, and as such are vulnerable to exploitation. Avoid eating animals below the legal minimum landing size, egg-bearing or large animals (females) which contribute to the breeding stock. The number of eggs produced by an egg-bearing female is proportional to her size. The majority of American lobster fisheries are not overfished, but fishing is close to the maximum level of fishing effort. However, the Southern New England (SNE) stock is severely depleted and has record low abundance and recruitment due to environmental factors and fishing pressure. Lobster potting is a more selective method of fishing, however, some endangered species are caught in the fishery, e.g. the North Atlantic Right whale which is a cause for concern. Therefore, more effort is required to reduce the impact of lobster fisheries on bycatch species."
+  },
+  {
+    "name": "Lobster, European",
+    "image": "/images/goodfishguide/053.jpg",
+    "rating_description": "from two to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_02_234.svg",
+    "latin_name": "Homarus gammarus",
+    "description": "The very large claws of unequal size, along with the abdomen, are full of tasty white meat. Can be bought fresh or frozen. There are many popular lobster recipes including Thermidor and Bisque or of course you can boil, steam or grill it.  Lobster is often boiled alive - The RSPCA recommend that lobster is placed in the freezer at 18 degrees C for 2 hours before boiling so it falls asleep and dies. Stock levels for UK lobster are generally low or unknown and exploitation levels on them too high.Do not buy lobster below the legal minimum landing size of 87mm carapace (front-shell length), or egg-bearing (berried) or large females which contribute most to the breeding stock (the larger the animal the more eggs she produces). A national prohibition on the landing of berried lobster in England was introduced in 2017. There is currently no prohibition on the landing of berried or egg bearing or ovigerous lobster in Wales. Although there is a prohibition in Scotland on the landing of berried or egg-bearing velvet crab, no such restriction exists for female European lobster. The reduction in maximum landing size is however designed to protect larger breeding females as the number of eggs produced by an egg-bearing female is proportional to her size.A ban on landing berried and v-notched lobster significantly increases the spawning potential and resilience of the stock.Lobster potting is a more selective method of fishing than netting as undersized, egg-bearing females or immature animals can be returned to the sea alive. The lobster fishery in the Granville Bay Treaty Area, Jersey, is certified as an environmentally responsible fishery by the Marine Stewardship Council (MSC)."
+  },
+  {
+    "name": "Lobster, Norway, Langoustine, Dublin Bay prawn or scampi",
+    "image": "/images/goodfishguide/032.jpg",
+    "rating_description": "from two to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_05_02_2345.svg",
+    "latin_name": "Nephrops norvegicus",
+    "description": "A slim, orangey lobster hugely popular in Spain and widely used in classic French cuisine. Scampi is the name for deep fried langoustine tails - deep fried in batter and breadcrumbs, served with chips peas and tartare sauce - though  confusingly other prawns and fish cooked similarly may be also be sold as 'scampi' too. Can also be cooked whole, boiled or steamed. Choose nephrops caught using creels as creels are a more environmentally-friendly fishing method and produce a higher quality product. Nephrops are usually caught using trawls, which are associated with large quantities of bycatch and discards of a variety of species."
+  },
+  {
+    "name": "Lobster, squat",
+    "image": false,
+    "rating_description": "rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_00_00_q.svg",
+    "latin_name": "Galathea strigosa",
+    "description": "The Marine Conservation Society Fishery Team is currently updating the consumer advice for this entry"
+  },
+  {
+    "name": "Mackerel",
+    "image": "/images/goodfishguide/056.jpg",
+    "rating_description": "from one to two",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_01_12.svg",
+    "latin_name": "Scomber scombrus",
+    "description": "Handline-caught mackerel from the southwest of England remains the best choice thanks to its ring-fenced quota and low impact methods. The mackerel stock in the North-East Atlantic is in a good state and in general is caught by pelagic  trawling and purse-seining - relatively low-impact and well-targeted fishing methods. There are some concerns about management however. Catches of the stock as a whole have not been in line with scientific advice since the 1980s. The EU (including the UK), Norway and the Faroe Islands work together to manage their catches through the Coastal States Arrangement), and mackerel is also caught by Russia, Greenland and Iceland. While all countries have endeavoured to work together to set quotas in the past, this is currently not happening and catches remain in excess of scientifically-recommended limits. The Coastal States Arrangement, including fish caught by the Mackerel Industry Northern Sustainability Alliance (MINSA), is a better choice, as these countries continue to work together. In September 2019, all MSC certifications for mackerel were suspended, owing to management not keeping fishing pressure within sustainable levels."
+  },
+  {
+    "name": "Marlin, blue",
+    "image": false,
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Makaira nigricans",
+    "description": "Atlantic blue marlin has been overfished for many years and is still below safe levels. Best avoided for now."
+  },
+  {
+    "name": "Meagre",
+    "image": false,
+    "rating_description": "four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_04_4.svg",
+    "latin_name": "Argyrosomus regius",
+    "description": "Farmed meagre is emerging into the UK market. It is farmed in Mediterrean countries, mainly in Italy. Although it can be farmed in both land based systems and in open sea pens it is mainly farmed in the sea in open pens. As with most open  intensive prouction the environmental impacts can include disease transfer and pollution issues, feed use and its sustainability is also a concern. Farmed meagre is emerging into the UK market. It is farmed in Mediterrean countries, mainly in Italy. Although it can be farmed in both land based systems and in open sea pens it is mainly farmed in the sea in open pens. As with most open intensive prouction the environmental impacts can include disease transfer and pollution issues, feed use and its sustainability is also a concern."
+  },
+  {
+    "name": "Megrim",
+    "image": "/images/goodfishguide/060.jpg",
+    "rating_description": "from two to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_02_234.svg",
+    "latin_name": "Lepidorhombus whiffiagonis",
+    "description": "The best choice for this species is megrim otter trawled from the Northern North Sea and West of Scotland or Rockall where the stocks are assessed as healthy and as harvested sustainably. Avoid eating immature fish (less than 25cm) and  during their spawning season (January to April)."
+  },
+  {
+    "name": "Monkfish, Anglerfish",
+    "image": "/images/goodfishguide/005.jpg",
+    "rating_description": "from two to three",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_02_23.svg",
+    "latin_name": "Lophius piscatorius and Lophius budegassa",
+    "description": "There are two species of monkfish caught commercially in UK and EU waters, white bellied monkfish (Lophius piscatorius) and black bellied monkfish (Lophius budegassa). Monkfish are long-lived and late maturing, making them vulnerable to  fishing.Gillnet caught fish tend to be larger and thus are more likely to be mature and therefore the more sustainable choice. There is a minimum marketing weight of 500g for monkfish in the EU, however this is unlikely to reflect the size of a mature fish. Monkfish mature at an average size of 70 cm, so always source fish from fisheries which select for fish at or above this size. For assurance of scientific co-operation, better environmental practices and experimentation with benthic release panels to reduce impact on bottom dwelling species ask for fish from vessels which are involved in the \"Seafish Responsible Fishing Scheme\" or from vessels involved in Project 50% and using more selective nets to reduce discards."
+  },
+  {
+    "name": "Mullet, Grey, Thicklip",
+    "image": "/images/goodfishguide/037.jpg",
+    "rating_description": "from four to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_04_4-55.svg",
+    "latin_name": "Chelon labrosus",
+    "description": ""
+  },
+  {
+    "name": "Mullet, Red, Striped red mullet",
+    "image": "/images/goodfishguide/082.jpg",
+    "rating_description": "from three to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_04_03_34-55.svg",
+    "latin_name": "Mullus surmuletus",
+    "description": "There is no assessment or management of red mullet stocks. This is a cause for concern as the species is taken in both targeted fisheries and as bycatch. Two management units are indentified in European waters - a Western and a Northern  unit. A minimum landing size of 15 cm is enforced in the jurisdiction of the Cornish Inshore Fisheries Conservation Authority. Although this is just below 16 cm, the size at which they mature (in the English Channel), this is the only management measure for this species, so fish from this area is the best choice currently available. Avoid eating immature fish (less than 16 cm) and fresh (not previously frozen) fish caught during the summer spawning season (May-July)."
+  },
+  {
+    "name": "Mussel, mussels (Caught at sea)",
+    "image": "/images/goodfishguide/061.jpg",
+    "rating_description": "rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_00_00_q.svg",
+    "latin_name": "Mytilus edulis",
+    "description": "These deep bluish purple two-shelled or bivalve molluscs are common on UK shores and shallow seabeds and are often viewed as a poor man's shellfish, as they are so cheap. The shell is longer than it is wide and wedge-shaped. The inside is  pearly blue. Best steamed with garlic, butter, lemon juice, white wine or other sauce. If cooked well they taste like the ocean with a hint of mushroom. The whole mussel, apart from the shell, is eaten. Mussels are widely cultivated. Eat rope grown or hand-gathered mussels as these are more sustainable than those harvested by mechanical methods such as dredging. However, there is one mussel fishery which has been certified by the MSC, Exmouth Mussels, which uses a hydraulic elevator rather than a typical mussel dredge, producing no bycatch. Mussels are widely cultivated and stocks generally considered to be under-exploited. The main methods of harvesting for wild and farmed mussels are dredging and hand-gathering. Hand-gathering is a more selective and sustainable method of harvesting mussels in the wild, and causes less disturbance than mechanical methods. The hydraulic elevator mussel fishery in the Exe estuary was certified as an environmentally fishery in July 2012."
+  },
+  {
+    "name": "Mussel, mussels (Farmed)",
+    "image": "/images/goodfishguide/061.jpg",
+    "rating_description": "one",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_01_1.svg",
+    "latin_name": "Mytilus edulis",
+    "description": "Best steamed with garlic, butter, lemon juice, white wine or other sauces. If cooked well they taste like the ocean with a hint of mushroom. The whole thing is eaten, apart from the shell and they can be eaten raw. Found in number on UK  shores and shallow seabeds and are often viewed as a poor man's shelfish as they are so cheap. The shell is longer than it is wide and wedge-shaped and the inside is silvery. Mussels are widely cultivated. Shellfish farming is a low-impact method of aquaculture and high quality water standards are required for cultivation of shellfish for human consumption. Mussel farming requires no feed inputs therefore farming of mussels is a good way of producing seafood. Also there are no chemicals used in mussel farming. As only naturally occurring spat are used for on-growing, escapes are not an issue. Rope grown or hand-gathered mussels, if taken from the wild, have a lower environmental impact than those harvested by mechanical methods such as dredging."
+  },
+  {
+    "name": "Nursehound, Bull Huss, Greater Spotted Dogfish",
+    "image": "/images/goodfishguide/062.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Scyliorhinus stellaris",
+    "description": "Sharks and rays are found in all the worlds oceans, from the poles to the tropics to shallow water coral reefs to water over 3,000 m deep. The Bull Shark (Carcharhinus leucas) is unusual as it is able to enter fresh water river systems  where it gives birth. Sharks, skates and rays are fish, but they can be distinguished from bony fish (teleosts) by their cartilaginous skeletons. There are four main types of cartilaginous fish; sharks, skates and rays, collectively called elasmobranchs, and the rarely encountered chimaeras, a more distant relative only found in deep water. They are also distinguished from bony fish by the way they breed. Reproduction in sharks and rays is a very slow process as they have a late age of sexual maturity, produce few young and have a long gestation period. No maternal care is provided to shark pups, instead they are well-developed and ready to hunt when born in order to maximise their chance of survival. All shark eggs are fertilised internally but may develop in one of three different ways: Eggs are held within a leathery case (Oviparity), known as a mermaids purse, e.g. catshark; Embryos develop within the mother and are nourished by the egg (Oviparity) e.g. basking shark; Embryos develop within the mother and are provided with nutrients from a placenta (Viviparity) e.g. smooth-hound. World-wide sharks are being removed from our seas at an alarming rate. Sharks are slow growing, long-lived with low reproduction. Finning is perhaps the most damaging and distasteful of all shark fisheries. The process is cruel and wasteful, involving the removal and retention of fins, while the rest of the shark, is discarded, often still alive, to drown or be eaten. Finning takes place all over the world (including Europe) to feed the continual and increasing demand for sharkfin soup. Fins are consumed principally in the Far East but Europe and the USA are sizeable markets for shark fin. Blue sharks and other oceanic species are the preferred species taken. British seas are home to over 30 shark species including the fastest shark in the world (the shortfin Mako) and the second largest fish in the world (the Basking shark) and we even get tropical rare visitors such as hammerheads. In general, consumers should avoid eating nursehound (and all shark species) as they are insufficiently managed, fisheries are data-deficient and the species inherently vulnerable to overexploitation due to their specific biological characteristics (slow-growing, late to mature and producing few young). Nursehound from the Celtic Sea is the better choice as localised populations appear to be stable, or recently decreasing. However, there are insufficient data to fully evaluate stock status."
+  },
+  {
+    "name": "Octopus, Common",
+    "image": false,
+    "rating_description": "four with at least one rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_04_4q.svg",
+    "latin_name": "Octopus vulgaris",
+    "description": "Little information is available on the stock status of octopus as they are not subject to stock assessment or quota controls by ICES or the European Commission. The general biological characteristics of octopus - short life span,  relatively high fecundity and fast growth rates lend themselves to sustainable fishing, but the fundamental data and management requirements are not in place to ensure this. Further, as a bycatch product from trawling, the production method is a less sustainable option. Choose octopus caught by less damaging capture methods, e.g. pot caught, and avoid beam trawl bycatch octopus. A minimum landing weight of 750g is specified for common octopus, but no minimum landing size is specified for the lesser octopus in European waters. Avoid eating baby octopus which are sometimes offered for sale, as they will not have had a chance to reproduce. Females die after their eggs are hatched, so those appearing for retail sale are either male, or females that have not yet reproduced. Given their biological characteristics and high market value, there is some potential for aquaculture production, although local sustainable fishery management may be more economic. Examples from Japan include the deliberate placement of shelters to enhance stock recruitment."
+  },
+  {
+    "name": "Octopus, Lesser",
+    "image": false,
+    "rating_description": "four with at least one rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_04_4q.svg",
+    "latin_name": "Eledone cirrhosa",
+    "description": "Little information is available on stock status as the species is not subject to stock assessment or quota controls. No minimum landing size is specified for the lesser octopus in European waters (a minimum landing weight of 750g is  specified for common octopus). Avoid eating baby octopus which are sometimes offered for sale, as they will have had no chance to breed. Females die after their eggs are hatched, so fished individuals are male, or females that have not yet reproduced."
+  },
+  {
+    "name": "Oyster, Native, oysters (Caught at sea)",
+    "image": "/images/goodfishguide/066.jpg",
+    "rating_description": "from one to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_06_12345.svg",
+    "latin_name": "Ostrea edulis",
+    "description": "Throughout European waters, including much of Britain, the native oyster is depleted in the wild. Areas once noted for their large natural beds are now being used for oyster farming or cultivation including non-native species, such as the  Pacific oyster, which are currently more widely cultivated than the native oyster. Oyster beds are generally privately owned and managed. Shellfish farming is an extensive, low-impact method of mariculture and high quality water standards are required for cultivation of shellfish for human consumption. Dredging can cause disruption to the seabed and has a higher associated bycatch than manual harvesting techniques, but are less suited to deeper water for practical reasons. Some growers may hand-gather their stock by diving or by net to enhance quality. Wild stocks are depleted and although management of the fisheries is good, the native oyster is still vulnerable to exploitation. Choose cultivated oysters from environmentally responsible farms where possible."
+  },
+  {
+    "name": "Oyster, Native, oysters (Farmed)",
+    "image": "/images/goodfishguide/066.jpg",
+    "rating_description": "one",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_01_1.svg",
+    "latin_name": "Ostrea edulis",
+    "description": "A great choice for special occasions, or a regular treat! Often eaten raw, but can be lightly cooked. They taste like a mouthful of seawater, in fact the French poet Leon-Paul Fargue said eating one was 'like kissing the sea on the lips'.  Oysters are rich in zinc and said to have aphrodisiac properties. They should be tightly closed when bought and have a fresh smell when opened. The native flat oyster was once considered food for the masses because it was so common. It is now depleted throughout European waters including much of Britain. The native oyster and, particularly, the introduced Pacific oyster are grown commercially in UK seas, and are available widely. Oysters are traditionally consumed fresh and eaten on the half shell. They are shipped to local markets or distributed to supermarkets and restaurants. There are large differences among oysters, as with wines, with regard to taste, body and nose. Oysters feed by filtering water through their system -a single Rock oyster can filter up to 10 litres of water per hour. The flavour of oysters is a function of the minerals, salinity, and the type of algae they eat in the water. Like wine, oysters gain much of their flavour from their terroir (environment).Tastes can range from some salty to floral, some have fruity notes, mineral flavour or even hints of spice. Even oysters from the same estuary can vary in flavour depending upon exactly where they are grown. Throughout European waters including much of Britain the native oyster is depleted in the wild. Areas once noted for their large natural beds are now being used for oyster farming or cultivation including non-native species, such as the Pacific oyster, which are currently more widely cultivated than the native oyster. Oyster beds are generally privately owned and managed. Shellfish farming is an extensive, low-impact method of mariculture and high quality water standards are required for cultivation of shellfish for human consumption. Dredging can cause disruption to the seabed and has a higher associated bycatch than manual harvesting techniques, but are less suited to deeper water for practical reasons. Some growers may hand-gather their stock by diving or by net to enhance quality. Wild stocks are depleted and although management of the fisheries is good, the native oyster is still vulnerable to exploitation."
+  },
+  {
+    "name": "Oyster, Pacific, oysters (Caught at sea)",
+    "image": "/images/goodfishguide/067.jpg",
+    "rating_description": "two",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_02_2.svg",
+    "latin_name": "Magallana gigas",
+    "description": ""
+  },
+  {
+    "name": "Oyster, Pacific, oysters (Farmed)",
+    "image": "/images/goodfishguide/067.jpg",
+    "rating_description": "one",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_01_1.svg",
+    "latin_name": "Crassostrea gigas",
+    "description": "A great choice for special occasions, or a regular treat! Often eaten raw, but can be lightly cooked. They taste like a mouthful of seawater, in fact the French poet Leon-Paul Fargue said eating one was 'like kissing the sea on the lips'.  Oysters are rich in zinc and said to have aphrodisiac properties. They should be tightly closed when bought and have a fresh smell when opened. The native flat oyster was once considered food for the masses because it was so common. It is now depleted throughout European waters including much of Britain. The native oyster and, particularly, the introduced Pacific oyster are grown commercially in UK seas, and are available widely. Oysters are traditionally consumed fresh and eaten on the half shell. They are shipped to local markets or distributed to supermarkets and restaurants. There are large differences among oysters, as with wines, with regard to taste, body and nose. Oysters feed by filtering water through their system -a single Rock oyster can filter up to 10 litres of water per hour. The flavour of oysters is a function of the minerals, salinity, and the type of algae they eat in the water. Like wine, oysters gain much of their flavour from their terroir (environment).Tastes can range from some salty to floral, some have fruity notes, mineral flavour or even hints of spice. Even oysters from the same estuary can vary in flavour depending upon exactly where they are grown. Throughout European waters including much of Britain the native oyster is depleted in the wild. Areas once noted for their large natural beds are now being used for oyster farming or cultivation including non-native species, such as the Pacific oyster, which are currently more widely cultivated than the native oyster. Oyster beds are generally privately owned and managed. Shellfish farming is a low-impact method of aquaculture and high quality water standards are required for cultivation of shellfish for human consumption. Dredging can cause disruption to the seabed and has a higher associated bycatch than manual harvesting techniques, but are less suited to deeper water for practical reasons. Some growers may hand-gather their stock by diving or by net to enhance quality. Wild stocks of Native Oyster are depleted and although management of the fisheries is good, the native oyster is still vulnerable to exploitation."
+  },
+  {
+    "name": "Parrotfish, Uhu",
+    "image": "/images/goodfishguide/069.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Scarus spp.",
+    "description": "Parrotfish are moderately resilient to fishing but there is very little data available on their abundance or exploitation rates. And little or no management of the species. Despite the prevalence of marine reserves, the effectiveness of  these conservation efforts, is rarely measured, and enforcement is often weak or absent in many parts of the world. Urgent protection and effective protective legislation is needed as well as continued monitoring of harvest levels and population status, especially for those species already at increased risk of extinction. Unless there is information available to demonstrate their source is sustainable this species is best avoided."
+  },
+  {
+    "name": "Plaice",
+    "image": "/images/goodfishguide/073.jpg",
+    "rating_description": "from two to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_05_02_2345.svg",
+    "latin_name": "Pleuronectes platessa",
+    "description": "Plaice is a popular fish for consumption and is subject to high fishing pressure. The state of plaice stocks around the UK vary. Currently the best choices for plaice are fish caught in the North Sea or Eastern Channel where the stocks are  assessed as healthy and fishing is at a sustainable level. However, as with all plaice fisheries, there is significant discarding of plaice and other species. To increase the sustainability of the plaice you eat, ask for plaice taken in trawls using measures to improve the selectivity of the net to reduce discarding, and fitted with Benthic Release Panels to reduce impact on bottom dwelling species. Avoid eating immature plaice, below 30 cm, and plaice caught during their breeding season January to March. Give plaice caught in electric-pulse trawl fisheries a complete miss. Alternatives to plaice are lemon sole, dab, flounder and megrim."
+  },
+  {
+    "name": "Pollack or Lythe",
+    "image": "/images/goodfishguide/055.jpg",
+    "rating_description": "from three to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_03_34.svg",
+    "latin_name": "Pollachius pollachius",
+    "description": "There is insufficient information available to evaluate stock biomass and fishing mortality for pollack. The best choice to make, in terms of selectivity, is handline-caught pollack from the southwest. For more information on line caught  pollack from these waters see www.linecaught.org.uk. Avoid eating immature fish (below 50cm) and during its breeding season, January to April."
+  },
+  {
+    "name": "Pollock, Alaska, Walleye",
+    "image": "/images/goodfishguide/001.jpg",
+    "rating_description": "from one to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_06_12345.svg",
+    "latin_name": "Theragra chalcogramma",
+    "description": "If you like cod or haddock, you'll like Alaska pollock. It's a white fish, mild in flavour and low in fat. Makes great fishcakes, is best steamed and is the fish used in McDonald's Filet-O-Fish! A member of the cod family, it's found  throughout the North Pacific. Matures at around 3 years old and lives on average until 15. Can grow to about 90 cms and is called walleye pollock because of its large distinctive eyes! Pollock in US fisheries are generally at healthy levels. They are managed through a suite of management measures and bycatch in the fishery is generally small. Choose Marine Stewardship Council certified pollock as they tend to employ improved monitoring in these fisheries."
+  },
+  {
+    "name": "Pouting or Bib",
+    "image": "/images/goodfishguide/007.jpg",
+    "rating_description": "three",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_03_3.svg",
+    "latin_name": "Trisopterus luscus",
+    "description": "Popular with French cooks who flour their pouting and fry or steam it with salted butter, it can also be poached then sauted. It's best to eat within six hours of being caught as after that it loses flavour. A member of the cod family, bib  or pouting only live for about 4 years and are common in British inshore waters, near Northern Europe Atlantic down to Spain and although not commercially fished is increasingly available in supermarkets. Pouting (or Bib) is a short-lived species common in British inshore waters. It is not commercially fished and is usually only taken as bycatch. Their stock status is unknown and appropriate management of the species is needed. When buying choose mature (over 21 cm) locally caught fish. Avoid eating fresh fish (not previously frozen) caught during their spawning season (March to April)."
+  },
+  {
+    "name": "Prawn, Endeavour, Greasy back",
+    "image": false,
+    "rating_description": "rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_00_00_q.svg",
+    "latin_name": "Metapenaeus spp",
+    "description": "The Marine Conservation Society Fishery Team is currently updating the consumer advice for this entry"
+  },
+  {
+    "name": "Prawn, Giant River, prawns",
+    "image": false,
+    "rating_description": "three",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_03_3.svg",
+    "latin_name": "Macrobrachium rosenbergii",
+    "description": "Prawns are usually sold peeled, cooked and frozen or whole. Pop them in a curry or sling them on a salad. Their tails are used in traditional prawn cocktails - cocked over the side of the glass. This large freshwater shrimp is native to  the Indo-Pacific region, northern Australia and Southeast Asia. Body usually greenish to brownish grey, sometimes more bluish, darker in larger specimens. There are three male types: 'Small males' which, if conditions allow, change into bigger, 'Orange Claws' which in turn can become 'Blue Claws', whose striking second, claw-bearing legs may become twice as long as their body. Adult prawns can walk as well as swim and can climb up vertical surfaces (small waterfalls, weirs, etc.) and cross land. Farmed animals have escaped into the wild. The primary market for this species is for use in Chinese and Indian meals. The giant river prawn is also known as the giant freshwater prawn or freshwater scampi. Freshwater prawn farming occurs in many Asian countries, the main suppliers to the UK market is Bangladesh. Freshwater prawn farming occurs in a similar way to warmwater prawn farming, however there are less environmental concerns as stocking densities and therefore organic pollution is reduced. Large extensive ponds are used, mangroves are not impacted by construction and there is no risk of salinisation of freshwater.The primary negative factor associated with the freshwater prawn sector in Bangladesh is that it is almost exclusively reliant on wild-caught post larvae; this practice leads to high levels of by-catch. Another negative aspect of the industry is that regulations are poorly enforced, since the government lacks capacity. A positive aspect of this industry is that production of freshwater prawns does not generally occur in mangrove areas and does not cause salination of the soil."
+  },
+  {
+    "name": "Prawn, King (whiteleg), prawns",
+    "image": "/images/goodfishguide/184.jpg",
+    "rating_description": "from one to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_06_12345.svg",
+    "latin_name": "Litopenaeus vannamei",
+    "description": "Prawns are usually sold peeled, cooked and frozen or whole. Pop them in a curry or sling them on a salad. Their tails are used in traditional prawn cocktails - cocked over the side of the glass. The tiger prawn belongs to the largest of  the prawn and shrimp family, the Penaeidae. Its lifecycle may be divided into 6 stages or phases, from embryo to adult, which it completes in one year. The age of sexual maturity varies from 5 to 11 months. They can live up to 2 years in the wild although farmed prawns are usually harvested at 6 months. Farmed prawn accounted for over 90% of the global consumption of prawn in 2013. King prawn is the most commonly farmed species accouting for over 3/4 of production, 99% of which comes from developing countries. Only buy king prawns from suppliers that can ensure their product is sourced from farms that comply with environmental standards for habitat protection and impacts of production. Organic farming standards ensures many such standards are met making organic farmed tiger prawns the best choice. Requirements for organic farms include utilisation of byproducts from human consumption fisheries for feed; habitat protection and restoration, limitation on chemical usage, limited stocking densities and strict health and feeding guidelines. Aquaculture Stewardhsip Council (ASC), Global Aquaculture Alliance Best Aquaculture Practice (GAA BAP 2*, 3*, 4*)and GlobalGap certification ensures some of these standards are met. Look for the organic label on products or ask your supermarket if they have a buying policy for tiger prawns to ensure high production standards are in place, and environmental concerns addressed."
+  },
+  {
+    "name": "Prawn, Northern prawns, Northern shrimp",
+    "image": "/images/goodfishguide/076.jpg",
+    "rating_description": "from one to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_04_01_1234.svg",
+    "latin_name": "Pandalus borealis",
+    "description": "Northern prawn or shrimp (the names are often used interchangeably) are cold-water crustaceans, distinct from warm water species found in tropical waters. Increase the sustainability of the fish you eat by choosing only prawns taken in  fisheries using sorting grids to reduce bycatch of non-target species. The Norwegian NE Arctic cold water prawn fishery is certified as a responsibly managed fishery by the Marine Stewardship Council (MSC). Several Canadian northern prawn fisheries are also certified to the MSC standard. Look out for the Blue tick logo on the packaging."
+  },
+  {
+    "name": "Prawn, Tiger prawns (Caught at sea)",
+    "image": false,
+    "rating_description": "rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_00_00_q.svg",
+    "latin_name": "Penaeus monodon",
+    "description": "Prawns are usually sold peeled, cooked and frozen or whole. Pop them in a curry or sling them on a salad. Their tails are used in traditional prawn cocktails - cocked over the side of the glass. The tiger prawn belongs to the largest of  the prawn and shrimp family, the Penaeidae. Its lifecycle may be divided into 6 stages or phases, from embryo to adult, which it completes in one year. The age of sexual maturity varies from 5 to 11 months. They can live up to 2 years in the wild although farmed prawns are usually harvested at 6 months. Farmed prawn accounted for over 90% of the global consumption of prawn in 2013. King prawn is the most commonly farmed species accouting for over 3/4 of production, 99% of which comes from developing countries. The Marine Conservation Society Fishery Team is currently updating the consumer advice for this entry"
+  },
+  {
+    "name": "Prawn, Tiger prawns (Farmed)",
+    "image": "/images/goodfishguide/077.jpg",
+    "rating_description": "from two to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_05_02_2345.svg",
+    "latin_name": "Penaeus monodon",
+    "description": "Prawns are usually sold peeled, cooked and frozen or whole. Pop them in a curry or sling them on a salad. Their tails are used in traditional prawn cocktails - cocked over the side of the glass. The tiger prawn belongs to the largest of  the prawn and shrimp family, the Penaeidae. Its lifecycle may be divided into 6 stages or phases, from embryo to adult, which it completes in one year. The age of sexual maturity varies from 5 to 11 months. They can live up to 2 years in the wild although farmed prawns are usually harvested at 6 months. Farmed prawn accounted for over 90% of the global consumption of prawn in 2013. King prawn is the most commonly farmed species accouting for over 3/4 of production, 99% of which comes from developing countries. Only buy tiger prawns from suppliers that can ensure their product is sourced from farms that comply with environmental standards for habitat protection and impacts of production. Organic farming standards ensures many such standards are met making organic farmed tiger prawns the best choice. Requirements for organic farms include utilisation of byproducts from human consumption fisheries for feed; habitat protection and restoration, limitation on chemical usage, limited stocking densities and strict health and feeding guidelines.Aquaculture Stewardship Council (ASC), Global Aquaculture Alliance Best Aquaculture Practice (GAA BAP 2*, 3*, 4*) and GlobalGap certification ensures some of these standards are met. Look for the organic label on products or ask your supermarket if they have a buying policy for tiger prawns to ensure high production standards are in place, and environmental concerns addressed."
+  },
+  {
+    "name": "Ray, Blonde",
+    "image": "/images/goodfishguide/BlondeRay.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Raja brachyura",
+    "description": "Skate and ray species are all generally sold as 'skate', but all true skate should be completely avoided. Whole ray are available as fresh or frozen wings and knobs (cheeks).The term 'Skates and Rays' can be a bit confusing here in  Britain. What are traditionally known in Britain as 'rays' are, scientifically or biologically speaking, 'skates'. While the rays (which are technically skates!) sold in fishmongers throughout Britain - Spotted, Small-eyed, Cuckoo, Blonde etc. - belong to the family Rajidae, not all rays found in British waters belong to this family. Two species of Torpedo Rays (Torpedinidae); 2 species of Whiptail Stingrays (Dasyatidae); the Common Eagle Ray (Myliobatidae) ; and Giant Devil Ray (Mobulidae) are also either resident or visitors to our waters! Skates and rays generally available for consumption however do belong to the same sub-order \"batoidea\" and are large flat fish, dwelling close to the sea floor. Like sharks they have cartilage skeletons instead of bone. Skates tend to be large with long snouts, while rays are smaller species and have short snouts. They are both slow to grow and breed. Many are uncommon or rare. For more information on skates, rays and sharks go to: http://www.sharktrust.org. In general, skates and rays are vulnerable to overfishing because they grow really slowly, mature late in life and produce few young. We don't know if their populations are healthy most of the time because, until recently, catches haven't been recorded very well. When choosing skate or ray, choose a fast-growing species like Spotted ray because their populations are at a healthier level. Avoid eating skates and rays below the size at which they can reproduce (57cm in length for Spotted Ray). If buying Spotted Ray, choose it from boats belonging to the North Devon Fishermen's Association (NDFA) because they employ better management to protect skates and rays."
+  },
+  {
+    "name": "Ray, Cuckoo",
+    "image": "/images/goodfishguide/CuckooRay.jpg",
+    "rating_description": "from four to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_04_4-55.svg",
+    "latin_name": "Leucoraja naevus",
+    "description": "Skate and ray species are all generally sold as 'skate', but all true Skate should be completely avoided. Whole ray are available as fresh or frozen wings and knobs (cheeks).The term 'Skates and Rays' can be a bit confusing here in  Britain. What are traditionally known in Britain as 'rays' are, scientifically or biologically speaking, 'skates'. While the rays (which are technically skates!) sold in fishmongers throughout Britain - Spotted, Small-eyed, Cuckoo, Blonde etc. - belong to the family Rajidae, not all rays found in British waters belong to this family. Two species of Torpedo Rays (Torpedinidae); 2 species of Whiptail Stingrays (Dasyatidae); the Common Eagle Ray (Myliobatidae) ; and Giant Devil Ray (Mobulidae) are also either resident or visitors to our waters! Skates and rays generally available for consumption however do belong to the same sub-order \"batoidea\" and are large flat fish, dwelling close to the sea floor. Like sharks they have cartilage skeletons instead of bone. Skates tend to be large with long snouts, while rays are smaller species and have short snouts. They are both slow to grow and breed. Many are uncommon or rare. For more information on skates, rays and sharks go to: http://www.sharktrust.org. In general, skates and rays are vulnerable to overfishing because they grow really slowly, mature late in life and produce few young. We don't know if their populations are healthy most of the time because, until recently, catches haven't been recorded very well. When choosing skate or ray, choose a fast-growing species like Spotted ray because their populations are at a healthier level. Avoid eating skates and rays below the size at which they can reproduce (57cm in length for Spotted Ray). If buying Spotted Ray, choose it from boats belonging to the North Devon Fishermen's Association (NDFA) because they employ better management to protect skates and rays."
+  },
+  {
+    "name": "Ray, Sandy",
+    "image": "/images/goodfishguide/SandyRay.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Leucoraja circularis",
+    "description": "Skate and ray species are all generally sold as 'skate', but all true Skate should be completely avoided. Whole ray are available as fresh or frozen wings and knobs (cheeks).The term 'Skates and Rays' can be a bit confusing here in  Britain. What are traditionally known in Britain as 'rays' are, scientifically or biologically speaking, 'skates'. While the rays (which are technically skates!) sold in fishmongers throughout Britain - Spotted, Small-eyed, Cuckoo, Blonde etc. - belong to the family Rajidae, not all rays found in British waters belong to this family. Two species of Torpedo Rays (Torpedinidae); 2 species of Whiptail Stingrays (Dasyatidae); the Common Eagle Ray (Myliobatidae) ; and Giant Devil Ray (Mobulidae) are also either resident or visitors to our waters! Skates and rays generally available for consumption however do belong to the same sub-order \"batoidea\" and are large flat fish, dwelling close to the sea floor. Like sharks they have cartilage skeletons instead of bone. Skates tend to be large with long snouts, while rays are smaller species and have short snouts. They are both slow to grow and breed. Many are uncommon or rare. For more information on skates, rays and sharks go to: http://www.sharktrust.org. In general, skates and rays are vulnerable to overfishing because they grow really slowly, mature late in life and produce few young. We don't know if their populations are healthy most of the time because, until recently, catches haven't been recorded very well. When choosing skate or ray, choose a fast-growing species like Spotted ray because their populations are at a healthier level. Avoid eating skates and rays below the size at which they can reproduce (57cm in length for Spotted Ray). If buying Spotted Ray, choose it from boats belonging to the North Devon Fishermen's Association (NDFA) because they employ better management to protect skates and rays."
+  },
+  {
+    "name": "Ray, Shagreen",
+    "image": "/images/goodfishguide/ShagreenRay.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Leucoraja fullonica",
+    "description": "Skate and ray species are all generally sold as 'skate', but all true Skate should be completely avoided. Whole ray are available as fresh or frozen wings and knobs (cheeks).The term 'Skates and Rays' can be a bit confusing here in  Britain. What are traditionally known in Britain as 'rays' are, scientifically or biologically speaking, 'skates'. While the rays (which are technically skates!) sold in fishmongers throughout Britain - Spotted, Small-eyed, Cuckoo, Blonde etc. - belong to the family Rajidae, not all rays found in British waters belong to this family. Two species of Torpedo Rays (Torpedinidae); 2 species of Whiptail Stingrays (Dasyatidae); the Common Eagle Ray (Myliobatidae) ; and Giant Devil Ray (Mobulidae) are also either resident or visitors to our waters! Skates and rays generally available for consumption however do belong to the same sub-order \"batoidea\" and are large flat fish, dwelling close to the sea floor. Like sharks they have cartilage skeletons instead of bone. Skates tend to be large with long snouts, while rays are smaller species and have short snouts. They are both slow to grow and breed. Many are uncommon or rare. For more information on skates, rays and sharks go to: http://www.sharktrust.org. In general, skates and rays are vulnerable to overfishing because they grow really slowly, mature late in life and produce few young. We don't know if their populations are healthy most of the time because, until recently, catches haven't been recorded very well. When choosing skate or ray, choose a fast-growing species like Spotted ray because their populations are at a healthier level. Avoid eating skates and rays below the size at which they can reproduce (57cm in length for Spotted Ray). If buying Spotted Ray, choose it from boats belonging to the North Devon Fishermen's Association (NDFA) because they employ better management to protect skates and rays."
+  },
+  {
+    "name": "Ray, Smalleyed",
+    "image": "/images/goodfishguide/SmalleyedRay.jpg",
+    "rating_description": "from four to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_04_4-55.svg",
+    "latin_name": "Raja microocellata",
+    "description": "Skate and ray species are all generally sold as 'skate', but all true Skate should be completely avoided. Whole ray are available as fresh or frozen wings and knobs (cheeks).The term 'Skates and Rays' can be a bit confusing here in  Britain. What are traditionally known in Britain as 'rays' are, scientifically or biologically speaking, 'skates'. While the rays (which are technically skates!) sold in fishmongers throughout Britain - Spotted, Small-eyed, Cuckoo, Blonde etc. - belong to the family Rajidae, not all rays found in British waters belong to this family. Two species of Torpedo Rays (Torpedinidae); 2 species of Whiptail Stingrays (Dasyatidae); the Common Eagle Ray (Myliobatidae) ; and Giant Devil Ray (Mobulidae) are also either resident or visitors to our waters! Skates and rays generally available for consumption however do belong to the same sub-order \"batoidea\" and are large flat fish, dwelling close to the sea floor. Like sharks they have cartilage skeletons instead of bone. Skates tend to be large with long snouts, while rays are smaller species and have short snouts. They are both slow to grow and breed. Many are uncommon or rare. For more information on skates, rays and sharks go to: http://www.sharktrust.org. In general, skates and rays are vulnerable to overfishing because they grow really slowly, mature late in life and produce few young. We don't know if their populations are healthy most of the time because, until recently, catches haven't been recorded very well. When choosing skate or ray, choose a fast-growing species like Spotted ray because their populations are at a healthier level. Avoid eating skates and rays below the size at which they can reproduce (57cm in length for Spotted Ray). If buying Spotted Ray, choose it from boats belonging to the North Devon Fishermen's Association (NDFA) because they employ better management to protect skates and rays."
+  },
+  {
+    "name": "Ray, Spotted",
+    "image": "/images/goodfishguide/Spotted_ray.jpg",
+    "rating_description": "from three to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_04_03_34-55.svg",
+    "latin_name": "Raja montagui",
+    "description": "Skate and ray species are all generally sold as 'skate', but all true Skate should be completely avoided. Whole ray are available as fresh or frozen wings and knobs (cheeks).The term 'Skates and Rays' can be a bit confusing here in  Britain. What are traditionally known in Britain as 'rays' are, scientifically or biologically speaking, 'skates'. While the rays (which are technically skates!) sold in fishmongers throughout Britain - Spotted, Small-eyed, Cuckoo, Blonde etc. - belong to the family Rajidae, not all rays found in British waters belong to this family. Two species of Torpedo Rays (Torpedinidae); 2 species of Whiptail Stingrays (Dasyatidae); the Common Eagle Ray (Myliobatidae) ; and Giant Devil Ray (Mobulidae) are also either resident or visitors to our waters! Skates and rays generally available for consumption however do belong to the same sub-order \"batoidea\" and are large flat fish, dwelling close to the sea floor. Like sharks they have cartilage skeletons instead of bone. Skates tend to be large with long snouts, while rays are smaller species and have short snouts. They are both slow to grow and breed. Many are uncommon or rare. For more information on skates, rays and sharks go to: http://www.sharktrust.org. In general, skates and rays are vulnerable to overfishing because they grow really slowly, mature late in life and produce few young. We don't know if their populations are healthy most of the time because, until recently, catches haven't been recorded very well. When choosing skate or ray, choose a fast-growing species like Spotted ray because their populations are at a healthier level. Avoid eating skates and rays below the size at which they can reproduce (57cm in length for Spotted Ray). If buying Spotted Ray, choose it from boats belonging to the North Devon Fishermen's Association (NDFA) because they employ better management to protect skates and rays."
+  },
+  {
+    "name": "Ray, Starry",
+    "image": "/images/goodfishguide/StarryRay.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Amblyraja radiata",
+    "description": "Skate and ray species are all generally sold as 'skate', but all true Skate should be completely avoided. Whole ray are available as fresh or frozen wings and knobs (cheeks).The term 'Skates and Rays' can be a bit confusing here in  Britain. What are traditionally known in Britain as 'rays' are, scientifically or biologically speaking, 'skates'. While the rays (which are technically skates!) sold in fishmongers throughout Britain - Spotted, Small-eyed, Cuckoo, Blonde etc. - belong to the family Rajidae, not all rays found in British waters belong to this family. Two species of Torpedo Rays (Torpedinidae); 2 species of Whiptail Stingrays (Dasyatidae); the Common Eagle Ray (Myliobatidae) ; and Giant Devil Ray (Mobulidae) are also either resident or visitors to our waters! Skates and rays generally available for consumption however do belong to the same sub-order \"batoidea\" and are large flat fish, dwelling close to the sea floor. Like sharks they have cartilage skeletons instead of bone. Skates tend to be large with long snouts, while rays are smaller species and have short snouts. They are both slow to grow and breed. Many are uncommon or rare. For more information on skates, rays and sharks go to: http://www.sharktrust.org. In general, skates and rays are vulnerable to overfishing because they grow really slowly, mature late in life and produce few young. We don't know if their populations are healthy most of the time because, until recently, catches haven't been recorded very well. When choosing skate or ray, choose a fast-growing species like Spotted ray because their populations are at a healthier level. Avoid eating skates and rays below the size at which they can reproduce (57cm in length for Spotted Ray). If buying Spotted Ray, choose it from boats belonging to the North Devon Fishermen's Association (NDFA) because they employ better management to protect skates and rays."
+  },
+  {
+    "name": "Ray, Thornback ray, Roker",
+    "image": "/images/goodfishguide/084.jpg",
+    "rating_description": "from three to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_04_03_34-55.svg",
+    "latin_name": "Raja clavata",
+    "description": "Skate and ray species are all generally sold as 'skate', but all true Skate should be completely avoided. Whole ray are available as fresh or frozen wings and knobs (cheeks).The term 'Skates and Rays' can be a bit confusing here in  Britain. What are traditionally known in Britain as 'rays' are, scientifically or biologically speaking, 'skates'. While the rays (which are technically skates!) sold in fishmongers throughout Britain - Spotted, Small-eyed, Cuckoo, Blonde etc. - belong to the family Rajidae, not all rays found in British waters belong to this family. Two species of Torpedo Rays (Torpedinidae); 2 species of Whiptail Stingrays (Dasyatidae); the Common Eagle Ray (Myliobatidae) ; and Giant Devil Ray (Mobulidae) are also either resident or visitors to our waters! Skates and rays generally available for consumption however do belong to the same sub-order \"batoidea\" and are large flat fish, dwelling close to the sea floor. Like sharks they have cartilage skeletons instead of bone. Skates tend to be large with long snouts, while rays are smaller species and have short snouts. They are both slow to grow and breed. Many are uncommon or rare. For more information on skates, rays and sharks go to: http://www.sharktrust.org. In general, skates and rays are vulnerable to overfishing because they grow really slowly, mature late in life and produce few young. We don't know if their populations are healthy most of the time because, until recently, catches haven't been recorded very well. When choosing skate or ray, choose a fast-growing species like Spotted ray because their populations are at a healthier level. Avoid eating skates and rays below the size at which they can reproduce (57cm in length for Spotted Ray). If buying Spotted Ray, choose it from boats belonging to the North Devon Fishermen's Association (NDFA) because they employ better management to protect skates and rays."
+  },
+  {
+    "name": "Ray, Undulate",
+    "image": "/images/goodfishguide/UndulateRay.jpg",
+    "rating_description": "from four to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_04_4-55.svg",
+    "latin_name": "Raja undulata",
+    "description": "Skate and ray species are all generally sold as 'skate', but all true skate should be completely avoided. Whole ray are available as fresh or frozen wings and knobs (cheeks).The term 'Skates and Rays' can be a bit confusing here in  Britain. What are traditionally known in Britain as 'rays' are, scientifically or biologically speaking, 'skates'. While the rays (which are technically skates!) sold in fishmongers throughout Britain - Spotted, Small-eyed, Cuckoo, Blonde etc. - belong to the family Rajidae, not all rays found in British waters belong to this family. Two species of Torpedo Rays (Torpedinidae); 2 species of Whiptail Stingrays (Dasyatidae); the Common Eagle Ray (Myliobatidae) ; and Giant Devil Ray (Mobulidae) are also either resident or visitors to our waters! Skates and rays generally available for consumption however do belong to the same sub-order \"batoidea\" and are large flat fish, dwelling close to the sea floor. Like sharks they have cartilage skeletons instead of bone. Skates tend to be large with long snouts, while rays are smaller species and have short snouts. They are both slow to grow and breed. Many are uncommon or rare. For more information on skates, rays and sharks go to: http://www.sharktrust.org. In general, skates and rays are vulnerable to overfishing because they grow really slowly, mature late in life and produce few young. We don't know if their populations are healthy most of the time because, until recently, catches haven't been recorded very well. When choosing skate or ray, choose a fast-growing species like Spotted ray because their populations are at a healthier level. Avoid eating skates and rays below the size at which they can reproduce (57cm in length for Spotted Ray). If buying Spotted Ray, choose it from boats belonging to the North Devon Fishermen's Association (NDFA) because they employ better management to protect skates and rays."
+  },
+  {
+    "name": "Salmon, Atlantic (Caught at sea)",
+    "image": "/images/goodfishguide/086.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Salmo salar",
+    "description": "Generally stocks of wild Atlantic salmon are depleted. There may be several reasons for this. Factors include: marine mortality, linked to ocean climate and productivity; pollution; environmental changes; aquaculture; freshwater habitat  deterioration; and impediments to migration routes. Due to their migratory behaviour it is difficult to effectively manage individual populations. ICES scientists recommend that fishing for salmon only takes place in rivers where stocks are at full reproductive capacity or above conservation limits. Avoid eating wild-caught salmon from rivers below these limits. For details of rivers above these limits in England and Wales see the Environment Agency and Natural Resources Wales websites. For information on the sustainability of the salmon stocks in rivers in Scotland, see the Marine Scotland website. Salmon is now, however, widely available thanks to fish farming. There have been a number of improvements in the salmon farming industry recently, however there are still some environmental concerns remaining. When buying farmed Atlantic salmon, the best choice to make is organic certified. Organic Certification Standards for salmon farming set comprehensive standards for the cultivation of salmon which includes third party auditing; inspection and enforcement procedures; and standards for hatchery production and feed mill operations, to ensure that the number of negative environmental impacts associated with salmon farming are addressed. Buying organically farmed fish ensures their feed is sourced sustainably, stocking densities are reduced and chemical usage minimised. Salmon certified by the RSPCA Freedom Foods scheme ensure that high welfare standards are met during production, including reduced stocking densities. Alternatively, there are 5 species of Pacific salmon. All Alaskan salmon are certified by the Marine Stewardship Council (MSC) or to the Alaska FAO-Based Responsible Fisheries Management (RFM) Certification Programme Standard."
+  },
+  {
+    "name": "Salmon, Atlantic (Farmed)",
+    "image": "/images/goodfishguide/086.jpg",
+    "rating_description": "from two to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_02_234.svg",
+    "latin_name": "Salmo salar",
+    "description": "Salmon is an oily fish rich in Omega-3s. It's a good source of Vitamin D, phosphorous and calcium. Fresh salmon may be baked, grilled or poached. It is also canned, pickled (gravadlax) or smoked. It's also used in sushi and sashimi."
+  },
+  {
+    "name": "Salmon, Chinook, King Salmon",
+    "image": "/images/goodfishguide/Chinook_Salmon.jpg",
+    "rating_description": "two",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_02_2.svg",
+    "latin_name": "Oncorhynchus tshawytscha",
+    "description": "Salmon is an oily fish rich in Omega 3. It's a good source of Vitamin D, phosphorous and calcium. Fresh salmom may be baked, grilled or poached. It is also canned, pickled (gravadlax) or smoked. It's also used as a substitute for sushi and  in sashimi. Pacific salmon are a shorter lived species and much more prolific breeders than Atlantic salmon. The Chinook is the most highly prized and expensive of the Pacific salmon from the culinary perspective and most is marketed fresh in North America for human consumption and not frozen or canned, and therefore not likely to be available to European consumers. The Coho is considered as one of the best tasting salmon. It has a higher oil content than Pink and Chum, and is less expensive than eithr Chinook or Sockeye salmon. However it is the least abundant of the Pacific species and therefore of lower commercial importance. Pink salmon is sold frozen or canned in the USA and Europe. The flesh of Chum salmon is typically lighter in colour and lower in oil content than other Pacific salmon but can be firmer in texture and of better flavour than other species. Although some commercial fishers will choose not to fish Chum, in Arctic, western and interior Alaska, Chum is highly sought after as a dried winter food for humans and dogs, and is harvested there in greater numbers than other salmon species. The five species (chinook, chum, coho, pink and sockeye) of Pacific salmon are members of a large family of fish known as salmonidae, which are abundant throughout the temperate zones of the northern and southern hemispheres. Pacific salmon are a shorter lived species and much more prolific breeders than Atlantic salmon. Pacific salmon from fisheries certified to the FAO-Based Responsible Fisheries Management (RFM) Certification Programme or the Marine Stewardship Council (MSC) Standard for responsibly managed fisheries is the most sustainable choice for consumers."
+  },
+  {
+    "name": "Salmon, Chum, Keta, Calico or Dog salmon",
+    "image": "/images/goodfishguide/Chum_Salmon.jpg",
+    "rating_description": "two",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_02_2.svg",
+    "latin_name": "Oncorhynchus keta",
+    "description": "Salmon is an oily fish rich in Omega 3. It's a good source of Vitamin D, phosphorous and calcium. Fresh salmom may be baked, grilled or poached. It is also canned, pickled (gravadlax) or smoked. It's also used as a substitute for sushi and  in sashimi. Pacific salmon are a shorter lived species and much more prolific breeders than Atlantic salmon. The Chinook is the most highly prized and expensive of the Pacific salmon from the culinary perspective and most is marketed fresh in North America for human consumption and not frozen or canned, and therefore not likely to be available to European consumers. The Coho is considered as one of the best tasting salmon. It has a higher oil content than Pink and Chum, and is less expensive than eithr Chinook or Sockeye salmon. However it is the least abundant of the Pacific species and therefore of lower commercial importance. Pink salmon is sold frozen or canned in the USA and Europe. The flesh of Chum salmon is typically lighter in colour and lower in oil content than other Pacific salmon but can be firmer in texture and of better flavour than other species. Although some commercial fishers will choose not to fish Chum, in Arctic, western and interior Alaska, Chum is highly sought after as a dried winter food for humans and dogs, and is harvested there in greater numbers than other salmon species. The five species (chinook, chum, coho, pink and sockeye) of Pacific salmon are members of a large family of fish known as salmonidae, which are abundant throughout the temperate zones of the northern and southern hemispheres. Pacific salmon are a shorter lived species and much more prolific breeders than Atlantic salmon. Pacific salmon from fisheries certified to the FAO-Based Responsible Fisheries Management (RFM) Certification Programme or the Marine Stewardship Council (MSC) Standard for responsibly managed fisheries is the most sustainable choice for consumers."
+  },
+  {
+    "name": "Salmon, Coho, Silver, White",
+    "image": "/images/goodfishguide/Coho_Salmon.jpg",
+    "rating_description": "two",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_02_2.svg",
+    "latin_name": "Oncorhynchus kisutch",
+    "description": "Salmon is an oily fish rich in Omega 3. It's a good source of Vitamin D, phosphorous and calcium. Fresh salmom may be baked, grilled or poached. It is also canned, pickled (gravadlax) or smoked. It's also used as a substitute for sushi and  in sashimi. Pacific salmon are a shorter lived species and much more prolific breeders than Atlantic salmon. The Chinook is the most highly prized and expensive of the Pacific salmon from the culinary perspective and most is marketed fresh in North America for human consumption and not frozen or canned, and therefore not likely to be available to European consumers. The Coho is considered as one of the best tasting salmon. It has a higher oil content than Pink and Chum, and is less expensive than eithr Chinook or Sockeye salmon. However it is the least abundant of the Pacific species and therefore of lower commercial importance. Pink salmon is sold frozen or canned in the USA and Europe. The flesh of Chum salmon is typically lighter in colour and lower in oil content than other Pacific salmon but can be firmer in texture and of better flavour than other species. Although some commercial fishers will choose not to fish Chum, in Arctic, western and interior Alaska, Chum is highly sought after as a dried winter food for humans and dogs, and is harvested there in greater numbers than other salmon species. The five species (chinook, chum, coho, pink and sockeye) of Pacific salmon are members of a large family of fish known as salmonidae, which are abundant throughout the temperate zones of the northern and southern hemispheres. Pacific salmon are a shorter lived species and much more prolific breeders than Atlantic salmon. Pacific salmon from fisheries certified to the FAO-Based Responsible Fisheries Management (RFM) Certification Programme or the Marine Stewardship Council (MSC) Standard for responsibly managed fisheries is the most sustainable choice for consumers."
+  },
+  {
+    "name": "Salmon, Pink, Spring, humpback",
+    "image": "/images/goodfishguide/Pink_Salmon.jpg",
+    "rating_description": "from one to two",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_01_12.svg",
+    "latin_name": "Oncorhynchus gorbuscha",
+    "description": "Salmon is an oily fish rich in Omega 3. It's a good source of Vitamin D, phosphorous and calcium. Fresh salmom may be baked, grilled or poached. It is also canned, pickled (gravadlax) or smoked. It's also used as a substitute for sushi and  in sashimi. Pacific salmon are a shorter lived species and much more prolific breeders than Atlantic salmon. The Chinook is the most highly prized and expensive of the Pacific salmon from the culinary perspective and most is marketed fresh in North America for human consumption and not frozen or canned, and therefore not likely to be available to European consumers. The Coho is considered as one of the best tasting salmon. It has a higher oil content than Pink and Chum, and is less expensive than eithr Chinook or Sockeye salmon. However it is the least abundant of the Pacific species and therefore of lower commercial importance. Pink salmon is sold frozen or canned in the USA and Europe. The flesh of Chum salmon is typically lighter in colour and lower in oil content than other Pacific salmon but can be firmer in texture and of better flavour than other species. Although some commercial fishers will choose not to fish Chum, in Arctic, western and interior Alaska, Chum is highly sought after as a dried winter food for humans and dogs, and is harvested there in greater numbers than other salmon species. The five species (chinook, chum, coho, pink and sockeye) of Pacific salmon are members of a large family of fish known as salmonidae, which are abundant throughout the temperate zones of the northern and southern hemispheres. Pacific salmon are a shorter lived species and much more prolific breeders than Atlantic salmon. Pacific salmon from fisheries certified to the FAO-Based Responsible Fisheries Management (RFM) Certification Programme or the Marine Stewardship Council (MSC) Standard for responsibly managed fisheries is the most sustainable choice for consumers."
+  },
+  {
+    "name": "Salmon, Sockeye, Red Salmon, Bluebacks, Redfish",
+    "image": "/images/goodfishguide/088.jpg",
+    "rating_description": "two",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_02_2.svg",
+    "latin_name": "Oncorhynchus nerka",
+    "description": "Salmon is an oily fish rich in Omega 3. It's a good source of Vitamin D, phosphorous and calcium. Fresh salmom may be baked, grilled or poached. It is also canned, pickled (gravadlax) or smoked. It's also used as a substitute for sushi and  in sashimi. Pacific salmon are a shorter lived species and much more prolific breeders than Atlantic salmon. The Chinook is the most highly prized and expensive of the Pacific salmon from the culinary perspective and most is marketed fresh in North America for human consumption and not frozen or canned, and therefore not likely to be available to European consumers. The Coho is considered as one of the best tasting salmon. It has a higher oil content than Pink and Chum, and is less expensive than eithr Chinook or Sockeye salmon. However it is the least abundant of the Pacific species and therefore of lower commercial importance. Pink salmon is sold frozen or canned in the USA and Europe. The flesh of Chum salmon is typically lighter in colour and lower in oil content than other Pacific salmon but can be firmer in texture and of better flavour than other species. Although some commercial fishers will choose not to fish Chum, in Arctic, western and interior Alaska, Chum is highly sought after as a dried winter food for humans and dogs, and is harvested there in greater numbers than other salmon species. The five species (chinook, chum, coho, pink and sockeye) of Pacific salmon are members of a large family of fish known as salmonidae, which are abundant throughout the temperate zones of the northern and southern hemispheres. Pacific salmon are a shorter lived species and much more prolific breeders than Atlantic salmon. Pacific salmon from fisheries certified to the FAO-Based Responsible Fisheries Management (RFM) Certification Programme or the Marine Stewardship Council (MSC) Standard for responsibly managed fisheries is the most sustainable choice for consumers."
+  },
+  {
+    "name": "Sardine, European pilchard, sardines",
+    "image": "/images/goodfishguide/071.jpg",
+    "rating_description": "from three to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_04_03_34-55.svg",
+    "latin_name": "Sardina pilchardus",
+    "description": "Fact: same fish - different name depending on size. Young pilchards are often referred to as sardines and are named after the Mediterranean island of Sardinia where they once lived in abundance. They are oily fish with bright silver skins,  related to herrings. Sardines have a strong flavour and are rich in omega-3 fatty acids. Usually cooked whole once gutted, great on the barbecue or ovenbaked. Most commonly bought tinned either in oil or a sauce. Good on toast. Sardines or pilchards (sardine being below 15cm and pilchard above) are caught in the northeast Atlantic, central eastern Atlantic and the Mediterranean Sea. 21 species are canned as sardines, but the European pilchard is the only true sardine. Sardines are commonly caught with purse seine nets and pelagic trawls, which are very selective when used to catch shoaling species and have no impact on the seabed. However, cetacean bycatch can occur. Sardine is a forage species providing prey to many larger fish and marine mammals, so large scale removal can have knock-on effects. Stock status varies and can change rapidly in reaction to variation in climatic conditions. In terms of size, traditionally sardines have been below 15cm in length, the size at which the species matures, and pilchards above - so in terms of size pilchard is the most sustainable option, but a sardine over 15cm will suffice!The Cornish ring-net fishery was certified as a sustainable fishery by the Marine Stewardship Council (MSC) in August 2010.The Bay of Biscay and the Southern Brittany purse seine sardine fisheries are also certified. Look for the Blue tick logo on the packaging. The Portugal purse seine fishery has withdrawn from MSC certification."
+  },
+  {
+    "name": "Sawfish",
+    "image": false,
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Pristis pristis, P.pectinata, P.perotteti",
+    "description": "Sharks and rays are found in all the worlds oceans, from the poles to the tropics to shallow water coral reefs to water over 3,000m deep. The Bull Shark (Carcharhinus leucas) is unusual as it is able to enter fresh water river systems  where it gives birth. Sharks, skates and rays are fish, but they can be distinguished from bony fish (teleosts) by their cartilaginous skeletons. There are four main types of cartilaginous fish; sharks, skates and rays, collectively called elasmobranchs, and the rarely encountered chimaeras, a more distant relative only found in deep water. They are also distinguished from bony fish by the way they breed. Reproduction in sharks and rays is a very slow process as they have a late age of sexual maturity, produce few young and have a long gestation period. No maternal care is provided to shark pups, instead they are well-developed and ready to hunt when born in order to maximise their chance of survival. All shark eggs are fertilised internally but may develop in one of three different ways: Eggs are held within a leathery case (Oviparity), known as a mermaids purse, e.g. catshark; Embryos develop within the mother and are nourished by the egg (Oviparity) e.g. basking shark; Embryos develop within the mother and are provided with nutrients from a placenta (Viviparity) e.g. smooth-hound. World-wide sharks are being removed from our seas at an alarming rate. Sharks are slow growing, long-lived with low reproduction. Finning is perhaps the most damaging and distasteful of all shark fisheries. The process is cruel and wasteful, involving the removal and retention of fins, while the rest of the shark, is discarded, often still alive, to drown or be eaten. Finning takes place all over the world (including Europe) to feed the continual and increasing demand for sharkfin soup. Fins are consumed principally in the Far East but Europe and the USA are sizeable markets for shark fin. Fins may fetch over 30 per kilo and a single basking shark tail fin can fetch up to 5,250 in Hong Kong. Blue sharks and other oceanic species are the preferred species taken. Sawfishes are arguably the most imperiled fishes in the world; the whole family has been classified as Critically Endangered by the International Union for the Conservation of Nature (IUCN) Shark Specialist Group. Because of this, they are automatically a red-rated species."
+  },
+  {
+    "name": "Scad, Horse Mackerel",
+    "image": "/images/goodfishguide/048.jpg",
+    "rating_description": "rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_00_00_q.svg",
+    "latin_name": "Trachurus trachurus",
+    "description": "This mackerel can be smoked, fried, salted and baked. Avoid eating immature fish; sexual maturity is reached at about 3-4 years at a length of about 25 cm, however, the legal minimum landing size is 15 cm."
+  },
+  {
+    "name": "Scallop, King, scallops",
+    "image": "/images/goodfishguide/089.jpg",
+    "rating_description": "from two to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_05_02_2345.svg",
+    "latin_name": "Pecten maximus",
+    "description": "Pan fried with a bit of lemon is often how scallops are served -the part we generally eat is the white adductor muscle which it uses to open and close it's shell and the orange (female) and creamy (male) roe. Scallops are bivalve (2 shell)  molluscs which are widespread and common. Two types are commonly available; the larger king scallop (often sold with the roe attached), and the smaller queen scallop, usually sold as meat only. Fact: In Classic times the scallop shell was worn as a badge by pilgrims visiting the shrine of St James. Choose dive-caught scallops or dredge-caught scallops from either Marine Stewardship Council (MSC) certified fisheries, the inshore English Channel, managed by the Inshore Fisheries and Conservation Authorities (IFCA) or Lyme Bay. Avoid eating scallops below their legal minimum landing size and during their breeding season (April to September)."
+  },
+  {
+    "name": "Scallop, Queen, scallops",
+    "image": "/images/goodfishguide/090.jpg",
+    "rating_description": "from two to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_05_02_2345.svg",
+    "latin_name": "Mimachlamys varia",
+    "description": ""
+  },
+  {
+    "name": "Shark, Angel",
+    "image": false,
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Squatina squatina",
+    "description": "Sharks and rays are found in all the worlds oceans, from the poles to the tropics to shallow water coral reefs to water over 3,000 m deep. The Bull Shark (Carcharhinus leucas) is unusual as it is able to enter fresh water river systems  where it gives birth. Sharks, skates and rays are fish, but they can be distinguished from bony fish (teleosts) by their cartilaginous skeletons. There are four main types of cartilaginous fish; sharks, skates and rays, collectively called elasmobranchs, and the rarely encountered chimaeras, a more distant relative only found in deep water. They are also distinguished from bony fish by the way they breed. Reproduction in sharks and rays is a very slow process as they have a late age of sexual maturity, produce few young and have a long gestation period. No maternal care is provided to shark pups, instead they are well-developed and ready to hunt when born in order to maximise their chance of survival. All shark eggs are fertilised internally but may develop in one of three different ways: Eggs are held within a leathery case (Oviparity), known as a mermaids purse, e.g. catshark; Embryos develop within the mother and are nourished by the egg (Oviparity) e.g. basking shark; Embryos develop within the mother and are provided with nutrients from a placenta (Viviparity) e.g. smooth-hound. World-wide sharks are being removed from our seas at an alarming rate. Sharks are slow growing, long-lived with low reproduction. Finning is perhaps the most damaging and distasteful of all shark fisheries. The process is cruel and wasteful, involving the removal and retention of fins, while the rest of the shark, is discarded, often still alive, to drown or be eaten. Finning takes place all over the world (including Europe) to feed the continual and increasing demand for sharkfin soup. Fins are consumed principally in the Far East but Europe and the USA are sizeable markets for shark fin. Blue sharks and other oceanic species are the preferred species taken. British seas are home to over 30 shark species including the fastest shark in the world (the shortfin Mako) and the second largest fish in the world (the Basking shark) and we even get tropical rare visitors such as hammerheads. Angel shark is an EU Prohibited Species and are Critically Endangered. Catches of angel shark are now rare, both in surveys and commercially. Avoid eating."
+  },
+  {
+    "name": "Shark, Blue",
+    "image": false,
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Prionace glauca",
+    "description": "Sharks and rays are found in all the worlds oceans, from the poles to the tropics to shallow water coral reefs to water over 3,000 m deep. The Bull Shark (Carcharhinus leucas) is unusual as it is able to enter fresh water river systems  where it gives birth. Sharks, skates and rays are fish, but they can be distinguished from bony fish (teleosts) by their cartilaginous skeletons. There are four main types of cartilaginous fish; sharks, skates and rays, collectively called elasmobranchs, and the rarely encountered chimaeras, a more distant relative only found in deep water. They are also distinguished from bony fish by the way they breed. Reproduction in sharks and rays is a very slow process as they have a late age of sexual maturity, produce few young and have a long gestation period. No maternal care is provided to shark pups, instead they are well-developed and ready to hunt when born in order to maximise their chance of survival. All shark eggs are fertilised internally but may develop in one of three different ways: Eggs are held within a leathery case (Oviparity), known as a mermaids purse, e.g. catshark; Embryos develop within the mother and are nourished by the egg (Oviparity) e.g. basking shark; Embryos develop within the mother and are provided with nutrients from a placenta (Viviparity) e.g. smooth-hound. World-wide sharks are being removed from our seas at an alarming rate. Sharks are slow growing, long-lived with low reproduction. Finning is perhaps the most damaging and distasteful of all shark fisheries. The process is cruel and wasteful, involving the removal and retention of fins, while the rest of the shark, is discarded, often still alive, to drown or be eaten. Finning takes place all over the world (including Europe) to feed the continual and increasing demand for sharkfin soup. Fins are consumed principally in the Far East but Europe and the USA are sizeable markets for shark fin. Blue sharks and other oceanic species are the preferred species taken. British seas are home to over 30 shark species including the fastest shark in the world (the shortfin Mako) and the second largest fish in the world (the Basking shark) and we even get tropical rare visitors such as hammerheads. Blue shark are a red-rated species. Avoid eating Blue shark."
+  },
+  {
+    "name": "Shark, Porbeagle",
+    "image": false,
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Lamna nasus",
+    "description": "Sharks and rays are found in all the worlds oceans, from the poles to the tropics to shallow water coral reefs to water over 3,000 m deep. The Bull Shark (Carcharhinus leucas) is unusual as it is able to enter fresh water river systems  where it gives birth. Sharks, skates and rays are fish, but they can be distinguished from bony fish (teleosts) by their cartilaginous skeletons. There are four main types of cartilaginous fish; sharks, skates and rays, collectively called elasmobranchs, and the rarely encountered chimaeras, a more distant relative only found in deep water. They are also distinguished from bony fish by the way they breed. Reproduction in sharks and rays is a very slow process as they have a late age of sexual maturity, produce few young and have a long gestation period. No maternal care is provided to shark pups, instead they are well-developed and ready to hunt when born in order to maximise their chance of survival. All shark eggs are fertilised internally but may develop in one of three different ways: Eggs are held within a leathery case (Oviparity), known as a mermaids purse, e.g. catshark; Embryos develop within the mother and are nourished by the egg (Oviparity) e.g. basking shark; Embryos develop within the mother and are provided with nutrients from a placenta (Viviparity) e.g. smooth-hound. World-wide sharks are being removed from our seas at an alarming rate. Sharks are slow growing, long-lived with low reproduction. Finning is perhaps the most damaging and distasteful of all shark fisheries. The process is cruel and wasteful, involving the removal and retention of fins, while the rest of the shark, is discarded, often still alive, to drown or be eaten. Finning takes place all over the world (including Europe) to feed the continual and increasing demand for sharkfin soup. Fins are consumed principally in the Far East but Europe and the USA are sizeable markets for shark fin. Blue sharks and other oceanic species are the preferred species taken. British seas are home to over 30 shark species including the fastest shark in the world (the shortfin Mako) and the second largest fish in the world (the Basking shark) and we even get tropical rare visitors such as hammerheads. Porbeagle is assessed as Critically Endangered in Northeast Atlantic by the IUCN. ICES advises that no fishing for porbeagle should be permitted, landings should not be allowed. Porbeagles are automatically scored red-rated. Avoid eating."
+  },
+  {
+    "name": "Shark, Tope",
+    "image": "/images/goodfishguide/110.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Galeorhinus galeus",
+    "description": "Sharks and rays are found in all the worlds oceans, from the poles to the tropics to shallow water coral reefs to water over 3,000 m deep. The Bull Shark (Carcharhinus leucas) is unusual as it is able to enter fresh water river systems  where it gives birth. Sharks, skates and rays are fish, but they can be distinguished from bony fish (teleosts) by their cartilaginous skeletons. There are four main types of cartilaginous fish; sharks, skates and rays, collectively called elasmobranchs, and the rarely encountered chimaeras, a more distant relative only found in deep water. They are also distinguished from bony fish by the way they breed. Reproduction in sharks and rays is a very slow process as they have a late age of sexual maturity, produce few young and have a long gestation period. No maternal care is provided to shark pups, instead they are well-developed and ready to hunt when born in order to maximise their chance of survival. All shark eggs are fertilised internally but may develop in one of three different ways: Eggs are held within a leathery case (Oviparity), known as a mermaids purse, e.g. catshark; Embryos develop within the mother and are nourished by the egg (Oviparity) e.g. basking shark; Embryos develop within the mother and are provided with nutrients from a placenta (Viviparity) e.g. smooth-hound. World-wide sharks are being removed from our seas at an alarming rate. Sharks are slow growing, long-lived with low reproduction. Finning is perhaps the most damaging and distasteful of all shark fisheries. The process is cruel and wasteful, involving the removal and retention of fins, while the rest of the shark, is discarded, often still alive, to drown or be eaten. Finning takes place all over the world (including Europe) to feed the continual and increasing demand for sharkfin soup. Fins are consumed principally in the Far East but Europe and the USA are sizeable markets for shark fin. Blue sharks and other oceanic species are the preferred species taken. British seas are home to over 30 shark species including the fastest shark in the world (the shortfin Mako) and the second largest fish in the world (the Basking shark) and we even get tropical rare visitors such as hammerheads. Tope is considered highly vulnerable to over-exploitation because they are slow-growing and long-lived with a low reproductive capacity. Tope is assessed as Vulnerable (2016) globally by IUCN and as \"Data Deficient\" in the Northeast Atlantic. Fishing for tope In Scottish waters, other than by rod and line or hand-line, is prohibited (applies to commercial vessels) - and no tope caught can then be landed. Likewise, there is the 45 kg/day limit in England and Wales so, although there are no quotas or TACs, there are restrictions in place for commercial vessels. Avoid eating."
+  },
+  {
+    "name": "Shrimp, brown or common",
+    "image": "/images/goodfishguide/096.jpg",
+    "rating_description": "rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_00_00_q.svg",
+    "latin_name": "Crangon crangon",
+    "description": "The common or brown shrimp, is found in mainly shallow water along the Eastern Atlantic coast as far south as Morocco, and into the Mediterranean and Black Seas. Brown shrimp is a relatively fast growing and resilient species yet plays a  very important role in the marine ecosystem. It is primarily caught in the North Sea using shrimp trawls. Brown shrimp is primarily caught using shrimp trawls in the North Sea with a very small fishery also occurring in the northeast Irish Sea. Most of the catch is taken in or around the Wadden Sea on the eastern side of the North Sea, which is one of Europe's most important marine conservation areas and national parks. It is important that sufficient areas of these conservation areas are protected to allow natural processes to continue with minimal disruption from fishing. Shrimp trawls are lighter than traditional beam trawls, but can still damage seafloor communities so is important that sensitive areas are protected. Bycatch of juvenile fish remains an issue in these fisheries and further work is needed to improve this, such as trialling of square mesh codends and panels. There are also very few controls in place to prevent the overexploitation of local shrimp populations. Some fleets in the North Sea have voluntarily adopted a harvest control rule which is a positive sign, but cooperation between member states accessing the fishery is needed for this to be effective."
+  },
+  {
+    "name": "Skate, Common",
+    "image": "/images/goodfishguide/157.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Dipturus batis",
+    "description": "Skate and ray species are all generally sold as 'skate', but all true Skate should be completely avoided. Whole ray are available as fresh or frozen wings and knobs (cheeks).The term 'Skates and Rays' can be a bit confusing here in  Britain. What are traditionally known in Britain as 'rays' are, scientifically or biologically speaking, 'skates'. While the rays (which are technically skates!) sold in fishmongers throughout Britain - Spotted, Small-eyed, Cuckoo, Blonde etc. - belong to the family Rajidae, not all rays found in British waters belong to this family. Two species of Torpedo Rays (Torpedinidae); 2 species of Whiptail Stingrays (Dasyatidae); the Common Eagle Ray (Myliobatidae) ; and Giant Devil Ray (Mobulidae) are also either resident or visitors to our waters! Skates and rays generally available for consumption however do belong to the same sub-order \"batoidea\" and are large flat fish, dwelling close to the sea floor. Like sharks they have cartilage skeletons instead of bone. Skates tend to be large with long snouts, while rays are smaller species and have short snouts. They are both slow to grow and breed. Many are uncommon or rare. For more information on skates, rays and sharks go to: http://www.sharktrust.org. Avoid eating. They are an EU Prohibited Species and it is prohibited to fish for, retain, or landing common skate is prohibited in EU waters. Common Skate is assessed as Critically Endangered by IUCN and is listed by OSPAR as a threatened and declining species. Because of this, they are automatically a red-rated species."
+  },
+  {
+    "name": "Skate, Longnosed",
+    "image": "/images/goodfishguide/158.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Dipturus oxyrinchus",
+    "description": "Skate and ray species are all generally sold as 'skate', but all true Skate should be completely avoided. Whole ray are available as fresh or frozen wings and knobs (cheeks).The term 'Skates and Rays' can be a bit confusing here in  Britain. What are traditionally known in Britain as 'rays' are, scientifically or biologically speaking, 'skates'. While the rays (which are technically skates!) sold in fishmongers throughout Britain - Spotted, Small-eyed, Cuckoo, Blonde etc. - belong to the family Rajidae, not all rays found in British waters belong to this family. Two species of Torpedo Rays (Torpedinidae); 2 species of Whiptail Stingrays (Dasyatidae); the Common Eagle Ray (Myliobatidae) ; and Giant Devil Ray (Mobulidae) are also either resident or visitors to our waters! Skates and rays generally available for consumption however do belong to the same sub-order \"batoidea\" and are large flat fish, dwelling close to the sea floor. Like sharks they have cartilage skeletons instead of bone. Skates tend to be large with long snouts, while rays are smaller species and have short snouts. They are both slow to grow and breed. Many are uncommon or rare. For more information on skates, rays and sharks go to: http://www.sharktrust.org. In general, skates and rays are vulnerable to overfishing because they grow really slowly, mature late in life and produce few young. We don't know if their populations are healthy most of the time because, until recently, catches haven't been recorded very well. When choosing skate or ray, choose a fast-growing species like Spotted Ray because their populations are at a healthier level. Avoid eating skates and rays below the size at which they can reproduce (57cm in length for spotted ray). If buying Spotted Ray, choose it from boats belonging to the North Devon Fishermen's Association (NDFA) because they employ better management to protect skates and rays."
+  },
+  {
+    "name": "Skate, Norwegian or Black",
+    "image": "/images/goodfishguide/BlackSkate.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Dipturus nidarosiensis",
+    "description": "Skate and ray species are all generally sold as 'skate', but all true Skate should be completely avoided. Whole ray are available as fresh or frozen wings and knobs (cheeks).The term 'Skates and Rays' can be a bit confusing here in  Britain. What are traditionally known in Britain as 'rays' are, scientifically or biologically speaking, 'skates'. While the rays (which are technically skates!) sold in fishmongers throughout Britain - Spotted, Small-eyed, Cuckoo, Blonde etc. - belong to the family Rajidae, not all rays found in British waters belong to this family. Two species of Torpedo Rays (Torpedinidae); 2 species of Whiptail Stingrays (Dasyatidae); the Common Eagle Ray (Myliobatidae) ; and Giant Devil Ray (Mobulidae) are also either resident or visitors to our waters! Skates and rays generally available for consumption however do belong to the same sub-order \"batoidea\" and are large flat fish, dwelling close to the sea floor. Like sharks they have cartilage skeletons instead of bone. Skates tend to be large with long snouts, while rays are smaller species and have short snouts. They are both slow to grow and breed. Many are uncommon or rare. For more information on skates, rays and sharks go to: http://www.sharktrust.org. Avoid eating. Norwegian skate are an EU Prohibited Species. Because of this, they are automatically a red-rated species."
+  },
+  {
+    "name": "Skate, White",
+    "image": "/images/goodfishguide/WhiteSkate.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Rostroraja alba",
+    "description": "Skate and ray species are all generally sold as 'skate', but all true Skate should be completely avoided. Whole ray are available as fresh or frozen wings and knobs (cheeks).The term 'Skates and Rays' can be a bit confusing here in  Britain. What are traditionally known in Britain as 'rays' are, scientifically or biologically speaking, 'skates'. While the rays (which are technically skates!) sold in fishmongers throughout Britain - Spotted, Small-eyed, Cuckoo, Blonde etc. - belong to the family Rajidae, not all rays found in British waters belong to this family. Two species of Torpedo Rays (Torpedinidae); 2 species of Whiptail Stingrays (Dasyatidae); the Common Eagle Ray (Myliobatidae) ; and Giant Devil Ray (Mobulidae) are also either resident or visitors to our waters! Skates and rays generally available for consumption however do belong to the same sub-order \"batoidea\" and are large flat fish, dwelling close to the sea floor. Like sharks they have cartilage skeletons instead of bone. Skates tend to be large with long snouts, while rays are smaller species and have short snouts. They are both slow to grow and breed. Many are uncommon or rare. For more information on skates, rays and sharks go to: http://www.sharktrust.org. Avoid eating. White skate are an EU Prohibited Species. Because of this, they are automatically red-rated."
+  },
+  {
+    "name": "Smoothhound",
+    "image": false,
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Mustelus spp.",
+    "description": "Sharks and rays are found in all the worlds oceans, from the poles to the tropics to shallow water coral reefs to water over 3,000 m deep. The Bull Shark (Carcharhinus leucas) is unusual as it is able to enter fresh water river systems  where it gives birth. Sharks, skates and rays are fish, but they can be distinguished from bony fish (teleosts) by their cartilaginous skeletons. There are four main types of cartilaginous fish; sharks, skates and rays, collectively called elasmobranchs, and the rarely encountered chimaeras, a more distant relative only found in deep water. They are also distinguished from bony fish by the way they breed. Reproduction in sharks and rays is a very slow process as they have a late age of sexual maturity, produce few young and have a long gestation period. No maternal care is provided to shark pups, instead they are well-developed and ready to hunt when born in order to maximise their chance of survival. All shark eggs are fertilised internally but may develop in one of three different ways: Eggs are held within a leathery case (Oviparity), known as a mermaids purse, e.g. catshark; Embryos develop within the mother and are nourished by the egg (Ovoviparity) e.g. basking shark; Embryos develop within the mother and are provided with nutrients from a placenta (Viviparity) e.g. smooth-hound. World-wide sharks are being removed from our seas at an alarming rate. Sharks are slow growing, long-lived with low reproduction. Finning is perhaps the most damaging and distasteful of all shark fisheries. The process is cruel and wasteful, involving the removal and retention of fins, while the rest of the shark, is discarded, often still alive, to drown or be eaten. Finning takes place all over the world (including Europe) to feed the continual and increasing demand for sharkfin soup. Fins are consumed principally in the Far East but Europe and the USA are sizeable markets for shark fin. Blue sharks and other oceanic species are the preferred species taken. British seas are home to over 30 shark species including the fastest shark in the world (the shortfin Mako) and the second largest fish in the world (the Basking shark) and we even get tropical rare visitors such as hammerheads. Smoothhound is one of few shark species whose numbers appear to be stable at present, however there is much uncertainty about its stock status. Unlike many similar elasmobranchs, their relatively high productivity means that there is potential for this species to be harvested sustainably. However, data are lacking on their biology, and level of fishing on the species which precludes the ability to manage them effectively."
+  },
+  {
+    "name": "Sole, Dover sole, Common sole",
+    "image": "/images/goodfishguide/031.jpg",
+    "rating_description": "from two to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_05_02_2345.svg",
+    "latin_name": "Solea solea",
+    "description": "The best choices for Dover or common sole are from the north Celtic Sea, the Bristol Channel and the western English Channel. Fish caught by otter trawl and gillnet will have fewer habitat impacts than those caught by beam trawl, and avoid  pulse-trawl-caught fish altogether. Avoid eating immature sole (less than 30cm) and fresh (not previously frozen) fish caught during the breeding season (April-June)."
+  },
+  {
+    "name": "Sole, Lemon",
+    "image": "/images/goodfishguide/051.jpg",
+    "rating_description": "from two to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_02_234.svg",
+    "latin_name": "Microstomus kitt",
+    "description": "Best dusted in flour, fried in butter and eaten on the bone. Lemon sole is also sold filleted and chilled or frozen in breadcrumbs. Doesn't deserve to be made into goujons and doesn't taste of lemon! Belongs to the same family as halibut  and plaice. The fishery for Lemon sole is generally unmanaged in EU waters and there is no minimum landing size (MLS) for the species. An exception to this is in Cornish waters where a MLS of 25cm is enforced by local byelaw. There is no formal assessment of the North Sea stock but analysis of survey data suggests that fishing mortality is below and stock size above sustainable reference points. Choose seine caught fish where possible, as this method of capture causes less damage to the seabed and is the best choice for lemon sole from the North Sea. Avoid eating immature fish (below 25cm) and during its breeding period, April-August."
+  },
+  {
+    "name": "Sole, Sand",
+    "image": false,
+    "rating_description": "from three to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_03_34.svg",
+    "latin_name": "Pegusa lascaris",
+    "description": ""
+  },
+  {
+    "name": "Sprat, whitebait",
+    "image": "/images/goodfishguide/sprat.jpg",
+    "rating_description": "from three to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_03_34.svg",
+    "latin_name": "Sprattus sprattus",
+    "description": "Sprat is used for both human consumption and for industrial or reduction purposes, i.e. the production of fish meal. Sprat are a highly resilient species and small artisanal inshore fisheries for human consumption are unlikely to impact  significantly on wider stocks. However, sprat are under pressure from industrial fisheries, with high removals, current uncertainty in status and unclear management in some areas. Without proper stock assessment and management, fisheries will likely be much less sustainable.Mature sprat is a more sustainable alternative to whitebait, which is often a mixture of juvenile fish such as herring, sprat and sandeel. The majority of the North Sea stock is made up of adult or mature fish."
+  },
+  {
+    "name": "Spurdog, Spiny Dogfish, Dogfish, Rock Salmon or Flake",
+    "image": "/images/goodfishguide/030.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Squalus acanthias",
+    "description": "Sharks and rays are found in all the worlds oceans, from the poles to the tropics to shallow water coral reefs to water over 3,000 m deep. The Bull Shark (Carcharhinus leucas) is unusual as it is able to enter fresh water river systems  where it gives birth. Sharks, skates and rays are fish, but they can be distinguished from bony fish (teleosts) by their cartilaginous skeletons. There are four main types of cartilaginous fish; sharks, skates and rays, collectively called elasmobranchs, and the rarely encountered chimaeras, a more distant relative only found in deep water. They are also distinguished from bony fish by the way they breed. Reproduction in sharks and rays is a very slow process as they have a late age of sexual maturity, produce few young and have a long gestation period. No maternal care is provided to shark pups, instead they are well-developed and ready to hunt when born in order to maximise their chance of survival. All shark eggs are fertilised internally but may develop in one of three different ways: Eggs are held within a leathery case (Oviparity), known as a mermaids purse, e.g. catshark; Embryos develop within the mother and are nourished by the egg (Ovoviparity) e.g. basking shark; Embryos develop within the mother and are provided with nutrients from a placenta (Viviparity) e.g. smooth-hound. World-wide sharks are being removed from our seas at an alarming rate. Sharks are slow growing, long-lived with low reproduction. Finning is perhaps the most damaging and distasteful of all shark fisheries. The process is cruel and wasteful, involving the removal and retention of fins, while the rest of the shark, is discarded, often still alive, to drown or be eaten. Finning takes place all over the world (including Europe) to feed the continual and increasing demand for sharkfin soup. Fins are consumed principally in the Far East but Europe and the USA are sizeable markets for shark fin. Blue sharks and other oceanic species are the preferred species taken. British seas are home to over 30 shark species including the fastest shark in the world (the shortfin Mako) and the second largest fish in the world (the Basking shark) and we even get tropical rare visitors such as hammerheads. Spurdog (spiny dogfish, rock salmon or flake) are long-lived, slow growing and have a high age at maturity. These characteristics make them particularly vulnerable to high levels of fishing mortality. The Northeast Atlantic stock is considered to be depleted. The species is assessed as Critically Endangered by IUCN and has been recently added to the OSPAR list of threatened and/or declining species and habitats."
+  },
+  {
+    "name": "Squid, Argentine short fin",
+    "image": false,
+    "rating_description": "four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_04_4.svg",
+    "latin_name": "Illex argentinus",
+    "description": "Squid (often found on menus using the Italian word 'calamari') can be stuffed whole, cut into pieces or rings, which are often deep fried, pickled, as jerky called sakiika, salted or fermented (shiokara). Squid flesh is also produced to  create raw (sashimi) or processed to create dried (surume), cooked (sakiika) or frozen or canned. The Chinese Common squid are a high value species, sold fresh, frozen, dried or processed into hoods and rings or sashimi for the Japanese sushi market. Squid has quite a bland taste so needs other flavourings to perk it up.Squid is a mollusc related to octopus and cuttlefish. Characterised by a large, fleshy body (mantle), there are more than 300 different types of squid around the world but the most common species eaten in the UK are the European and the Atlantic squid.Squid plays an important role in oceanic and coastal food webs and is removed from the sea before it has spawned (females die after spawning, though males may live to breed for a second year). Squid is also an important bait species for catching species such as tuna. Squid fisheries around the world exhibit considerable variations in annual catch, mainly as a result of large fluctuations in annual abundance that appear to be environmentally driven. Fluctuating abundance together with their rapid growth and short life cycle means precise stock information is not available. Squid plays an important role in oceanic and coastal food webs and, without appropriate management, deliberately targeted industrial-scale fisheries have the capacity to remove significant quantities from the sea before they have spawned (it dies after spawning). Fisheries in UK waters tend to be small, seasonal, non-targeted and squid (Loligo forbesi and Loligo vulgaris) is generally taken as bycatch in trawl fisheries for nephrops and other demersal whitefish species. Check which area the squid is from as it may have been caught in an area where whitefish such as cod or whiting are unsustainably fished. A more selective method of fishing for squid is by jigging. An example of such a fishery in the UK is the Sennan Cove squid fishery in Cornwall, where fishermen go out in small punts and fish for squid using jigs, a method of fishing similar to that of hand lining."
+  },
+  {
+    "name": "Squid, Atlantic, Common, European, Veined",
+    "image": "/images/goodfishguide/101.jpg",
+    "rating_description": "three",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_03_3.svg",
+    "latin_name": "Loligo vulgaris, Loligo forbesi",
+    "description": ""
+  },
+  {
+    "name": "Squid, Homboldt or Jumbo",
+    "image": false,
+    "rating_description": "four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_04_4.svg",
+    "latin_name": "Dosidicus gigas",
+    "description": "Squid (often found on menus using the Italian word 'calamari') can be stuffed whole, cut into pieces or rings, which are often deep fried, pickled, as jerky called sakiika, salted or fermented (shiokara). Squid flesh is also produced to  create raw (sashimi) or processed to create dried (surume), cooked (sakiika) or frozen or canned. The Chinese Common squid are a high value species, sold fresh, frozen, dried or processed into hoods and rings or sashimi for the Japanese sushi market. Squid has quite a bland taste so needs other flavourings to perk it up.Squid is a mollusc related to octopus and cuttlefish. Characterised by a large, fleshy body (mantle), there are more than 300 different types of squid around the world but the most common species eaten in the UK are the European and the Atlantic squid.Squid plays an important role in oceanic and coastal food webs and is removed from the sea before it has spawned (females die after spawning, though males may live to breed for a second year). Squid is also an important bait species for catching species such as tuna. Squid fisheries around the world exhibit considerable variations in annual catch, mainly as a result of large fluctuations in annual abundance that appear to be environmentally driven. Fluctuating abundance together with their rapid growth and short life cycle means precise stock information is not available. Squid plays an important role in oceanic and coastal food webs and, without appropriate management, deliberately targeted industrial-scale fisheries have the capacity to remove significant quantities from the sea before they have spawned (it dies after spawning). Fisheries in UK waters tend to be small, seasonal, non-targeted and squid (Loligo forbesi and Loligo vulgaris) is generally taken as bycatch in trawl fisheries for nephrops and other demersal whitefish species. Check which area the squid is from as it may have been caught in an area where whitefish such as cod or whiting are unsustainably fished. A more selective method of fishing for squid is by jigging. An example of such a fishery in the UK is the Sennan Cove squid fishery in Cornwall, where fishermen go out in small punts and fish for squid using jigs, a method of fishing similar to that of hand lining."
+  },
+  {
+    "name": "Squid, Indian",
+    "image": false,
+    "rating_description": "from three to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_03_34.svg",
+    "latin_name": "Loligo duvauceli",
+    "description": "Squid (often found on menus using the Italian word 'calamari') can be stuffed whole, cut into pieces or rings, which are often deep fried, pickled, as jerky called sakiika, salted or fermented (shiokara). Squid flesh is also produced to  create raw (sashimi) or processed to create dried (surume), cooked (sakiika) or frozen or canned. The Chinese Common squid are a high value species, sold fresh, frozen, dried or processed into hoods and rings or sashimi for the Japanese sushi market. Squid has quite a bland taste so needs other flavourings to perk it up.Squid is a mollusc related to octopus and cuttlefish. Characterised by a large, fleshy body (mantle), there are more than 300 different types of squid around the world but the most common species eaten in the UK are the European and the Atlantic squid.Squid plays an important role in oceanic and coastal food webs and is removed from the sea before it has spawned (females die after spawning, though males may live to breed for a second year). Squid is also an important bait species for catching species such as tuna. Squid fisheries around the world exhibit considerable variations in annual catch, mainly as a result of large fluctuations in annual abundance that appear to be environmentally driven. Fluctuating abundance together with their rapid growth and short life cycle means precise stock information is not available. Squid plays an important role in oceanic and coastal food webs and, without appropriate management, deliberately targeted industrial-scale fisheries have the capacity to remove significant quantities from the sea before they have spawned (it dies after spawning). Fisheries in UK waters tend to be small, seasonal, non-targeted and squid (Loligo forbesi and Loligo vulgaris) is generally taken as bycatch in trawl fisheries for nephrops and other demersal whitefish species. Check which area the squid is from as it may have been caught in an area where whitefish such as cod or whiting are unsustainably fished. A more selective method of fishing for squid is by jigging. An example of such a fishery in the UK is the Sennan Cove squid fishery in Cornwall, where fishermen go out in small punts and fish for squid using jigs, a method of fishing similar to that of hand lining."
+  },
+  {
+    "name": "Squid, Japanese flying",
+    "image": false,
+    "rating_description": "two",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_02_2.svg",
+    "latin_name": "Todarodes pacificus",
+    "description": "Squid (often found on menus using the Italian word 'calamari') can be stuffed whole, cut into pieces or rings, which are often deep fried, pickled, as jerky called sakiika, salted or fermented (shiokara). Squid flesh is also produced to  create raw (sashimi) or processed to create dried (surume), cooked (sakiika) or frozen or canned. The Chinese Common squid are a high value species, sold fresh, frozen, dried or processed into hoods and rings or sashimi for the Japanese sushi market. Squid has quite a bland taste so needs other flavourings to perk it up.Squid is a mollusc related to octopus and cuttlefish. Characterised by a large, fleshy body (mantle), there are more than 300 different types of squid around the world but the most common species eaten in the UK are the European and the Atlantic squid.Squid plays an important role in oceanic and coastal food webs and is removed from the sea before it has spawned (females die after spawning, though males may live to breed for a second year). Squid is also an important bait species for catching species such as tuna. Squid fisheries around the world exhibit considerable variations in annual catch, mainly as a result of large fluctuations in annual abundance that appear to be environmentally driven. Fluctuating abundance together with their rapid growth and short life cycle means precise stock information is not available. Squid plays an important role in oceanic and coastal food webs and, without appropriate management, deliberately targeted industrial-scale fisheries have the capacity to remove significant quantities from the sea before they have spawned (it dies after spawning). Fisheries in UK waters tend to be small, seasonal, non-targeted and squid (Loligo forbesi and Loligo vulgaris) is generally taken as bycatch in trawl fisheries for nephrops and other demersal whitefish species. Check which area the squid is from as it may have been caught in an area where whitefish such as cod or whiting are unsustainably fished. A more selective method of fishing for squid is by jigging. An example of such a fishery in the UK is the Sennan Cove squid fishery in Cornwall, where fishermen go out in small punts and fish for squid using jigs, a method of fishing similar to that of hand lining."
+  },
+  {
+    "name": "Sturgeon (Caught at sea)",
+    "image": "/images/goodfishguide/132.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Acipenser, Huso spp.",
+    "description": "There are about 20 species of Sturgeon but some of them are critically endangered, such as the European Sturgeon. Avoid eating wild sturgeon."
+  },
+  {
+    "name": "Sturgeon (Farmed)",
+    "image": "/images/goodfishguide/132.jpg",
+    "rating_description": "two",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_02_2.svg",
+    "latin_name": "Acipenser, Huso spp.",
+    "description": "Sturgeons the world over are now greatly depleted in number and many of the 27 species - prized for their flesh and eggs (caviar) - are in rapid decline. They are vulnerable to over-exploitation because they are generally long-lived and  slow to mature, and depend on large rivers to spawn. In particular, species native to the Caspian Sea and rivers feeding it have suffered sturgeon habitat loss, destruction of breeding grounds, pollution and mismanaged fisheries. The value of wild sturgeon caviar is so high that there is a substantial illegal fishery for sturgeon that is completely unregulated. Avoid eating wild sturgeon. Due to the lucrative market and demand for caviar, sturgeon aquaculture developed. As wild sturgeon are so depleted, farmed caviar is a better choice. With sturgeon farming there is no dependence on wild fish for broodstock as all fish are bred in hatcheries. Most sturgeon farming in Europe takes place in France."
+  },
+  {
+    "name": "Swordfish",
+    "image": "/images/goodfishguide/108.jpg",
+    "rating_description": "from two to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_05_02_2345.svg",
+    "latin_name": "Xiphias gladius",
+    "description": "A magnificent solitary predator, extremely fast swimming with a fearsome-looking, pointed sword-like bill for stunning its prey. It can gather speed up to 50mph and can reach up to 4.5m in length! Like sharks, swordfish are at the top of  the food-chain and play an important role in the marine ecosystem. A number of swordfish fisheries in the Atlantic and Southwest Pacific have been certified as well managed and sustainable by the Marine Stewardship Council (MSC), so make sure to look for any products that carry their blue ecolabel. A very valuable commercial species, swordfish has been heavily exploited throughout its range and previously overfished, remaining heavily so in the Mediterranean. Improvements to management in other fisheries has recovered populations; with the North Atlantic, Western North Pacific, and Indian Oceans all having fairly healthy fisheries. The primary method of capture though, longlining, continues to impact on vulnerable species such as seabirds, turtles and sharks. Whilst there are measures in use to reduce these impacts, more needs to be done to ensure they are effective and that impacts to these species are minimised."
+  },
+  {
+    "name": "Tilapia",
+    "image": "/images/goodfishguide/139.jpg",
+    "rating_description": "from two to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_02_234.svg",
+    "latin_name": "Oreochromis niloticus niloticus",
+    "description": "Tilapia are omnivores, and as such have a low requirement for fishmeal and fish-oil in their diets, making them net producers of fish protein and therefore a valuable aquaculture species. . When buying farmed tilapia the best choices are  fish farmed to ASC standards or fish farmed in closed systems. Both production methods reduce the negative environmental impacts (e.g. discharges, escapes, transfer of disease and parasites, habitat damage and water pollution or degradation) associated with other culture systems such as open net pen or pond systems."
+  },
+  {
+    "name": "Trout, Rainbow",
+    "image": "/images/goodfishguide/078.jpg",
+    "rating_description": "from two to three",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_02_02_23.svg",
+    "latin_name": "Oncorhynchus mykiss",
+    "description": "Rainbow trout is the predominant farmed trout species as brown trout is mainly produced for restocking purposes. Wild sea trout populations are threatened in some areas. Only eat wild line-caught sea trout from well-managed fisheries, such  as a rod &amp; line fisheries. Avoid eating fresh sea trout caught during the breeding or spawning season from November to March inclusive. Rainbow trout is widely farmed in UK, mainly in freshwater. Farming takes place mainly in ponds or raceways with water being supplied from an adjacent river. Location of farms is determined by the proximity of a clean river to provide water. Trout are carnivorous fish whose feed relies on wild fisheries. Rainbow trout farmed in freshwater is a good choice."
+  },
+  {
+    "name": "Tuna, albacore",
+    "image": "/images/goodfishguide/111.jpg",
+    "rating_description": "from one to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_04_01_1234.svg",
+    "latin_name": "Thunnus alalunga",
+    "description": "Albacore are a moderate sized tuna that are primarily sold as fresh or frozen steaks and can also be used raw as sashimi."
+  },
+  {
+    "name": "Tuna, Atlantic bluefin (Caught at sea)",
+    "image": "/images/goodfishguide/113.jpg",
+    "rating_description": "rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_00_00_q.svg",
+    "latin_name": "Thunnus thynnus",
+    "description": "Bluefin tunas are vulnerable, slow growing and long lived species that are heavily exploited across their range. The market value of individual fish regularly reaches tens of thousands of pounds with the record being over a million pounds  for just one fish! This is a strong incentive for illegal fishing which has been extensive in the past. Management has improved, particularly for Atlantic and southern bluefin, but Pacific bluefin continues to be subject to heavy overfishing. Pacific bluefin remains at or near historical lowest levels; southern bluefin remains listed as Critically Endangered by the IUCN. Atlantic bluefin is listed by the IUCN as Threatened in Europe and Endangered in the Mediterranean. As it is recovering quickly though, MCS is reviewing its rating for the Atlantic bluefin species."
+  },
+  {
+    "name": "Tuna, Atlantic bluefin (Farmed)",
+    "image": "/images/goodfishguide/113.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Thunnus thynnus",
+    "description": "Bluefin tunas are vulnerable, slow growing and long lived species that are heavily exploited across their range. The market value of individual fish regularly reaches tens of thousands of pounds with the record being over a million pounds  for just one fish! This is a strong incentive for illegal fishing which has been extensive in the past. Management has improved, particularly for Atlantic and southern bluefin, but Pacific bluefin continues to be subject to heavy overfishing. Pacific bluefin remains at or near historical lowest levels; southern bluefin remains listed as Critically Endangered by the IUCN; and whilst Atlantic bluefin is recovering, it remains listed by the IUCN as Endangered. Farming or ranching of Bluefin tuna relies on capture of juvenile wild tunas for on-growing and fattening in open net cages until harvest. Therefore this process is completely reliant on overexploited wild fish stocks, and farming in this way will not lessen the pressure on the species. In the case of Mediterranean sea ranching operations, the capture of tuna for ongrowing is an increasing part of the catch. The ranching of tuna requires large amounts of fresh fish for feeding, with up to 20 kg of wild fish required to produce 1 kg of Bluefin Tuna resulting in a significant net loss if fish protein. Avoid all bluefin tunas."
+  },
+  {
+    "name": "Tuna, bigeye",
+    "image": "/images/goodfishguide/112.jpg",
+    "rating_description": "from two to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_05_02_2345.svg",
+    "latin_name": "Thunnus obesus",
+    "description": "Bigeye tuna is a relatively large species of tuna, though not as large as bluefin, which is able to tolerate colder waters than the smaller tunas and is commonly found at greater depths. Bigeye is often sold as fresh or frozen steaks and  is also used raw as sashimi. Bigeye tuna is a large tuna species (up to 2.5m long!) which needs to be well managed to prevent it being overexploited. It's mainly caught in longline and purse seine fisheries. Bigeye tuna fisheries in the Western &amp; Central Pacific and Indian Oceans are in a pretty healthy state but management needs to be improved to ensure it stays that way. The fishing pressure is bit too high in the Eastern Pacific fishery and bigeye stock in the Atlantic remains in a significantly overfished state. A lot of juvenile bigeye are caught in purse seine fisheries that target skipjack tuna which is used in tinned tuna. The accidental catch of vulnerable species like sharks is also of concern in longline fisheries. Smaller scale pole and line, and troll fisheries are more selective and represent the best choice."
+  },
+  {
+    "name": "Tuna, Pacific bluefin",
+    "image": "/images/goodfishguide/Pacific_bluefin.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Thunnus orientalis",
+    "description": "Bluefin tunas are vulnerable, slow growing and long lived species that are heavily exploited across their range. The market value of individual fish regularly reaches tens of thousands of pounds with the record being over a million pounds  for just one fish! This is a strong incentive for illegal fishing which has been extensive in the past. Management has improved, particularly for Atlantic and southern bluefin, but Pacific bluefin continues to be subject to heavy overfishing. Pacific bluefin remains at or near historical lowest levels; southern bluefin remains listed as Critically Endangered by the IUCN. Atlantic bluefin is listed by the IUCN as Threatened in Europe and Endangered in the Mediterranean. As it is recovering quickly though, MCS is reviewing its rating for the Atlantic bluefin species."
+  },
+  {
+    "name": "Tuna, skipjack",
+    "image": "/images/goodfishguide/114.jpg",
+    "rating_description": "from one to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_06_12345.svg",
+    "latin_name": "Euthynnus pelamis, Katsuwonus pelamis",
+    "description": "Skipjack are a relatively small tuna (growing to a metre in length) and sometimes sold as 'bonito' though this is a different species of fish. Skipjack is primarily sold in cans."
+  },
+  {
+    "name": "Tuna, southern bluefin (Caught at sea)",
+    "image": "/images/goodfishguide/115.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Thunnus maccoyii",
+    "description": "Bluefin tunas are vulnerable, slow growing and long lived species that are heavily exploited across their range. The market value of individual fish regularly reaches tens of thousands of pounds with the record being over a million pounds  for just one fish! This is a strong incentive for illegal fishing which has been extensive in the past. Management has improved, particularly for Atlantic and southern bluefin, but Pacific bluefin continues to be subject to heavy overfishing. Pacific bluefin remains at or near historical lowest levels; southern bluefin remains listed as Critically Endangered by the IUCN. Atlantic bluefin is listed by the IUCN as Threatened in Europe and Endangered in the Mediterranean. As it is recovering quickly though, MCS is reviewing its rating for the Atlantic bluefin species."
+  },
+  {
+    "name": "Tuna, yellowfin",
+    "image": "/images/goodfishguide/116.jpg",
+    "rating_description": "from two to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_05_02_2345.svg",
+    "latin_name": "Thunnus albacares",
+    "description": "A big bulky tuna, though not as large as bluefin, found in tropical or subtropical climates. The tail and some fins are yellow, the rest of the body a glistening dark blue, silvery on the underside. Yellowfin can be canned, sold as steaks  or even raw as sashimi. Yellowfin tuna is a large tuna species that is often sold as tuna steaks in the UK. The population in the Western &amp; Central Pacific is in good shape at the moment. Stocks in the Atlantic and Eastern Pacific are Ocean are doing reasonably well but catches have been too high in recent years, and the Indian Ocean stock is overfished and catches remain too high. Yellowfin is mainly caught in longline and purse seine fisheries. The accidental catch of vulnerable species like sharks is of concern in the longline fisheries. The catch rate of sharks and other vulnerable species in purse seine fisheries is low, but because the scale of these fisheries is so big, they can still have a large impact on these species. Purse seine fisheries can also catch a lot of juvenile tunas. Smaller scale pole &amp; line, hand line and troll fisheries are more selective and a better choice. Some yellowfin fisheries are certified by the Marine Stewardship Council (MSC) as sustainable, well managed fisheries, so look for their blue ecolabel on tuna products."
+  },
+  {
+    "name": "Turbot (Caught at sea)",
+    "image": "/images/goodfishguide/117.jpg",
+    "rating_description": "from two to four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_02_234.svg",
+    "latin_name": "Psetta maxima",
+    "description": "Turbot is a valuable bycatch species in trawl and gillnet and trap fisheries for flatfish (plaice and sole) and other demersal species. It is not subject to overfishing, and is not in an overfished state, but turbot catches consists of  mainly immature fish. Management measures are combined with those for brill, which prevents effective control and could lead to high grading of the lower value species (brill) or overexploitation of turbot. Avoid eating wild-caught turbot during its spawning season, April to August, and below the size at which it matures, 30 cm."
+  },
+  {
+    "name": "Turbot (Farmed)",
+    "image": "/images/goodfishguide/117.jpg",
+    "rating_description": "two",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_02_2.svg",
+    "latin_name": "Psetta maxima",
+    "description": "The farming of turbot is a fairly recent development. Unlike open net pen fish farming such as salmon, turbot are farmed in enclosed land-based flow through systems that have little or no direct environmental impact. However turbot are a  carnivorous species which require a high percentage of fishmeal and fish-oil in their diet, which makes them a net user of fish protein rather than a net provider. The wild fish on which they rely cannot be assured to come from a sustainable supply."
+  },
+  {
+    "name": "Tusk",
+    "image": false,
+    "rating_description": "three",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_03_3.svg",
+    "latin_name": "Brosme brosme",
+    "description": "Deepsea fish are biologically highly vulnerable to over-exploitation and have a low resilience to fishing. There is currently very little data on the deep sea ecosystem and fish stocks, thus it is almost impossible to manage deepsea  fisheries sustainably. Any impacts will take a substantial amount of time to recover and recovery may not be seen for many decades. Deepsea fishing gear is often comprised of heavy bottom towed gear, which is extremely detrimental to the ecosystem, and can decimate productive deepsea areas such as seamounts and oceanic ridges. Static gear has less of an impact on the seabed but is still detrimental to fish stocks and can be easily lost; it will then continue to ghost fish for a long period of time, causing further detriment to deep sea stocks. Avoid eating all deepsea fish species."
+  },
+  {
+    "name": "Whelk, whelks",
+    "image": false,
+    "rating_description": "from four to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_04_4-55.svg",
+    "latin_name": "Buccinum undatum",
+    "description": "Whelks are large marine gastropods, or snails, with strong, whitish shells. Whelks are a particularly vulnerable species because they are long-lived, mature late (5-7 years) and produce relatively low number of eggs. They aggregate  together, lay their eggs on the seafloor and are easy to catch. These factors make them more susceptible to local overfishing, and once overfished, have a slow path to population recovery. Avoid eating immature whelks and during their breeding season (autumn and winter). Whelks typically receive a lack of management and their populations are rarely assessed, yet they have undergone sudden market changes due to rising demand from the Far East market. The fishery has grown to Yorkshire, Channel and Welsh regions. Whelk landings in the UK have approximately doubled in both tonnage and value between 2002 and 2012, ranking 3rd in landings in England and 1st in Wales in 2016, worth over 10m pounds and 7m pounds respectively. Whelks are long-lived and susceptible to being overfished. Better management is needed to protect the stock. Avoid eating clams harvested using illegal methods such as electrical fishing. Avoid undersized whelks and whelks caught during their spawning season. Choose whelk from better-managed fisheries e.g. IFCA-managed whelk fisheries."
+  },
+  {
+    "name": "Whitebait",
+    "image": false,
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Various species, usually juveniles",
+    "description": "Mature sprat is a more sustainable alternative to whitebait, so if you see whitebait on the menu, ask if it is pure sprat."
+  },
+  {
+    "name": "Whiting",
+    "image": "/images/goodfishguide/121.jpg",
+    "rating_description": "from three to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_04_03_34-55.svg",
+    "latin_name": "Merlangius merlangus",
+    "description": "Whiting are mainly a bycatch species and fisheries suffer from high discard rates. Even whiting above the minimum size (27cm) have been observed to be discarded, due to their low market value and sometimes due to quota restrictions. Where  whiting is taken in trawl fisheries for Nephrops or Dublin Bay prawns, which are less selective for whitefish, discarding rates can be as high as 80%. The mandatory use of more selective fishing gears is required to reduce the amount of whiting being discarded if the fisheries are to become sustainable. Ask for, and only eat, whiting from trawlers using approved methods to improve selectivity and reduce discards. Avoid eating immature fish (less than 30cm), and fresh (not previously frozen) fish caught during the spawning season (March-April)."
+  },
+  {
+    "name": "Winkle, winkles",
+    "image": "/images/goodfishguide/122.jpg",
+    "rating_description": "rating under review",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_00_00_q.svg",
+    "latin_name": "Littorina littorea",
+    "description": "Winkles are gastropod molluscs (having a one-piece coiled shell) that graze on a range of algae. They occur throughout the UK, although they are rare in the Channel Islands and the Isles of Scilly. Winkles form a traditional part of a  seafood platter. Traditionally they are not collected during a month with no R in it. Winkles spawn in the spring and early summer from March until June. Live winkles will need washing in lots of cold water then soaking in a little salted water for 30 minutes before boiling. Boiled in plenty of water, they take 3-4 minutes to cook. Most winkles are collected or gathered by hand, which is a selective method of harvesting that causes less habitat disturbance. Minimum landing sizes for winkles vary between regions, but selecting larger, mature winkles (over 2cm) allows for them to have spawned. There are no stock assessments for winkles and it is highly likely that the harvest is under-recorded. Choose winkles harvested by hand-gathering methods in areas which are well managed."
+  },
+  {
+    "name": "Witch, Witch flounder, Torbay sole",
+    "image": "/images/goodfishguide/123.jpg",
+    "rating_description": "from four to five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_03_04_4-55.svg",
+    "latin_name": "Glyptocephalus cynoglossus",
+    "description": "Fisheries for witch in EU waters outside 6 miles are unregulated, i.e. there is no Minimum Landing Size or other measures specified. Witch are generally taken as bycatch in trawls targeting whitefish. In some coastal areas of England and  Wales, MLSs are enforced, e.g. Cornwall and North Western and North Wales Inshore Fishery Conservation Authorities prohibit the landing of witch below 28 cm. Avoid eating immature fish (less than 28cm) and fresh fish caught during the breeding season (March-September). Choose fish landed in Cornwall or North West Wales where available."
+  },
+  {
+    "name": "Wolffish",
+    "image": "/images/goodfishguide/014.jpg",
+    "rating_description": "five",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_06_5.svg",
+    "latin_name": "Anarhichas lupus",
+    "description": "Wolffish are taken on longlines and as bycatch in mixed trawl and longline fisheries. It is a slow growing fish, vulnerable to the effects of overfishing. There is no stock assessment for this species in EU waters and the fisheries are not  managed. Fishery dependent information suggests large scale decline in the abundance of the species in the last century. Avoid eating."
+  },
+  {
+    "name": "Wrasse, Ballan",
+    "image": false,
+    "rating_description": "four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_04_4.svg",
+    "latin_name": "Labrus bergylta",
+    "description": ""
+  },
+  {
+    "name": "Wreckfish",
+    "image": false,
+    "rating_description": "four",
+    "rating_image": "/images/MCS_GoodFishGuide_Rating_01_04_4.svg",
+    "latin_name": "Polyprion americanus",
+    "description": ""
+  }
+]

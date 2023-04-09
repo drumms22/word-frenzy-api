@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Ada Lovelace",
+    "contributions": ["First computer program"],
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/1280px-Ada_Lovelace_portrait.jpg"
+  },
+  {
+    "name": "Grace Hopper",
+    "contributions": ["A-0 System", "COBOL"],
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg/1920px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29.jpg"
+  },
+  {
+    "name": "Alan Turing",
+    "contributions": [
+      "Universal Computing Machine",
+      "Turing Test",
+      "Breaking The Enigma Code"
+    ],
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg"
+  },
+  {
+    "name": "Jessica McKellar",
+    "contributions": ["Python", "Dropbox"],
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Jessica_McKellar_selfportrait_BW.jpeg/1920px-Jessica_McKellar_selfportrait_BW.jpeg"
+  },
+  {
+    "name": "Karolina Szczur",
+    "contributions": ["JSConfAU", "CSSConfAU"],
+    "picture": "https://avatars0.githubusercontent.com/u/375731?s=460&v=4"
+  },
+  {
+    "name": "John Resig",
+    "contributions": ["jQuery", "Processing.js"],
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Jresig.png"
+  },
+  {
+    "name": "Tracy Lee",
+    "contributions": ["Modern Web Podcast"],
+    "picture": "https://avatars0.githubusercontent.com/u/8270563?s=400&v=4"
+  },
+  {
+    "name": "John Papa",
+    "contributions": ["angular-styleguide", "vscode-angular-snippets"],
+    "picture": "https://avatars0.githubusercontent.com/u/1202528?s=460&v=4"
+  },
+  {
+    "name": "Salman Khan",
+    "contributions": ["Khan Academy"],
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Salman_Khan_TED_2011.jpg/1920px-Salman_Khan_TED_2011.jpg"
+  },
+  {
+    "name": "Quincy Larson",
+    "contributions": ["freeCodeCamp"],
+    "picture": "https://avatars2.githubusercontent.com/u/985197?s=460&v=4"
+  }
+]

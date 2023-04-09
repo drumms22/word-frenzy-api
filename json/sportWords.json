@@ -1,0 +1,812 @@
+[
+  {
+    "name": "ball",
+    "smallDescription": "Used in most sports.",
+    "hint": "Round object."
+  },
+  {
+    "name": "goal",
+    "smallDescription": "Area to score points.",
+    "hint": "Opposite team tries to prevent scoring."
+  },
+  {
+    "name": "net",
+    "smallDescription": "Mesh fabric to catch ball.",
+    "hint": "Used in basketball, soccer, and tennis."
+  },
+  {
+    "name": "field",
+    "smallDescription": "Grassy area to play outdoor sports.",
+    "hint": "Used in football, soccer, and rugby."
+  },
+  {
+    "name": "court",
+    "smallDescription": "Surface to play indoor sports.",
+    "hint": "Used in basketball, tennis, and volleyball."
+  },
+  {
+    "name": "pitch",
+    "smallDescription": "Playing area in soccer.",
+    "hint": "Grassy surface with white markings."
+  },
+  {
+    "name": "hoop",
+    "smallDescription": "Basketball ring.",
+    "hint": "Orange and rimmed with a net."
+  },
+  {
+    "name": "tee",
+    "smallDescription": "Support for golf ball at the start of play.",
+    "hint": "Wooden or plastic stand."
+  },
+  {
+    "name": "club",
+    "smallDescription": "Used in golf to hit the ball.",
+    "hint": "Comes in different types for different shots."
+  },
+  {
+    "name": "bat",
+    "smallDescription": "Used in baseball and cricket.",
+    "hint": "Long wooden or metal object."
+  },
+  {
+    "name": "puck",
+    "smallDescription": "Small rubber disc in ice hockey.",
+    "hint": "Black and hard."
+  },
+  {
+    "name": "skates",
+    "smallDescription": "Worn on feet for ice sports.",
+    "hint": "Come in different sizes and types."
+  },
+  {
+    "name": "stick",
+    "smallDescription": "Used in ice hockey and field hockey.",
+    "hint": "Long and made of wood or composite material."
+  },
+  {
+    "name": "racket",
+    "smallDescription": "Used in tennis, badminton, and squash.",
+    "hint": "Has a stringed surface."
+  },
+  {
+    "name": "glove",
+    "smallDescription": "Worn by baseball and boxing players.",
+    "hint": "Protects the hand and fingers."
+  },
+  {
+    "name": "helmet",
+    "smallDescription": "Protective headgear for contact sports.",
+    "hint": "Can also be worn in non-contact sports."
+  },
+  {
+    "name": "jersey",
+    "smallDescription": "Shirt worn by players with their number.",
+    "hint": "Different colors for different teams."
+  },
+  {
+    "name": "uniform",
+    "smallDescription": "Clothing worn by team members.",
+    "hint": "Helps identify team members."
+  },
+  {
+    "name": "score",
+    "smallDescription": "Number of points earned by a team or player.",
+    "hint": "Can be a tie or win."
+  },
+  {
+    "name": "referee",
+    "smallDescription": "Official who enforces the rules of a game.",
+    "hint": "Wears a black and white striped shirt."
+  },
+  {
+    "name": "coach",
+    "smallDescription": "Trains and manages the team.",
+    "hint": "Guides the team strategy."
+  },
+  {
+    "name": "training",
+    "smallDescription": "Preparation for a sport.",
+    "hint": "Helps improve performance."
+  },
+  {
+    "name": "fitness",
+    "smallDescription": "Physical condition to play a sport.",
+    "hint": "Improves with exercise."
+  },
+  {
+    "name": "exercise",
+    "smallDescription": "Physical activity to improve fitness.",
+    "hint": "Can be cardio or strength-based."
+  },
+  {
+    "name": "tournament",
+    "smallDescription": "Competition with multiple games.",
+    "hint": "Players compete to advance to the next round."
+  },
+  {
+    "name": "championship",
+    "smallDescription": "Title for winning a major competition.",
+    "hint": "The final and most important game of a tournament."
+  },
+  {
+    "name": "medal",
+    "smallDescription": "Award for placing in a competition.",
+    "hint": "Gold, silver, and bronze are the most common types."
+  },
+  {
+    "name": "trophy",
+    "smallDescription": "Award for winning a competition.",
+    "hint": "Often made of metal or glass and comes in different shapes and sizes."
+  },
+  {
+    "name": "record",
+    "smallDescription": "Achievement or best performance in a sport.",
+    "hint": "Can be broken by other athletes in the future."
+  },
+  {
+    "name": "fans",
+    "smallDescription": "Supporters of a team or sport.",
+    "hint": "Often wear their team's colors and logo."
+  },
+  {
+    "name": "dribble",
+    "smallDescription": "Moving the ball with short kicks or bounces.",
+    "hint": "Used in basketball and soccer."
+  },
+  {
+    "name": "serve",
+    "smallDescription": "Starting play in tennis and volleyball.",
+    "hint": "Can determine the outcome of the point."
+  },
+  {
+    "name": "penalty",
+    "smallDescription": "Punishment for breaking the rules.",
+    "hint": "Can result in a free kick, penalty kick, or loss of points."
+  },
+  {
+    "name": "referee",
+    "smallDescription": "Official who enforces the rules of the game.",
+    "hint": "Wears a striped shirt and carries a whistle."
+  },
+  {
+    "name": "coach",
+    "smallDescription": "Trains and manages a sports team.",
+    "hint": "Develops strategies and gives instructions during the game."
+  },
+  {
+    "name": "athlete",
+    "smallDescription": "Person who competes in sports.",
+    "hint": "Can participate in one or multiple sports."
+  },
+  {
+    "name": "equipment",
+    "smallDescription": "Tools or gear used in sports.",
+    "hint": "Varies depending on the sport."
+  },
+  {
+    "name": "scoreboard",
+    "smallDescription": "Displays the score of the game.",
+    "hint": "Located in the stadium or arena for all to see."
+  },
+  {
+    "name": "venue",
+    "smallDescription": "Location where a sports event takes place.",
+    "hint": "Can be indoor or outdoor."
+  },
+  {
+    "name": "sponsor",
+    "smallDescription": "Company that provides financial support for a team or event.",
+    "hint": "Can have their logo displayed on team uniforms or at the event."
+  },
+  {
+    "name": "injury",
+    "smallDescription": "Harm or damage to the body.",
+    "hint": "Can happen due to contact with other players or overuse."
+  },
+  {
+    "name": "tournament bracket",
+    "smallDescription": "Visual representation of tournament matchups.",
+    "hint": "Helps players and fans keep track of who is playing whom."
+  },
+  {
+    "name": "overtime",
+    "smallDescription": "Extra period of play to determine a winner.",
+    "hint": "Occurs when the game is tied at the end of regulation."
+  },
+  {
+    "name": "red card",
+    "smallDescription": "Penalty card given to a player for a serious violation.",
+    "hint": "Results in the player being sent off the field."
+  },
+  {
+    "name": "yellow card",
+    "smallDescription": "Warning card given to a player for a minor violation.",
+    "hint": "Two yellow cards result in a red card."
+  },
+  {
+    "name": "underdog",
+    "smallDescription": "Team or player not favored to win.",
+    "hint": "Can cause excitement and surprise when they win."
+  },
+  {
+    "name": "rivalry",
+    "smallDescription": "Intense competition between two teams or players.",
+    "hint": "Often fueled by a long history of games and personal animosity."
+  },
+  {
+    "name": "sprint",
+    "smallDescription": "Short burst of running at maximum speed.",
+    "hint": "Used to gain an advantage or catch up to the opponent."
+  },
+  {
+    "name": "league",
+    "smallDescription": "Organized group of teams that compete against each other.",
+    "hint": "Often has a regular season and playoffs."
+  },
+  {
+    "name": "home field advantage",
+    "smallDescription": "Advantage a team has when playing at their own stadium or arena.",
+    "hint": "Can include familiarity with the playing surface and support from fans."
+  },
+  {
+    "name": "equipment",
+    "smallDescription": "Tools and gear used to play a sport.",
+    "hint": "Examples include balls, rackets, and helmets."
+  },
+  {
+    "name": "offside",
+    "smallDescription": "Violation that occurs when an attacking player is closer to the opponent's goal than the ball and the second-to-last defender.",
+    "hint": "A common rule in soccer."
+  },
+  {
+    "name": "clearance",
+    "smallDescription": "Defensive move where the ball is kicked or hit away from the goal.",
+    "hint": "Used to prevent scoring by the opponent."
+  },
+  {
+    "name": "huddle",
+    "smallDescription": "Circle of players who come together to discuss strategy.",
+    "hint": "Used in many sports, including American football and basketball."
+  },
+  {
+    "name": "jumper",
+    "smallDescription": "Player who takes a jump shot in basketball.",
+    "hint": "Often used by taller players to shoot over defenders."
+  },
+  {
+    "name": "penalty kick",
+    "smallDescription": "Free shot taken from a set distance in soccer.",
+    "hint": "Given to a team after a major violation by the opponent in the penalty area."
+  },
+  {
+    "name": "relay",
+    "smallDescription": "Team event where each member takes a turn to complete a portion of the race.",
+    "hint": "Used in many sports, including track and field and swimming."
+  },
+  {
+    "name": "umpire",
+    "smallDescription": "Official who enforces the rules of the game and makes calls.",
+    "hint": "Used in many sports, including baseball and tennis."
+  },
+  {
+    "name": "warm up",
+    "smallDescription": "Pre-game routine to prepare the body for exercise.",
+    "hint": "Includes stretching and light exercise to prevent injury."
+  },
+  {
+    "name": "underhand serve",
+    "smallDescription": "Serving technique in which the ball is hit with an underhand motion.",
+    "hint": "Used in sports like volleyball and pickleball."
+  },
+  {
+    "name": "touchdown",
+    "smallDescription": "Scoring play worth 6 points in American football.",
+    "hint": "Occurs when the ball is carried or caught in the opponent's end zone."
+  },
+  {
+    "name": "field goal",
+    "smallDescription": "Scoring play worth 3 points in American football.",
+    "hint": "Occurs when the ball is kicked through the opponent's goalposts."
+  },
+  {
+    "name": "quarterback",
+    "smallDescription": "Offensive player who passes or hands off the ball to other players.",
+    "hint": "Considered the leader of the offense."
+  },
+  {
+    "name": "line of scrimmage",
+    "smallDescription": "Imaginary line on the field where the ball is placed before each play.",
+    "hint": "Determines where the play begins and where players can line up."
+  },
+  {
+    "name": "offensive line",
+    "smallDescription": "Group of players who block for the quarterback and running backs.",
+    "hint": "Forms a protective wall around the ball carrier."
+  },
+  {
+    "name": "sack",
+    "smallDescription": "Tackle of the quarterback behind the line of scrimmage.",
+    "hint": "Can result in a loss of yards for the offense."
+  },
+  {
+    "name": "interception",
+    "smallDescription": "Defensive play where a player catches a pass intended for an offensive player.",
+    "hint": "Results in a change of possession."
+  },
+  {
+    "name": "fumble",
+    "smallDescription": "Loss of possession due to the ball carrier dropping the ball.",
+    "hint": "Can be recovered by either team."
+  },
+  {
+    "name": "punt",
+    "smallDescription": "Offensive play where the ball is kicked to the opponent.",
+    "hint": "Usually done on fourth down to give the opponent a longer field to work with."
+  },
+  {
+    "name": "red zone",
+    "smallDescription": "Area between the opponent's 20-yard line and their goal line.",
+    "hint": "Considered a scoring opportunity for the offense."
+  },
+  {
+    "name": "center",
+    "smallDescription": "Offensive lineman who snaps the ball to the quarterback.",
+    "hint": "Usually the tallest player on the offensive line."
+  },
+  {
+    "name": "guard",
+    "smallDescription": "Offensive lineman who blocks for the quarterback and running backs.",
+    "hint": "Usually lines up on either side of the center."
+  },
+  {
+    "name": "tackle",
+    "smallDescription": "Offensive lineman who blocks for the quarterback and running backs.",
+    "hint": "Lines up on the outside of the guards."
+  },
+  {
+    "name": "wide receiver",
+    "smallDescription": "Offensive player who catches passes from the quarterback.",
+    "hint": "Usually lines up on the outside of the offensive formation."
+  },
+  {
+    "name": "tight end",
+    "smallDescription": "Offensive player who blocks and catches passes from the quarterback.",
+    "hint": "Lines up next to the offensive line."
+  },
+  {
+    "name": "running back",
+    "smallDescription": "Offensive player who runs with the ball and catches passes from the quarterback.",
+    "hint": "Usually lines up behind the quarterback."
+  },
+  {
+    "name": "defensive tackle",
+    "smallDescription": "Defensive player who lines up in the middle of the defensive line.",
+    "hint": "Usually the largest player on the defense."
+  },
+  {
+    "name": "defensive end",
+    "smallDescription": "Defensive player who lines up on the outside of the defensive line.",
+    "hint": "Responsible for containing the ball carrier."
+  },
+  {
+    "name": "linebacker",
+    "smallDescription": "Defensive player who lines up behind the defensive line and tackles ball carriers.",
+    "hint": "Considered the heart of the defense."
+  },
+  {
+    "name": "cornerback",
+    "smallDescription": "Defensive player who covers wide receivers.",
+    "hint": "Usually lines up on the outside of the defensive formation."
+  },
+  {
+    "name": "safety",
+    "smallDescription": "Defensive player who defends against both the pass and the run.",
+    "hint": "Responsible for covering the deep part of the field."
+  },
+  {
+    "name": "kicker",
+    "smallDescription": "Special teams player who kicks the ball during kickoffs, field goals, and extra points.",
+    "hint": "Usually the team's best kicker."
+  },
+  {
+    "name": "punter",
+    "smallDescription": "Special teams player who kicks the ball to the opposing team on fourth down.",
+    "hint": "Usually the team's best kicker."
+  },
+  {
+    "name": "long snapper",
+    "smallDescription": "Special teams player who snaps the ball to the punter or kicker.",
+    "hint": "Usually the team's center on special teams."
+  },
+  {
+    "name": "point guard",
+    "smallDescription": "Offensive player who initiates the team's offensive plays.",
+    "hint": "Considered the floor general and primary ball-handler."
+  },
+  {
+    "name": "shooting guard",
+    "smallDescription": "Offensive player who primarily scores points through jump shots and three-pointers.",
+    "hint": "Often the team's best perimeter shooter."
+  },
+  {
+    "name": "small forward",
+    "smallDescription": "Offensive player who is versatile and plays multiple roles on the court.",
+    "hint": "Can score, rebound, and pass the ball effectively."
+  },
+  {
+    "name": "power forward",
+    "smallDescription": "Offensive player who typically plays close to the basket and scores primarily through layups and dunks.",
+    "hint": "Often the team's best rebounder."
+  },
+  {
+    "name": "center",
+    "smallDescription": "Offensive player who plays closest to the basket and is responsible for scoring points through putbacks and dunks.",
+    "hint": "Usually the tallest player on the team."
+  },
+  {
+    "name": "pitcher",
+    "smallDescription": "Player who throws the ball to the opposing team to start a play.",
+    "hint": "Responsible for throwing strikes and getting batters out."
+  },
+  {
+    "name": "catcher",
+    "smallDescription": "Player who stands behind home plate and catches pitches thrown by the pitcher.",
+    "hint": "Responsible for calling pitches and catching foul balls."
+  },
+  {
+    "name": "first baseman",
+    "smallDescription": "Player who defends the area near first base and catches throws from other infielders.",
+    "hint": "Often the team's best defensive player."
+  },
+  {
+    "name": "second baseman",
+    "smallDescription": "Player who defends the area near second base and catches throws from other infielders.",
+    "hint": "Often the team's best double play turner."
+  },
+  {
+    "name": "shortstop",
+    "smallDescription": "Player who defends the area between second and third base and catches throws from other infielders.",
+    "hint": "Often the team's best all-around fielder."
+  },
+  {
+    "name": "third baseman",
+    "smallDescription": "Player who defends the area near third base and catches throws from other infielders.",
+    "hint": "Often the team's best defensive player."
+  },
+  {
+    "name": "outfielder",
+    "smallDescription": "Player who defends the outfield and catches fly balls hit by the opposing team.",
+    "hint": "Responsible for preventing home runs and extra-base hits."
+  },
+  {
+    "name": "defenseman",
+    "smallDescription": "Player who primarily defends the team's zone and tries to prevent the opposing team from scoring.",
+    "hint": "Often the team's strongest skater and hardest hitter."
+  },
+  {
+    "name": "center",
+    "smallDescription": "Player who takes faceoffs and is responsible for both offense and defense.",
+    "hint": "Often the team's best all-around player."
+  },
+  {
+    "name": "left winger",
+    "smallDescription": "Offensive player who attacks the opposing team's zone from the left side of the rink.",
+    "hint": "Often the team's best scorer."
+  },
+  {
+    "name": "right winger",
+    "smallDescription": "Offensive player who attacks the opposing team's zone from the right side of the rink.",
+    "hint": "Often the team's best scorer."
+  },
+  {
+    "name": "dunk",
+    "smallDescription": "Scoring a basket by jumping high and slamming the ball through the hoop.",
+    "hint": "A flashy way to score."
+  },
+  {
+    "name": "alley oop",
+    "smallDescription": "A high pass caught by a teammate in mid-air and dunked in the basket.",
+    "hint": "A difficult play to pull off, but impressive when executed correctly."
+  },
+  {
+    "name": "fast break",
+    "smallDescription": "A play in which a team quickly moves the ball up the court to score before the opposing team can set up its defense.",
+    "hint": "A high-speed offensive play that requires quick passing and fast footwork."
+  },
+  {
+    "name": "pick and roll",
+    "smallDescription": "A play in which one player sets a screen for a teammate with the ball, then rolls to the basket to receive a pass and score.",
+    "hint": "A common play used to create scoring opportunities."
+  },
+  {
+    "name": "rebound",
+    "smallDescription": "Grabbing the ball after a missed shot or free throw.",
+    "hint": "A key part of the game, especially on the defensive end."
+  },
+  {
+    "name": "assist",
+    "smallDescription": "Passing the ball to a teammate who then scores.",
+    "hint": "An important statistic for evaluating a player's ability to create scoring opportunities for others."
+  },
+  {
+    "name": "block",
+    "smallDescription": "Stopping a shot by getting in the way and deflecting the ball.",
+    "hint": "A defensive play that requires good timing and jumping ability."
+  },
+  {
+    "name": "steal",
+    "smallDescription": "Taking the ball away from an opposing player without fouling.",
+    "hint": "A defensive play that can quickly shift momentum in a game."
+  },
+  {
+    "name": "zone defense",
+    "smallDescription": "A defensive strategy in which each player guards a specific area of the court instead of an individual player.",
+    "hint": "A way to prevent penetration and force outside shots."
+  },
+  {
+    "name": "inning",
+    "smallDescription": "The period of play in which each team gets a turn at bat and in the field.",
+    "hint": "A game is typically played over nine of these."
+  },
+  {
+    "name": "home run",
+    "smallDescription": "A hit that allows the batter to circle all the bases and score a run.",
+    "hint": "One of the most exciting plays in baseball."
+  },
+  {
+    "name": "double play",
+    "smallDescription": "A defensive play in which two opposing players are put out on a single play.",
+    "hint": "A great way to quickly end an inning."
+  },
+  {
+    "name": "bunt",
+    "smallDescription": "A technique in which the batter lightly taps the ball and attempts to reach first base before being thrown out.",
+    "hint": "A useful play when a runner needs to be moved into scoring position."
+  },
+  {
+    "name": "steal",
+    "smallDescription": "When a runner advances to the next base without the ball being hit or a walk being issued.",
+    "hint": "A risky play, but can be a game-changer."
+  },
+  {
+    "name": "slider",
+    "smallDescription": "A type of pitch that appears to be a fastball but then breaks away from the batter's bat.",
+    "hint": "A difficult pitch for batters to hit."
+  },
+  {
+    "name": "curveball",
+    "smallDescription": "A type of pitch that curves downward as it approaches the batter.",
+    "hint": "Another tricky pitch to hit."
+  },
+  {
+    "name": "fastball",
+    "smallDescription": "A pitch thrown with maximum velocity.",
+    "hint": "One of the most common pitches in baseball."
+  },
+  {
+    "name": "sacrifice fly",
+    "smallDescription": "A fly ball that allows a runner to score after being caught by an outfielder.",
+    "hint": "A way to trade an out for a run."
+  },
+  {
+    "name": "error",
+    "smallDescription": "A defensive misplay that allows a batter or runner to reach base safely.",
+    "hint": "An unfortunate mistake for the fielding team."
+  },
+  {
+    "name": "stickhandling",
+    "smallDescription": "The skill of moving the puck along the ice using a hockey stick.",
+    "hint": "A fundamental skill for all hockey players."
+  },
+  {
+    "name": "slap shot",
+    "smallDescription": "A powerful shot that involves swinging the stick down and striking the puck with the blade.",
+    "hint": "One of the hardest shots in hockey."
+  },
+  {
+    "name": "wrist shot",
+    "smallDescription": "A quick and accurate shot that involves flicking the wrist to shoot the puck.",
+    "hint": "A versatile shot that can be used in many situations."
+  },
+  {
+    "name": "body check",
+    "smallDescription": "A defensive technique in which a player makes physical contact with an opponent to separate them from the puck.",
+    "hint": "A key part of playing defense in hockey."
+  },
+  {
+    "name": "icing",
+    "smallDescription": "A violation that occurs when a player shoots the puck across both the center red line and the opposing team's goal line.",
+    "hint": "Results in a stoppage of play and a face-off in the offending team's zone."
+  },
+  {
+    "name": "offside",
+    "smallDescription": "A violation that occurs when an attacking player enters the offensive zone before the puck.",
+    "hint": "Results in a stoppage of play and a face-off outside the offending team's zone."
+  },
+  {
+    "name": "power play",
+    "smallDescription": "A situation in which one team has a numerical advantage due to a penalty being assessed to the other team.",
+    "hint": "A prime opportunity to score a goal."
+  },
+  {
+    "name": "penalty kill",
+    "smallDescription": "A situation in which one team is shorthanded due to a penalty being assessed.",
+    "hint": "The objective is to prevent the other team from scoring while down a player."
+  },
+  {
+    "name": "face off",
+    "smallDescription": "A method used to start play in which an official drops the puck between two opposing players.",
+    "hint": "Occurs at the beginning of each period, after a goal is scored, and after stoppages in play."
+  },
+  {
+    "name": "hat trick",
+    "smallDescription": "A term used when a player scores three goals in a single game.",
+    "hint": "A rare and impressive feat."
+  },
+  {
+    "name": "gutter",
+    "smallDescription": "The troughs on either side of the lane where the ball can end up if it doesn't hit any pins.",
+    "hint": "The bane of many bowlers' existence."
+  },
+  {
+    "name": "strike",
+    "smallDescription": "Knocking down all ten pins with one roll of the ball.",
+    "hint": "The best possible outcome on a single roll."
+  },
+  {
+    "name": "spare",
+    "smallDescription": "Knocking down all ten pins with two rolls of the ball.",
+    "hint": "A common and important outcome in bowling."
+  },
+  {
+    "name": "split",
+    "smallDescription": "A leave in which the headpin is knocked down, but at least one pin on either side of it remains standing.",
+    "hint": "A difficult leave to convert."
+  },
+  {
+    "name": "turkey",
+    "smallDescription": "Scoring three consecutive strikes in a single game.",
+    "hint": "A term used to describe a hot streak."
+  },
+  {
+    "name": "perfect game",
+    "smallDescription": "Scoring twelve consecutive strikes in a single game.",
+    "hint": "The ultimate achievement in bowling."
+  },
+  {
+    "name": "approach",
+    "smallDescription": "The area of the lane where the bowler takes their steps before releasing the ball.",
+    "hint": "A critical part of the bowling process."
+  },
+  {
+    "name": "finger holes",
+    "smallDescription": "The three holes drilled into the ball where the bowler inserts their fingers.",
+    "hint": "A key part of a bowler's grip on the ball."
+  },
+  {
+    "name": "alley",
+    "smallDescription": "The narrow lane where the bowling ball is rolled.",
+    "hint": "The setting for the game of bowling."
+  },
+  {
+    "name": "handicap",
+    "smallDescription": "A system used to level the playing field by giving lower-skilled bowlers a higher score to start with.",
+    "hint": "Allows bowlers of different skill levels to compete on an even playing field."
+  },
+  {
+    "name": "fairway",
+    "smallDescription": "The strip of shorter grass between the tee box and the green where golfers are expected to hit their shots.",
+    "hint": "A prime location for tee shots."
+  },
+  {
+    "name": "rough",
+    "smallDescription": "The longer, thicker grass on either side of the fairway.",
+    "hint": "A hazard that can make shots more difficult."
+  },
+  {
+    "name": "putt",
+    "smallDescription": "A golf shot made on the green, usually with a putter.",
+    "hint": "A critical part of the game of golf."
+  },
+  {
+    "name": "birdie",
+    "smallDescription": "Scoring one stroke better than par on a hole.",
+    "hint": "A desirable outcome in golf."
+  },
+  {
+    "name": "eagle",
+    "smallDescription": "Scoring two strokes better than par on a hole.",
+    "hint": "A rare but exciting achievement in golf."
+  },
+  {
+    "name": "bogey",
+    "smallDescription": "Scoring one stroke worse than par on a hole.",
+    "hint": "A common outcome in golf."
+  },
+  {
+    "name": "par",
+    "smallDescription": "The predetermined number of strokes a skilled golfer is expected to take to complete a hole or a course.",
+    "hint": "A standard of measurement in golf."
+  },
+  {
+    "name": "caddie",
+    "smallDescription": "A person who carries a golfer's clubs and provides advice and assistance during a round of golf.",
+    "hint": "An important role in golf."
+  },
+  {
+    "name": "sand trap",
+    "smallDescription": "An area of sand near the green that is considered a hazard.",
+    "hint": "A challenging obstacle on many golf courses."
+  },
+  {
+    "name": "driver",
+    "smallDescription": "The longest club used for tee shots and long drives.",
+    "hint": "Often used for the first shot of each hole."
+  },
+  {
+    "name": "fairway wood",
+    "smallDescription": "A club with a long, rounded head designed for shots off the fairway.",
+    "hint": "Useful for long shots that are not from the tee."
+  },
+  {
+    "name": "hybrid",
+    "smallDescription": "A combination of an iron and a wood, designed for versatility and ease of use.",
+    "hint": "A newer type of club that has become increasingly popular."
+  },
+  {
+    "name": "iron",
+    "smallDescription": "A club with a flat, angled face, used for shots from the fairway or rough.",
+    "hint": "Comes in different sizes, numbered from 1 to 9."
+  },
+  {
+    "name": "wedge",
+    "smallDescription": "A type of iron with a high loft, used for shots that require a high, short trajectory.",
+    "hint": "Comes in different varieties, such as sand wedges and pitching wedges."
+  },
+  {
+    "name": "putter",
+    "smallDescription": "A club used for putting on the green.",
+    "hint": "Critical for finishing off each hole."
+  },
+  {
+    "name": "drafting",
+    "smallDescription": "Tactic of following closely behind another car to reduce wind resistance and increase speed.",
+    "hint": "Often used on superspeedways."
+  },
+  {
+    "name": "restrictor plate",
+    "smallDescription": "Device used to limit the amount of air and fuel that enters the engine, reducing speed for safety purposes.",
+    "hint": "Required at certain tracks, such as Daytona and Talladega."
+  },
+  {
+    "name": "Pit road",
+    "smallDescription": "Area where teams can change tires, refuel, and make adjustments to the car during a race.",
+    "hint": "Critical for maintaining performance during long races."
+  },
+  {
+    "name": "pace car",
+    "smallDescription": "Official car that leads the field during caution periods and the start of the race.",
+    "hint": "Sets the speed limit for the cars on the track."
+  },
+  {
+    "name": "chicane",
+    "smallDescription": "A series of tight turns on a road course, designed to slow down the cars and increase the difficulty of the track.",
+    "hint": "Used to create more passing opportunities."
+  },
+  {
+    "name": "aero push",
+    "smallDescription": "The tendency of a car to push towards the outside of a turn due to aerodynamic effects.",
+    "hint": "Can be caused by driving too closely to other cars."
+  },
+  {
+    "name": "burnout",
+    "smallDescription": "A maneuver in which a driver spins the wheels of their car to create smoke and celebrate a victory.",
+    "hint": "Can also be used to warm up the tires before a race."
+  },
+  {
+    "name": "caution flag",
+    "smallDescription": "A flag displayed by officials to indicate a hazard on the track, such as an accident or debris.",
+    "hint": "Causes the cars to slow down and follow the pace car until the hazard is cleared."
+  }
+]

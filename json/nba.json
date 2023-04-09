@@ -1,0 +1,242 @@
+[
+  {
+    "team": "Atlanta Hawks",
+    "shortName": "Hawks",
+    "stadium": "State Farm Arena",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Boston Celtics",
+    "shortName": "Celtics",
+    "stadium": "TD Garden",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Brooklyn Nets",
+    "shortName": "Nets",
+    "stadium": "Barclays Center",
+    "city": "Brooklyn",
+    "state": "New York",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Charlotte Hornets",
+    "shortName": "Hornets",
+    "stadium": "Spectrum Center",
+    "city": "Charlotte",
+    "state": "North Carolina",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Chicago Bulls",
+    "shortName": "Bulls",
+    "stadium": "United Center",
+    "city": "Chicago",
+    "state": "Illinois",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Cleveland Cavaliers",
+    "shortName": "Cavaliers",
+    "stadium": "Rocket Mortgage FieldHouse",
+    "city": "Cleveland",
+    "state": "Ohio",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Detroit Pistons",
+    "shortName": "Pistons",
+    "stadium": "Little Caesars Arena",
+    "city": "Detroit",
+    "state": "Michigan",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Indiana Pacers",
+    "shortName": "Pacers",
+    "stadium": "Bankers Life Fieldhouse",
+    "city": "Indianapolis",
+    "state": "Indiana",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Miami Heat",
+    "shortName": "Heat",
+    "stadium": "American Airlines Arena",
+    "city": "Miami",
+    "state": "Florida",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Philadelphia 76ers",
+    "shortName": "76ers",
+    "stadium": "Wells Fargo Center",
+    "city": "Philadelphia",
+    "state": "Pennsylvania",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Memphis Grizzlies",
+    "shortName": "Grizzlies",
+    "stadium": "FedExForum",
+    "city": "Memphis",
+    "state": "Tennessee",
+    "conference": "Western"
+  },
+  {
+    "team": "New Orleans Pelicans",
+    "shortName": "Pelicans",
+    "stadium": "Smoothie King Center",
+    "city": "New Orleans",
+    "state": "Louisiana",
+    "conference": "Western"
+  },
+  {
+    "team": "San Antonio Spurs",
+    "shortName": "Spurs",
+    "stadium": "ATT Center",
+    "city": "San Antonio",
+    "state": "Texas",
+    "conference": "Western"
+  },
+  {
+    "team": "Dallas Mavericks",
+    "shortName": "Mavericks",
+    "stadium": "American Airlines Center",
+    "city": "Dallas",
+    "state": "Texas",
+    "conference": "Western"
+  },
+  {
+    "team": "Houston Rockets",
+    "shortName": "Rockets",
+    "stadium": "Toyota Center",
+    "city": "Houston",
+    "state": "Texas",
+    "conference": "Western"
+  },
+  {
+    "team": "Denver Nuggets",
+    "shortName": "Nuggets",
+    "stadium": "Ball Arena",
+    "city": "Denver",
+    "state": "Colorado",
+    "conference": "Western"
+  },
+  {
+    "team": "Minnesota Timberwolves",
+    "shortName": "Timberwolves",
+    "stadium": "Target Center",
+    "city": "Minneapolis",
+    "state": "Minnesota",
+    "conference": "Western"
+  },
+  {
+    "team": "Oklahoma City Thunder",
+    "shortName": "Thunder",
+    "stadium": "Paycom Center",
+    "city": "Oklahoma City",
+    "state": "Oklahoma",
+    "conference": "Western"
+  },
+  {
+    "team": "Portland Trail Blazers",
+    "shortName": "Trail Blazers",
+    "stadium": "Moda Center",
+    "city": "Portland",
+    "state": "Oregon",
+    "conference": "Western"
+  },
+  {
+    "team": "Utah Jazz",
+    "shortName": "Jazz",
+    "stadium": "Vivint Arena",
+    "city": "Salt Lake City",
+    "state": "Utah",
+    "conference": "Western"
+  },
+  {
+    "team": "Golden State Warriors",
+    "shortName": "Warriors",
+    "stadium": "Chase Center",
+    "city": "San Francisco",
+    "state": "California",
+    "conference": "Western"
+  },
+  {
+    "team": "Los Angeles Clippers",
+    "shortName": "Clippers",
+    "stadium": "Staples Center",
+    "city": "Los Angeles",
+    "state": "California",
+    "conference": "Western"
+  },
+  {
+    "team": "Los Angeles Lakers",
+    "shortName": "Lakers",
+    "stadium": "Staples Center",
+    "city": "Los Angeles",
+    "state": "California",
+    "conference": "Western"
+  },
+  {
+    "team": "Phoenix Suns",
+    "shortName": "Suns",
+    "stadium": "Phoenix Suns Arena",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "conference": "Western"
+  },
+  {
+    "team": "Sacramento Kings",
+    "shortName": "Kings",
+    "stadium": "Golden 1 Center",
+    "city": "Sacramento",
+    "state": "California",
+    "conference": "Western"
+  },
+  {
+    "team": "Milwaukee Bucks",
+    "shortName": "Bucks",
+    "stadium": "Fiserv Forum",
+    "city": "Milwaukee",
+    "state": "Wisconsin",
+    "conference": "Eastern"
+  },
+  {
+    "team": "New York Knicks",
+    "shortName": "Knicks",
+    "stadium": "Madison Square Garden",
+    "city": "New York",
+    "state": "New York",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Orlando Magic",
+    "shortName": "Magic",
+    "stadium": "Amway Center",
+    "city": "Orlando",
+    "state": "Florida",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Toronto Raptors",
+    "shortName": "Raptors",
+    "stadium": "Scotiabank Arena",
+    "city": "Toronto",
+    "state": "Ontario",
+    "conference": "Eastern"
+  },
+  {
+    "team": "Washington Wizards",
+    "shortName": "Wizards",
+    "stadium": "Capital One Arena",
+    "city": "Washington, D.C.",
+    "state": "District of Columbia",
+    "conference": "Eastern"
+  }
+]

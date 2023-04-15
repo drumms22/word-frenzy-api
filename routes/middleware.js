@@ -4,7 +4,7 @@ const { checkProfanity } = require('../scripts/words');
 // Add the app.all() middleware function for paths that end in "check"
 router.all('*check', async (req, res, next) => {
   let checkProf = await checkProfanity(req.body.name);
-
+  console.log(checkProf);
   if (checkProf) {
     return res.json({
       data: [false]

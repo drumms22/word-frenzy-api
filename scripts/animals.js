@@ -10,9 +10,10 @@ const getAnimal = async (type, min, max) => {
 
   let animalName = "";
   let r = 0;
+  let filtered = [];
   switch (type) {
     case "animals":
-      let filtered = animals.animals3.filter((a) => a.length >= min && a.length <= max);
+      filtered = animals.animals3.filter((a) => a.length >= min && a.length <= max);
       r = await generateRandomNumber(0, filtered.length - 1);
       animalName = filtered[r];
       break;

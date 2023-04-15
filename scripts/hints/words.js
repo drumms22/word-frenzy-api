@@ -92,7 +92,7 @@ const getSynonym = async (word) => {
       }
     });
 
-    return synonyms;
+    return [synonyms.join(', ')];
 
   } catch (error) {
     console.log("synonym error: " + error);

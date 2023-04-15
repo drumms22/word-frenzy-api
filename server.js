@@ -1,7 +1,10 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3000;
 var cors = require('cors')
+const server = require('http').Server(app);
+const io = require('socket.io')(server);
+const pvpSocketHandler = require('./sockets/pvpSocketHandler')(io);
+const port = process.env.PORT || 3000;
 require('dotenv').config()
 
 const hints = require('./routes/hints');
@@ -28,7 +31,7 @@ app.use('/hints', hints);
 app.use('/users', users);
 
 connectDB().then(() => {
-  app.listen(port, () => {
+  server.listen(port, () => {
     console.log(`Example app listening on port ${port}`);
   });
 })

@@ -31,12 +31,15 @@ const checkWord = async (word) => {
 
 const checkProfanity = async (word) => new Filter().isProfane(word);
 
-const checkRitaWord = async (word) => await RiTa.hasWord(word)
+const checkRitaWord = async (word) => await RiTa.hasWord(word);
+
+const getRitaWord = async (min, max) => RiTa.randomWord({ minLength: min, maxLength: max });
 
 
 module.exports = {
   getNewWord,
   checkWord,
   checkRitaWord,
-  checkProfanity
+  checkProfanity,
+  getRitaWord
 }

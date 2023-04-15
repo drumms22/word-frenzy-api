@@ -2,6 +2,7 @@ const express = require('express')
 const router = express.Router();
 const { animals1 } = require("../json/animals.json");
 const { getAnimal } = require('../scripts/animals');
+const { checkRitaWord } = require('../scripts/words');
 
 router.get('/', async (req, res) => {
 
@@ -20,7 +21,8 @@ router.post('/check', async (req, res) => {
 
   for (let i = 0; i < words.length; i++) {
     let d = animals1.filter((a) => a.toLowerCase().includes(words[i]))
-    if (d.length > 0) {
+    let cw = checkRitaWord(words[i])
+    if (d.length > 0 || cw) {
       animals.push(words[i]);
     }
   }

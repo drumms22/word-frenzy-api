@@ -1,15 +1,21 @@
 const User = require('../models/User');
-
-const getUser = async (id) => {
+const mongoose = require('mongoose');
+const getUser = async (data) => {
 
   try {
 
 
-    const user = await User.findById(id);
+    const isValidObjectId = mongoose.Types.ObjectId.isValid(data);
 
-    const jsonData = await JSON.parse(user.data);
+    let user;
 
-    return jsonData;
+    if (isValidObjectId) {
+      user = await User.findOne({ _id: data }); // search by _id field
+    } else {
+      user = await User.findOne({ username: data }); // search by username field
+    }
+
+    return user;
 
   } catch (error) {
     console.log(error);
@@ -17,16 +23,24 @@ const getUser = async (id) => {
   }
 }
 
-const saveUser = async (data) => {
+const saveUser = async (data, username) => {
 
   try {
 
     let str = JSON.stringify(data);
 
-    const newUser = await new User({
-      data: str
-    })
+    let checkUsername = await getUser(username);
 
+    console.log(checkUsername);
+
+    if (checkUsername) {
+      return false;
+    }
+
+    const newUser = await new User({
+      data: str,
+      username
+    })
     const save = await newUser.save();
 
     return save.id;
@@ -63,8 +77,33 @@ const updateUser = async (toBeUpdated) => {
 }
 
 
+const updateUsername = async (id, name) => {
+
+  try {
+
+
+    const updated = await User.findByIdAndUpdate(
+      { _id: id },
+      { $set: { username: name } },
+      { new: true }
+    );
+
+    if (!updated) {
+      return false;
+    }
+
+    return true;
+
+  } catch (error) {
+    console.log(error);
+    return false;
+  }
+
+}
+
 module.exports = {
   getUser,
   saveUser,
-  updateUser
+  updateUser,
+  updateUsername
 }

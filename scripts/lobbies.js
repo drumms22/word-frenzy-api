@@ -9,7 +9,7 @@ const { getMovie } = require('../scripts/movies');
 const { scrambleWord } = require('../scripts/utilities');
 const mongoose = require('mongoose');
 
-const createLobby = async (playerId) => {
+const createLobby = async (playerId, name) => {
 
   try {
     const lobbyCode = await nanoid();
@@ -17,6 +17,7 @@ const createLobby = async (playerId) => {
       code: lobbyCode,
       players: [{
         id: playerId,
+        username: name,
         isWinner: false,
         duration: 0,
         didComplete: false,
@@ -133,7 +134,7 @@ const getWords = async (num) => {
 
 }
 
-const joinLobby = async (lobbyId, playerId) => {
+const joinLobby = async (lobbyId, playerId, username) => {
 
   let lobby = await getLobby(lobbyId);
 
@@ -141,6 +142,7 @@ const joinLobby = async (lobbyId, playerId) => {
     lobby.players.push({
       _id: new mongoose.Types.ObjectId(),
       id: playerId,
+      username: username,
       isWinner: false,
       duration: 0,
       didComplete: false,

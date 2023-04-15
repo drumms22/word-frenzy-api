@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const ObjectId = mongoose.Types.ObjectId;
+
 
 const LobbySchema = new mongoose.Schema({
   code: { type: String, required: true },
@@ -9,6 +9,7 @@ const LobbySchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User'
       },
+      username: { type: String },
       isWinner: { type: Boolean },
       duration: { type: Number },
       didComplete: { type: Boolean },

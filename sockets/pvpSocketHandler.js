@@ -21,9 +21,10 @@ module.exports = function (io) {
           lobby = lobbyExists;
         }
       }
-
+      console.log("username: ", data.username);
+      console.log("data: ", data);
       if (lobby === null) {
-        let newLobby = await createLobby(data.playerId);
+        let newLobby = await createLobby(data.playerId, data.username);
         if (newLobby) {
           lobby = newLobby;
         }
@@ -60,7 +61,7 @@ module.exports = function (io) {
         lobby = lobbyExists;
 
       } else {
-        let joined = await joinLobby("" + data.lobbyId, data.playerId);
+        let joined = await joinLobby("" + data.lobbyId, data.playerId, data.username);
         if (!joined) return;
         lobby = joined;
       }

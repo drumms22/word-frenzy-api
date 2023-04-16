@@ -6,10 +6,10 @@ var Filter = require('bad-words');
 const getNewWord = async (min, max) => {
 
   let word = RiTa.randomWord({ minLength: min, maxLength: max });
-  console.log(word);
+
   let s = await scrambleWord(word);
   let u = await unScrambleWord(s);
-  console.log(u);
+
   return s
 }
 

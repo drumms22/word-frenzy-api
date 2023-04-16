@@ -38,7 +38,7 @@ const getHint = async (car, type = "normal", previousHints) => {
       hint1 = await createHint(getFields(availableFields), hintsUsed);
       hintsUsed.push(hint1.name)
       hint += await generateHint(hint1.name, hint1.value, "The cars");
-      console.log("Hint1: " + hint);
+
     }
 
     let hint2 = await createHint(getFields(availableFields), hintsUsed);
@@ -61,7 +61,6 @@ const getHint = async (car, type = "normal", previousHints) => {
     hint = createSpecialHint(car, numHints);
   }
 
-  console.log(hint);
 
   return [{
     hint,

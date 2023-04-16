@@ -18,9 +18,9 @@ router.post('/', async (req, res) => {
     }
     let hint = "";
     const word = unScrambleWord(data[prop]);
-    console.log(word);
+
     if (!word) throw new Error("Not a valid entry!");
-    console.log(prop);
+
     switch (prop) {
       case "word":
         hint = await words.getHint(word, data.type, data.hintsUsed);

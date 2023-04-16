@@ -17,10 +17,6 @@ router.post('/check', async (req, res) => {
 
   let isValid = false;
 
-  let word = req.body.name;
-
-  console.log(word);
-
   let check = await cars.filter((c) => c.model.includes(req.body.name) || c.make.includes(req.body.name));
 
   if (check.length > 0) {

@@ -2,7 +2,7 @@ const axios = require('axios');
 require('dotenv').config()
 const { createSpecialHint, calculateNumHints } = require('../utilities');
 const getHint = async (word, type, hintsUsed) => {
-  console.log(type);
+
   let hint = "";
   let completed = false;
   switch (type) {
@@ -31,7 +31,7 @@ const getHint = async (word, type, hintsUsed) => {
     let numHints = await calculateNumHints(word);
     hint = createSpecialHint(word, numHints);
   }
-  console.log(hint);
+
   return [{
     hint,
     hintsUsed,
@@ -83,7 +83,7 @@ const getSynonym = async (word) => {
       }
     })
 
-    console.log(req.data);
+
     let synonyms = req.data.synonyms;
 
     synonyms.map((s, i) => {

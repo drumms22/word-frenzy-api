@@ -172,7 +172,7 @@ const getHint = async (sport, type, previousHints, sportC) => {
       completed: completed
     }];
   }
-  console.log(hint);
+
   return [{
     hint,
     hintsUsed,

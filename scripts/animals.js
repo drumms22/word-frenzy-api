@@ -39,7 +39,7 @@ const getAnimal = async (type, min, max) => {
     r = await generateRandomNumber(0, filtered.length - 1);
     animalName = filtered[r];
   }
-  console.log(animalName);
+
   let scrambled = await scrambleWord(animalName.toLowerCase());
 
   // let hint = await createHint(res[r]);

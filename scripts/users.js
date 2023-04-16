@@ -31,8 +31,6 @@ const saveUser = async (data, username) => {
 
     let checkUsername = await getUser(username);
 
-    console.log(checkUsername);
-
     if (checkUsername) {
       return false;
     }

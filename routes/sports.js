@@ -22,7 +22,7 @@ router.get('/', async (req, res) => {
 router.post('/check', (req, res) => {
 
   let isValid = false;
-  console.log(req.body);
+
   let num = 0;
   if (req.body.sportC > 4) req.body.sportC = 4;
   switch (req.body.sportC) {

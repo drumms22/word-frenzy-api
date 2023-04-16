@@ -21,8 +21,6 @@ module.exports = function (io) {
           lobby = lobbyExists;
         }
       }
-      console.log("username: ", data.username);
-      console.log("data: ", data);
       if (lobby === null) {
         let newLobby = await createLobby(data.playerId, data.username);
         if (newLobby) {
@@ -134,6 +132,18 @@ module.exports = function (io) {
     //Start the game
     socket.on('start', async (lobby) => {
 
+      let tempLobby = await getLobby(lobby.lobbyId);
+
+      if (!tempLobby) {
+        socket.emit("alert", "No lobby found!");
+        return;
+      }
+
+      if (tempLobby.players.length != 2) {
+        socket.emit("alert", "Two players are needed!");
+        return;
+      }
+
       let wordsData = await handleWords(lobby.catSel);
       const obj = {
         code: lobby.lobbyId,
@@ -160,7 +170,14 @@ module.exports = function (io) {
 
     //Handle the players guess after it has been verified
     socket.on('handlePlayerGuess', async (data) => {
-      // await socket.emit("joined", { message: "You joined!", lobby: lobbyExists, player: player[0] })
+
+      const datetime = data.lobby.game.startedAt;  // replace with your datetime timestamp
+      const now = Date.now();       // get the current time
+
+      if (now - datetime > (data.lobby.game.totalDuration * 1000) || data.lobby.game.endedAt != null) {
+        socket.emit("alert", `More than ${data.lobby.game.totalDuration} seconds have passed.`);
+        return;
+      }
       if (data.player.wordsGuessed.length >= data.lobby.game.words.length) {
         let np = data.player;
         np.didComplete = true;

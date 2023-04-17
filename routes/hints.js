@@ -8,7 +8,7 @@ const { words, animals, cars, cities, sports, movies } = require('../scripts/hin
 router.post('/', async (req, res) => {
   const hintTypes = ["word", "animal", "car", "city", "sport", "movie"];
   const data = req.body;
-
+  console.log("hint body: ", data);
   try {
     let prop = "";
     for (let i = 0; i < hintTypes.length; i++) {
@@ -43,7 +43,7 @@ router.post('/', async (req, res) => {
       default:
         throw new Error("Hint cannot be obtained!")
     }
-
+    console.log("hint hint: ", hint);
     return res.json({
       data: hint
     });

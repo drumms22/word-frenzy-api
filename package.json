@@ -20,6 +20,7 @@
     "@cyclic.sh/dynamodb": "^0.0.33",
     "axios": "^1.3.4",
     "bad-words": "^3.0.4",
+    "botanic-zoo-api": "^0.1.7",
     "config": "^3.3.9",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",

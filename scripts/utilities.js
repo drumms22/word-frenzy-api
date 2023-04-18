@@ -116,8 +116,12 @@ const calculateNumHints = (word) => {
     return 2;
   } else if (numChars <= 10) {
     return 3;
-  } else {
+  } else if (numChars <= 13) {
     return 4;
+  } else if (numChars <= 16) {
+    return 5;
+  } else {
+    return 6;
   }
 };
 

@@ -78,9 +78,6 @@ const getFields = (animal) => {
     if (animal.taxonomy.class) {
       fields.push({ name: 'class', value: animal.taxonomy.class });
     }
-    if (animal.taxonomy.order) {
-      fields.push({ name: 'order', value: animal.taxonomy.order });
-    }
   }
 
   if (animal.characteristics) {
@@ -101,6 +98,24 @@ const getFields = (animal) => {
     }
     if (animal.characteristics.weight) {
       fields.push({ name: 'weight', value: animal.characteristics.weight });
+    }
+    if (animal.characteristics.solgan) {
+      fields.push({ name: 'solgan', value: animal.characteristics.solgan });
+    }
+    if (animal.characteristics.habitat) {
+      fields.push({ name: 'habitat', value: animal.characteristics.habitat });
+    }
+    if (animal.characteristics.main_prey) {
+      fields.push({ name: 'main prey', value: animal.characteristics.main_prey });
+    }
+    if (animal.characteristics.predators) {
+      fields.push({ name: 'predators', value: animal.characteristics.predators });
+    }
+    if (animal.characteristics.group_behavior) {
+      fields.push({ name: 'group behavior', value: animal.characteristics.group_behavior });
+    }
+    if (animal.characteristics.most_distinctive_feature) {
+      fields.push({ name: 'distinctive feature', value: animal.characteristics.most_distinctive_feature });
     }
   }
 

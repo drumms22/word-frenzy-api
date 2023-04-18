@@ -4,11 +4,14 @@ const fish = require('../json/fish.json');
 const animals = require('../json/animals.json');
 const { createHint } = require('./hints/animals');
 const { unScrambleWord, scrambleWord, letters, generateRandomNumber } = require('./utilities');
+const botanicZoo = require("botanic-zoo-api");
 //691 animals
 const getAnimal = async (type, min, max) => {
-
+  // let filtered = animals.animals1.filter((a) => a.length >= min && a.length <= max);
+  // let r = await generateRandomNumber(0, filtered.length - 1);
 
   let animalName = "";
+
   let r = 0;
   let filtered = [];
   switch (type) {
@@ -42,7 +45,7 @@ const getAnimal = async (type, min, max) => {
 
   let scrambled = await scrambleWord(animalName.toLowerCase());
 
-  // let hint = await createHint(res[r]);
+  //let hint = await createHint(res[r]);
 
 
   return [scrambled];
@@ -71,7 +74,7 @@ const fetchAnimalData = async (name, min, max) => {
 
 
     let a = await finalList.filter((x) => x.name.match(/[a-zA-Z ]+/g).length === 1 && x.name.length >= min && x.name.length <= max);
-
+    console.log(a);
     return a;
   } catch (error) {
     console.log("animals error: " + error);

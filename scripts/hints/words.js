@@ -27,7 +27,7 @@ const getHint = async (word, type, hintsUsed) => {
       break;
   }
 
-  if (hint === "") {
+  if (hint === "" || hint === null || hint === undefined) {
     let numHints = await calculateNumHints(word);
     hint = createSpecialHint(word, numHints);
   }
@@ -65,10 +65,10 @@ const getDefinition = async (word) => {
 
     let joined = split.join(" ");
 
-    return [joined]
+    return joined;
   } catch (error) {
     console.log("definition error: " + error);
-    return [];
+    return "";
   }
 
 }
@@ -92,11 +92,11 @@ const getSynonym = async (word) => {
       }
     });
 
-    return [synonyms.join(', ')];
+    return synonyms.join(', ');
 
   } catch (error) {
     console.log("synonym error: " + error);
-    return ["No synonyms found!"];
+    return "";
   }
 
 }

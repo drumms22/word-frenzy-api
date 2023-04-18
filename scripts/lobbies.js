@@ -1,4 +1,5 @@
 const Lobby = require('../models/Lobby');
+const LobbyHint = require('../models/LobbyHint');
 const { nanoid } = require('nanoid');
 const { getRitaWord, getNewWord } = require('../scripts/words');
 const { getAnimal } = require('../scripts/animals');
@@ -6,7 +7,8 @@ const { getCar } = require('../scripts/cars');
 const { getCity } = require('../scripts/cities');
 const { getSport } = require('../scripts/sports');
 const { getMovie } = require('../scripts/movies');
-const { scrambleWord } = require('../scripts/utilities');
+const { scrambleWord, unScrambleWord } = require('../scripts/utilities');
+const { words, animals, cars, cities, movies, sports } = require("./hints");
 const mongoose = require('mongoose');
 
 const createLobby = async (playerId, name) => {
@@ -280,42 +282,122 @@ const calcLobby = (data) => {
 
 }
 
-const handleWords = async (catSel, num) => {
+const handleWords = async (catSel, lobbyCode) => {
 
-  let words = []
+  let newWords = []
   let word = "";
   for (let i = 0; i < 3; i++) {
     let len = await handleLength(catSel, i);
     switch (catSel) {
       case "wordsLobbyItem":
         word = await getNewWord(len.min, len.max);
-        words.push({ word, extr: "" });
+        newWords.push({ word, extr: "" });
         break;
       case "animalsLobbyItem":
         word = await getAnimal("", len.min, len.max);
-        words.push({ word: word[0], extr: "" });
+        newWords.push({ word: word[0], extr: "" });
         break;
       case "carsLobbyItem":
         word = await getCar(len.min, len.max);
-        words.push({ word: word[0], extr: "" });
+        newWords.push({ word: word[0], extr: "" });
         break;
       case "citiesLobbyItem":
         word = await getCity(len.min, len.max);
-        words.push({ word: word[0], extr: word[1] });
+        newWords.push({ word: word[0], extr: word[1] });
         break;
       case "sportsLobbyItem":
         word = await getSport(len.min, len.max);
-        words.push({ word: word[0], extr: word[1] });
+        newWords.push({ word: word[0], extr: word[1] });
         break;
       case "moviesLobbyItem":
         word = await getMovie(len.min, len.max);
-        words.push({ word: word[0], extr: "" });
+        newWords.push({ word: word[0], extr: "" });
         break;
     }
+
   }
 
-  return words;
+  await handleHints(catSel, newWords, lobbyCode);
 
+  return newWords;
+
+}
+
+const handleHints = async (catSel, selWords, lobbyCode) => {
+
+  for (let i = 0; i < selWords.length; i++) {
+    let word = await unScrambleWord(selWords[i].word);
+    let regex = /LobbyItem/;
+    let sel = catSel.replace(regex, "");
+    let hint1 = "";
+    let hint2 = "";
+    const objects = { words, animals, cars, cities, movies, sports };
+
+    let type = sel === "words" ? "definition" : "normal";
+
+    let h1Res = await callGetHint(sel, word, [], objects, type);
+
+    hint1 = h1Res[0].hint;
+
+    type = sel === "words" ? "synonym" : "normal";
+
+    let h2Res = await callGetHint(sel, word, h1Res[0].hintsUsed, objects, type);
+
+    hint2 = h2Res[0].hint;
+
+    await saveLobbyHint(lobbyCode, word, hint1, hint2);
+
+  }
+
+}
+
+const callGetHint = async (name, word, prevHints, objects, type) => {
+  const obj = objects[name];
+  if (obj && typeof obj.getHint === 'function') {
+    return await obj.getHint(word, type, prevHints);
+  } else {
+    throw new Error(`Object ${name} does not have a getHint method`);
+  }
+}
+
+const saveLobbyHint = async (code, w, h1, h2) => {
+
+
+  try {
+
+    const newHint = await new LobbyHint({
+      lobbyCode: code,
+      word: w,
+      hint1: h1,
+      hint2: h2
+    });
+
+    let save = await newHint.save();
+
+    if (save) {
+      return true;
+    } else {
+      return false;
+    }
+
+  } catch (error) {
+    return false;
+  }
+
+
+}
+
+const getLobbyHint = async (code, w) => {
+
+  try {
+    let h = await LobbyHint.findOne({ lobbyCode: code, word: w });
+
+    return h;
+
+  } catch (error) {
+    console.log("getLobbyHintErr: " + error);
+    return false;
+  }
 }
 
 const handleLength = (catSel, placement) => {
@@ -363,5 +445,6 @@ module.exports = {
   updateGame,
   removePlayer,
   getLobby,
-  createNewLobby
+  createNewLobby,
+  getLobbyHint
 }

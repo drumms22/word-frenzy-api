@@ -1,5 +1,5 @@
 
-const { createLobby, checkLobby, updateLobby, handleWords, joinLobby, calcLobby, updatePlayer, updateGame, removePlayer, getLobby, createNewLobby } = require('../scripts/lobbies');
+const { createLobby, checkLobby, updateLobby, handleWords, joinLobby, calcLobby, updatePlayer, updateGame, removePlayer, getLobby, createNewLobby, getLobbyHint } = require('../scripts/lobbies');
 const { ObjectId } = require('mongodb');
 //Lobbysettings for pre game i.e difficulty, category
 let lobbySettings = {}
@@ -144,7 +144,9 @@ module.exports = function (io) {
       //   return;
       // }
 
-      let wordsData = await handleWords(lobby.catSel);
+      socket.emit("loading");
+
+      let wordsData = await handleWords(lobby.catSel, lobby.lobbyId);
       const obj = {
         code: lobby.lobbyId,
         game: {
@@ -162,6 +164,20 @@ module.exports = function (io) {
       await io.to(lobby.lobbyId).emit("refreshLobby", updated);
       await io.to(lobby.lobbyId).emit("start", { wordData: wordsData[0], time: lobby.lobbyDetails.time })
     })
+
+
+    socket.on("getHint", async (data) => {
+
+      if (data.num < 1 || data.num > 2) return;
+
+      let hints = await getLobbyHint(data.lobbyCode, data.w);
+
+      let h = data.num === 1 ? hints.hint2 : hints.hint1
+
+      socket.emit("getHint", h);
+
+    })
+
 
     socket.on("refresh", (data) => {
       socket.join(data.lobbyCode);

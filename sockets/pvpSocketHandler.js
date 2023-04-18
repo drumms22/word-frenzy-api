@@ -139,10 +139,10 @@ module.exports = function (io) {
         return;
       }
 
-      // if (tempLobby.players.length != 2) {
-      //   socket.emit("alert", "Two players are needed!");
-      //   return;
-      // }
+      if (tempLobby.players.length != 2) {
+        socket.emit("alert", "Two players are needed!");
+        return;
+      }
 
       socket.emit("loading");
 

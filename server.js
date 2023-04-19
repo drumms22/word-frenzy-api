@@ -9,6 +9,7 @@ require('dotenv').config()
 
 const hints = require('./routes/hints');
 const users = require('./routes/users');
+const invites = require('./routes/invites');
 const routes = require('./routes');
 const middleware = require('./routes/middleware');
 const connectDB = require("./config/db");
@@ -29,9 +30,10 @@ app.use('/', middleware);
 app.use('/categories', routes);
 app.use('/hints', hints);
 app.use('/users', users);
+app.use('/lobby/invites', invites);
 
 connectDB().then(() => {
   server.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
+    console.log(`Word Frenzy API listening on port ${port}`);
   });
 })

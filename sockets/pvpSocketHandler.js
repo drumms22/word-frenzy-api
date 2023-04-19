@@ -1,5 +1,6 @@
 
 const { createLobby, checkLobby, updateLobby, handleWords, joinLobby, calcLobby, updatePlayer, updateGame, removePlayer, getLobby, createNewLobby, getLobbyHint } = require('../scripts/lobbies');
+const { updateInvite } = require("../scripts/invites");
 const { ObjectId } = require('mongodb');
 //Lobbysettings for pre game i.e difficulty, category
 let lobbySettings = {}
@@ -34,7 +35,7 @@ module.exports = function (io) {
         lobbyDetails: calcLobby({ diff: 1 })
       }
 
-      connectedSockets.set(socket.id, { playerId: data.playerId, lobbyCode: lobby.code });
+      connectedSockets.set(socket.id, { playerId: data.playerId, lobbyCode: lobby.code, username: data.username });
 
       await socket.join(lobby.code);
       await socket.emit("lobbyCreated", { message: "Lobby created!", lobby })
@@ -43,9 +44,10 @@ module.exports = function (io) {
 
     //Join lobby that is not started and not full
     socket.on('joinLobby', async (data) => {
+      socket.emit("loading");
       let lobby = null;
       let lobbyExists = await getLobby(data.lobbyId, data.playerId);
-      if (!lobbyExists || lobbyExists.game.startedAt != null) {
+      if (!lobbyExists || lobbyExists.game.startedAt != null || lobbyExists.players.length === 0) {
         await socket.emit("unableToJoin", { message: "Unable to join!", lobby: lobbyExists });
         socket.leave(data.lobbyId);
         connectedSockets.delete(socket.id);
@@ -70,7 +72,9 @@ module.exports = function (io) {
         return;
       }
 
-      connectedSockets.set(socket.id, { playerId: data.playerId, lobbyCode: data.lobbyId });
+      await updateInvite(data.lobbyId);
+
+      connectedSockets.set(socket.id, { playerId: data.playerId, lobbyCode: data.lobbyId, username: data.username });
       await socket.join(data.lobbyId);
       let player = await lobby.players.filter((p) => p.id.toString() === data.playerId);
       await socket.emit("joined", { message: "You joined!", lobby, player: player[0] })
@@ -80,7 +84,8 @@ module.exports = function (io) {
     //Rejoin lobby that you are in and that is not started, mainly for page refreshes
     socket.on('reJoinLobby', async (data) => {
 
-      connectedSockets.set(socket.id, { playerId: data.playerId, lobbyCode: data.lobbyCode });
+
+      connectedSockets.set(socket.id, { playerId: data.playerId, lobbyCode: data.lobbyCode, username: data.username });
 
       let lobbyExists = await checkLobby(data.lobbyCode, data.playerId)
 
@@ -144,7 +149,7 @@ module.exports = function (io) {
         return;
       }
 
-      socket.emit("loading");
+      io.to(lobby.lobbyId).emit("loading");
 
       let wordsData = await handleWords(lobby.catSel, lobby.lobbyId);
       const obj = {

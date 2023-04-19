@@ -282,7 +282,6 @@ module.exports = function (io) {
       if (players.length > 0) {
 
         if (data.player.isCreator) {
-          console.log("isCreator: ", data.player.isCreator);
           players[0].isCreator = true;
           await updatePlayer(newLobby.code, players[0]);
 

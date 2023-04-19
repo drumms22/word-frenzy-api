@@ -98,7 +98,13 @@ module.exports = function (io) {
       if (lobbyExists.game.startedAt != null) {
         let newLobby = lobbyExists;
 
-        let newPlayers = newLobby.players.filter((p) => p.id.toString() != data.playerId);
+        let p = await newLobby.players.filter((p) => p.id.toString() === data.playerId);
+
+        let newPlayers = await newLobby.players.filter((p) => p.id.toString() != data.playerId);
+
+        if (p[0].isCreator) {
+          newPlayers[0].isCreator = true;
+        }
 
         newLobby.players = newPlayers;
 
@@ -266,14 +272,32 @@ module.exports = function (io) {
 
     })
     //Leave the lobby
-    socket.on('leaveLobby', (data) => {
+    socket.on('leaveLobby', async (data) => {
 
       let newLobby = data.lobby;
 
-      newLobby.players = newLobby.players.filter((p) => p.id.toString() !== data.player.id);
+      let players = await newLobby.players.filter((p) => p.id.toString() !== data.player.id);
 
 
-      socket.to(newLobby.code).emit("refreshLobby", newLobby);
+      if (players.length > 0) {
+
+        if (data.player.isCreator) {
+          console.log("isCreator: ", data.player.isCreator);
+          players[0].isCreator = true;
+          await updatePlayer(newLobby.code, players[0]);
+
+        }
+
+        newLobby.players = players;
+
+        await socket.to(newLobby.code).emit("refreshLobby", newLobby);
+
+        await socket.leave(newLobby.code);
+
+      } else {
+        if (lobbySettings[newLobby.code]) delete lobbySettings[newLobby.code];
+      }
+
 
       const { playerId, lobbyCode } = connectedSockets.get(socket.id) || {};
 

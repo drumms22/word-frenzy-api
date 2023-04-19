@@ -52,7 +52,7 @@ const saveInvite = async (lobbyCode, playerFrom, playerTo) => {
 const updateInvite = async (lobbyCode) => {
   try {
 
-    const updatedInvite = await LobbyInvite.findOneAndUpdate({ lobbyCode: lobbyCode }, { accepted: true }, { new: true });
+    const updatedInvite = await LobbyInvite.findOneAndUpdate({ lobbyCode }, { accepted: true }, { new: true });
 
     if (!updatedInvite) {
       return false;

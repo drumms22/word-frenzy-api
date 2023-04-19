@@ -81,9 +81,30 @@ const deleteInvite = async (id) => {
   }
 }
 
+const getAllNotIn = async (playerFrom) => {
+
+  try {
+
+    let users = await User.find({
+      username: { $ne: playerFrom },
+      _id: { $nin: await LobbyInvite.distinct('playerTo', { accepted: false, playerFrom: playerFrom }) }
+    }, { username: 1 });
+
+    let filtered = await users.filter((u) => u._id.toString() !== playerFrom && u.username && u.username !== " " && u.username !== "");
+
+    return filtered;
+
+  } catch (error) {
+    console.log(error);
+    return [];
+  }
+
+}
+
 module.exports = {
   getInvite,
   saveInvite,
   updateInvite,
-  deleteInvite
+  deleteInvite,
+  getAllNotIn
 }

@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router();
-const { getInvite, saveInvite, updateInvite, deleteInvite } = require('../scripts/invites');
+const { getInvite, saveInvite, updateInvite, deleteInvite, getAllNotIn } = require('../scripts/invites');
 const { getUser } = require('../scripts/users');
 
 router.get('/', async (req, res) => {
@@ -50,6 +50,24 @@ router.post('/deny', async (req, res) => {
 
   res.json({
     data: [deleted]
+  })
+})
+
+router.get('/notin', async (req, res) => {
+
+  let q = req.query;
+
+  if (!q.hasOwnProperty("playerFrom")) {
+    return res.json({
+      data: []
+    })
+
+  }
+
+  let notIn = await getAllNotIn(q.playerFrom);
+
+  res.json({
+    data: notIn
   })
 })
 

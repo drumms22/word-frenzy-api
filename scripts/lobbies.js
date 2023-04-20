@@ -335,13 +335,13 @@ const handleHints = async (catSel, selWords, lobbyCode) => {
 
     let type = sel === "words" ? "definition" : "normal";
 
-    let h1Res = await callGetHint(sel, word, [], objects, type);
+    let h1Res = await callGetHint(sel, word, [], objects, type, sel === "sports" || sel === "cities" ? selWords[i].extr : null);
 
     hint1 = h1Res[0].hint;
 
     type = sel === "words" ? "synonym" : "normal";
 
-    let h2Res = await callGetHint(sel, word, h1Res[0].hintsUsed, objects, type);
+    let h2Res = await callGetHint(sel, word, [], objects, type, sel === "sports" || sel === "cities" ? selWords[i].extr : null);
 
     hint2 = h2Res[0].hint;
 
@@ -351,10 +351,10 @@ const handleHints = async (catSel, selWords, lobbyCode) => {
 
 }
 
-const callGetHint = async (name, word, prevHints, objects, type) => {
+const callGetHint = async (name, word, prevHints, objects, type, extra) => {
   const obj = objects[name];
   if (obj && typeof obj.getHint === 'function') {
-    return await obj.getHint(word, type, prevHints);
+    return await obj.getHint(word, type, prevHints, extra);
   } else {
     throw new Error(`Object ${name} does not have a getHint method`);
   }

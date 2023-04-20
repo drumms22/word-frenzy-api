@@ -98,17 +98,21 @@ module.exports = function (io) {
       if (lobbyExists.game.startedAt != null) {
         let newLobby = lobbyExists;
 
-        let p = await newLobby.players.filter((p) => p.id.toString() === data.playerId);
-
         let newPlayers = await newLobby.players.filter((p) => p.id.toString() != data.playerId);
 
-        if (p[0].isCreator) {
-          newPlayers[0].isCreator = true;
+        let p = await newLobby.players.filter((p) => p.id.toString() === data.playerId);
+
+        if (newPlayers.length > 0) {
+
+          if (p[0].isCreator) {
+            newPlayers[0].isCreator = true;
+          }
+
+          newLobby.players = newPlayers;
+
+          socket.to(data.lobbyId).emit("refreshLobby", newLobby);
         }
 
-        newLobby.players = newPlayers;
-
-        socket.to(data.lobbyId).emit("refreshLobby", newLobby);
         await socket.emit("unableToJoin", { message: "You left the game!", lobby: lobbyExists });
         removePlayer({ playerId: data.playerId, lobbyCode: data.lobbyCode })
         socket.leave(data.lobbyId);
@@ -150,10 +154,10 @@ module.exports = function (io) {
         return;
       }
 
-      if (tempLobby.players.length != 2) {
-        socket.emit("alert", "Two players are needed!");
-        return;
-      }
+      // if (tempLobby.players.length != 2) {
+      //   socket.emit("alert", "Two players are needed!");
+      //   return;
+      // }
 
       io.to(lobby.lobbyId).emit("loading");
 

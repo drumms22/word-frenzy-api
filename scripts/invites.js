@@ -27,7 +27,7 @@ const getInvite = async (queryObj) => {
 
 const saveInvite = async (lobbyCode, playerFrom, playerTo) => {
 
-  const updatedInvite = await LobbyInvite.findOneAndUpdate({ lobbyCode: lobbyCode }, { accepted: true }, { new: true });
+  // const updatedInvite = await LobbyInvite.findOneAndUpdate({ lobbyCode: lobbyCode }, { accepted: true }, { new: true });
   try {
 
     const newInvite = await new LobbyInvite({

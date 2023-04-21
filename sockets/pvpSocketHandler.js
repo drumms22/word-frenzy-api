@@ -84,7 +84,7 @@ module.exports = function (io) {
     //Rejoin lobby that you are in and that is not started, mainly for page refreshes
     socket.on('reJoinLobby', async (data) => {
 
-
+      socket.emit("loading");
       connectedSockets.set(socket.id, { playerId: data.playerId, lobbyCode: data.lobbyCode, username: data.username });
 
       let lobbyExists = await checkLobby(data.lobbyCode, data.playerId)
@@ -154,10 +154,10 @@ module.exports = function (io) {
         return;
       }
 
-      // if (tempLobby.players.length != 2) {
-      //   socket.emit("alert", "Two players are needed!");
-      //   return;
-      // }
+      if (tempLobby.players.length != 2) {
+        socket.emit("alert", "Two players are needed!");
+        return;
+      }
 
       io.to(lobby.lobbyId).emit("loading");
 

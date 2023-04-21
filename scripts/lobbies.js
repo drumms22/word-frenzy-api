@@ -341,7 +341,7 @@ const handleHints = async (catSel, selWords, lobbyCode) => {
 
     type = sel === "words" ? "synonym" : "normal";
 
-    let h2Res = await callGetHint(sel, word, [], objects, type, sel === "sports" || sel === "cities" ? selWords[i].extr : null);
+    let h2Res = await callGetHint(sel, word, h1Res[0].hintsUsed, objects, type, sel === "sports" || sel === "cities" ? selWords[i].extr : null);
 
     hint2 = h2Res[0].hint;
 

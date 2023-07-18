@@ -19,41 +19,12 @@ router.get('/', async (req, res) => {
 })
 
 
-router.post('/check', (req, res) => {
+router.post('/check', async (req, res) => {
 
-  let isValid = false;
-
-  let num = 0;
-  if (req.body.sportC > 4) req.body.sportC = 4;
-  switch (req.body.sportC) {
-    case 0:
-      const cMlb = mlb.filter((t) => t.name.toLowerCase().includes(req.body.name.toLowerCase()));
-      num = cMlb.length;
-      break;
-    case 1:
-      const cNfl = nfl.filter((t) => t.team.toLowerCase().includes(req.body.name.toLowerCase()));
-      num = cNfl.length;
-      break;
-    case 2:
-      const cNba = nba.filter((t) => t.shortName.toLowerCase().includes(req.body.name.toLowerCase()));
-      num = cNba.length;
-      break;
-    case 3:
-      const cNhl = nhl.filter((t) => t.shortName.toLowerCase().includes(req.body.name.toLowerCase()));
-      num = cNhl.length;
-      break;
-    case 4:
-      const cSWords = sportsWords.filter((t) => t.name.toLowerCase().includes(req.body.name.toLowerCase()));
-      num = cSWords.length;
-      break
-  }
-
-  if (num > 0) {
-    isValid = true;
-  }
+  let check = await checkSport(req.body.name);
 
   res.json({
-    data: [isValid]
+    data: [check]
   })
 })
 

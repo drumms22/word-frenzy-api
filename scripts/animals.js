@@ -4,6 +4,7 @@ const fish = require('../json/fish.json');
 const animals = require('../json/animals.json');
 const { createHint } = require('./hints/animals');
 const { unScrambleWord, scrambleWord, letters, generateRandomNumber } = require('./utilities');
+const { checkRitaWord } = require('./words');
 const botanicZoo = require("botanic-zoo-api");
 //691 animals
 const getAnimal = async (type, min, max) => {
@@ -98,7 +99,32 @@ const checkIndWordLen = (arr) => {
   })
   return filtered;
 }
+
+const checkAnimal = (words) => {
+
+  let animalsMatch = [];
+
+  for (let i = 0; i < words.length; i++) {
+    let d = animals.animals1.filter((a) => a.toLowerCase().includes(words[i]))
+    let cw = checkRitaWord(words[i])
+    if (d.length > 0 || cw) {
+      animalsMatch.push(words[i]);
+    }
+  }
+
+  let isValid = false;
+  let numNeeded = Math.ceil(words.length * .5);
+
+  if (animalsMatch.length > 0 && animalsMatch.length >= numNeeded) {
+    isValid = true;
+  }
+
+  return isValid;
+
+}
+
 module.exports = {
-  getAnimal
+  getAnimal,
+  checkAnimal
 }
 

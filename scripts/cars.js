@@ -1,5 +1,6 @@
 require('dotenv').config();
 const cars = require('../json/cars.json')
+const { checkRitaWord } = require('./words');
 
 const { generateRandomNumber, scrambleWord } = require('./utilities');
 const getCar = async (min, max) => {
@@ -10,6 +11,21 @@ const getCar = async (min, max) => {
 }
 
 
+const checkCar = (car) => {
+
+  let isValid = false;
+
+  let check = cars.filter((c) => c.model.includes(car) || c.make.includes(car));
+  let cw = checkRitaWord(car)
+  if (check.length > 0 || cw) {
+    isValid = true;
+  }
+
+  return isValid;
+
+}
+
 module.exports = {
-  getCar
+  getCar,
+  checkCar
 }

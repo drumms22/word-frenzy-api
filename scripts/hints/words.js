@@ -12,7 +12,7 @@ const getHint = async (word, type, hintsUsed) => {
       if (def.length > 0 && typeof def != undefined) {
         hint = def;
       } else {
-        hint = await getSynonym(word);
+        hint = "";
       }
       break;
     case "synonym":
@@ -87,12 +87,24 @@ const getSynonym = async (word) => {
     let synonyms = req.data.synonyms;
 
     synonyms.map((s, i) => {
-      if (s.includes(word)) {
+      if (s.split('').includes(word)) {
         synonyms.splice(i, 1);
       }
     });
 
-    return synonyms.join(', ');
+    if (synonyms && synonyms.length > 0) {
+      synonyms = "";
+    } else {
+      synonyms.map((s, i) => {
+        if (s.split('').includes(word)) {
+          synonyms.splice(i, 1);
+        }
+      });
+
+      synonyms.join(', ');
+    }
+
+    return synonyms;
 
   } catch (error) {
     console.log("synonym error: " + error);

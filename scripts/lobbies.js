@@ -1,7 +1,7 @@
 const Lobby = require('../models/Lobby');
 const LobbyHint = require('../models/LobbyHint');
 const { nanoid } = require('nanoid');
-const { getRitaWord, getNewWord } = require('../scripts/words');
+const { getRitaWord, getNewWord, calcWordPoints, calcTime } = require('../scripts/words');
 const { getAnimal } = require('../scripts/animals');
 const { getCar } = require('../scripts/cars');
 const { getCity } = require('../scripts/cities');
@@ -11,38 +11,42 @@ const { scrambleWord, unScrambleWord } = require('../scripts/utilities');
 const { words, animals, cars, cities, movies, sports } = require("./hints");
 const mongoose = require('mongoose');
 
-const createLobby = async (playerId, name) => {
-
+const createLobby = async (playerId, name, type, dynamicFields) => {
   try {
+
     const lobbyCode = await nanoid();
-    const newLobby = await new Lobby({
+    const lobbyFields = {
       code: lobbyCode,
+      type: "sp",
       players: [{
         id: playerId,
         username: name,
         isWinner: false,
-        duration: 0,
+        timeSpent: 0,
         didComplete: false,
         wordsGuessed: [],
-        isCreator: true
+        isCreator: true,
+        pointsAquired: 0
       }],
       game: {
         words: [],
         startedAt: null,
         endedAt: null,
         isComplete: false,
-        type: "",
-        totalDuration: 0,
+        mode: "",
+        maxDuration: 0,
         maxPlayers: 2,
         difficulty: 1,
-        points: 0,
+        category: "words",
+        modeName: "Player",
+        modeDescription: "Player Generated"
       },
       created: Date.now(),
-    });
-
-    let lobby = await newLobby.save()
-
-    return lobby;
+      ...dynamicFields
+    };
+    const newLobby = await new Lobby(lobbyFields);
+    // const lobby = await newLobby.save();
+    return newLobby;
   } catch (error) {
     console.log(error);
     return false;
@@ -85,6 +89,71 @@ const createNewLobby = async (players) => {
   }
 }
 
+const createTempLobby = async (playerId, username, dynamicFields) => {
+  try {
+
+    const lobbyCode = await generateUniqueLobbyCode();
+
+    const lobby = {
+      code: lobbyCode,
+      type: "pvp",
+      players: [{
+        id: playerId,
+        username,
+        isWinner: false,
+        timeSpent: 0,
+        didComplete: false,
+        wordsGuessed: [],
+        isCreator: true,
+        pointsAquired: 0
+      }],
+      game: {
+        words: [],
+        startedAt: null,
+        endedAt: null,
+        isComplete: false,
+        mode: "",
+        maxDuration: 0,
+        maxPlayers: 2,
+        difficulty: 1,
+        category: "words",
+        modeName: "Player",
+        modeDescription: "Player Generated"
+      },
+      created: Date.now(),
+      ...dynamicFields
+    };
+
+    return lobby;
+  } catch (error) {
+    console.log(error);
+    return false;
+  }
+}
+
+const saveLobby = async (lobbyFields) => {
+  try {
+    const newLobby = await new Lobby(lobbyFields);
+    const lobby = await newLobby.save();
+    return lobby;
+  } catch (error) {
+    console.log(error);
+    return false;
+  }
+}
+
+const generateUniqueLobbyCode = async () => {
+  let code = nanoid();
+  let lobby = await Lobby.findOne({ code });
+
+  while (lobby) {
+    code = nanoid();
+    lobby = await Lobby.findOne({ code });
+  }
+
+  return code;
+};
+
 const getLobby = async (lobbyCode) => {
 
   try {
@@ -98,6 +167,24 @@ const getLobby = async (lobbyCode) => {
   } catch (error) {
     console.log(error);
     return false;
+  }
+}
+
+const getPlayedTogether = async (player1Id, player2Id) => {
+  try {
+    const lobbies = await Lobby.find({
+      'players.id': player1Id,
+      'game.isComplete': true
+    });
+
+    const gamesPlayed = lobbies.filter(lobby => {
+      return lobby.players.some(p => p.id.toString() === player2Id);
+    });
+
+    return gamesPlayed;
+  } catch (error) {
+    console.log("Games played error:", error);
+    return [];
   }
 }
 
@@ -225,6 +312,29 @@ const updateGame = async (data) => {
 
 }
 
+const updateEntireLobby = async (lobby) => {
+
+  try {
+
+    const result = await Lobby.updateOne(
+      { code: lobby.code },
+      {
+        $set: { ...lobby }
+      }
+    );
+
+
+    let newLobby = await getLobby(lobby.code);
+    // console.log(result);
+    return newLobby;
+
+  } catch (error) {
+    console.log(error);
+    return false;
+  }
+
+}
+
 const removePlayer = async (data) => {
 
   try {
@@ -250,18 +360,13 @@ const removePlayer = async (data) => {
   }
 
 }
-const calcLobby = (data) => {
+const calcLobby = (diff, details) => {
 
-  let extr = 0;
-  let time = 180;
+  let obj = details;
 
-  let obj = {
-    time: 180,
-    words: 3,
-    points: 0
-  }
+  obj.time = obj.secPerWord * obj.words;
 
-  switch (data.diff) {
+  switch (diff) {
     case 0:
       obj.time += 30;
       break;
@@ -278,70 +383,141 @@ const calcLobby = (data) => {
       break;
   }
 
+  if (obj.time < 1) obj.time = 1;
+
   return obj;
 
 }
 
-const handleWords = async (catSel, lobbyCode) => {
+const handleWords = async (catSel, wordCount, mode, speed, diff) => {
 
   let newWords = []
   let word = "";
-  for (let i = 0; i < 3; i++) {
-    let len = await handleLength(catSel, i);
+
+  for (let i = 0; i < wordCount; i++) {
+    let len = await handleLength(catSel, i, mode);
     switch (catSel) {
+      case "wordsItem":
       case "wordsLobbyItem":
         word = await getNewWord(len.min, len.max);
-        newWords.push({ word, extr: "" });
+        newWords.push({ word: await unScrambleWord(word[0]), extr: "", time: 0, points: 0 });
         break;
+      case "animalsItem":
       case "animalsLobbyItem":
         word = await getAnimal("", len.min, len.max);
-        newWords.push({ word: word[0], extr: "" });
+        newWords.push({ word: await unScrambleWord(word[0]), extr: "", time: 0, points: 0 });
         break;
+      case "carsItem":
       case "carsLobbyItem":
         word = await getCar(len.min, len.max);
-        newWords.push({ word: word[0], extr: "" });
+        newWords.push({ word: await unScrambleWord(word[0]), extr: "", time: 0, points: 0 });
         break;
+      case "citiesItem":
       case "citiesLobbyItem":
         word = await getCity(len.min, len.max);
-        newWords.push({ word: word[0], extr: word[1] });
+        newWords.push({ word: await unScrambleWord(word[0]), extr: word[1], time: 0, points: 0 });
         break;
+      case "sportsItem":
       case "sportsLobbyItem":
         word = await getSport(len.min, len.max);
-        newWords.push({ word: word[0], extr: word[1] });
+        newWords.push({ word: await unScrambleWord(word[0]), extr: word[1], time: 0, points: 0 });
         break;
+      case "moviesItem":
       case "moviesLobbyItem":
         word = await getMovie(len.min, len.max);
-        newWords.push({ word: word[0], extr: "" });
+        newWords.push({ word: await unScrambleWord(word[0]), extr: "", time: 0, points: 0 });
         break;
     }
 
+    let time = await calcTime([newWords[i].word], diff, speed);
+    let points = await calcWordPoints(newWords[i].word);
+    newWords[i].time = time;
+    newWords[i].points = points.totalScore;
   }
 
-  await handleHints(catSel, newWords, lobbyCode);
+  // await handleHints(catSel, newWords, lobbyCode);
 
   return newWords;
+
+}
+
+const handleLength = (catSel, placement, mode) => {
+  let min = 4;
+  let max = 4;
+
+  switch (catSel) {
+    case "wordsItem":
+    case "wordsLobbyItem":
+
+      switch (mode) {
+        case "Roulette":
+          min = 4;
+          max = 4;
+          break;
+        case "Frenzy":
+          min = placement < 5 ? (placement + 4) : 9;
+          max = placement < 5 ? (placement + 4) : 9;
+          break;
+        case "Unscramble":
+          min = 3;
+          max = 7;
+          break;
+      }
+      break;
+    case "animalsItem":
+    case "animalsLobbyItem":
+      min = placement === 1 ? 6 : placement === 2 ? 9 : 3;
+      max = placement === 1 ? 16 : placement === 2 ? 25 : 10;
+      break;
+    case "carsItem":
+    case "carsLobbyItem":
+      min = placement === 1 ? 4 : placement === 2 ? 5 : 3;
+      max = placement === 1 ? 10 : placement === 2 ? 10 : 10;
+      break;
+    case "citiesItem":
+    case "citiesLobbyItem":
+      min = placement === 1 ? 5 : placement === 2 ? 8 : 3;
+      max = placement === 1 ? 12 : placement === 2 ? 25 : 8;
+      break;
+    case "sportsItem":
+    case "sportsLobbyItem":
+      min = placement === 1 ? 5 : placement === 2 ? 11 : 3;
+      max = placement === 1 ? 12 : placement === 2 ? 25 : 6;
+      break;
+    case "moviesItem":
+    case "moviesLobbyItem":
+      min = placement === 1 ? 7 : placement === 2 ? 8 : 3;
+      max = placement === 1 ? 11 : placement === 2 ? 25 : 7;
+      break;
+  }
+
+
+
+  return { min, max }
+}
+
+const getLengthForMode = (mode) => {
 
 }
 
 const handleHints = async (catSel, selWords, lobbyCode) => {
 
   for (let i = 0; i < selWords.length; i++) {
-    let word = await unScrambleWord(selWords[i].word);
-    let regex = /LobbyItem/;
+    let word = selWords[i].word;
+    let regex = /Item/;
     let sel = catSel.replace(regex, "");
     let hint1 = "";
     let hint2 = "";
-    const objects = { words, animals, cars, cities, movies, sports };
 
     let type = sel === "words" ? "definition" : "normal";
 
-    let h1Res = await callGetHint(sel, word, [], objects, type, sel === "sports" || sel === "cities" ? selWords[i].extr : null);
+    let h1Res = await callGetHint(sel, word, [], type, sel === "sports" || sel === "cities" ? selWords[i].extr : null);
 
     hint1 = h1Res[0].hint;
 
     type = sel === "words" ? "synonym" : "normal";
 
-    let h2Res = await callGetHint(sel, word, h1Res[0].hintsUsed, objects, type, sel === "sports" || sel === "cities" ? selWords[i].extr : null);
+    let h2Res = await callGetHint(sel, word, h1Res[0].hintsUsed, type, sel === "sports" || sel === "cities" ? selWords[i].extr : null);
 
     hint2 = h2Res[0].hint;
 
@@ -351,7 +527,10 @@ const handleHints = async (catSel, selWords, lobbyCode) => {
 
 }
 
-const callGetHint = async (name, word, prevHints, objects, type, extra) => {
+const callGetHint = async (name, word, prevHints, type, extra) => {
+
+  const objects = { words, animals, cars, cities, movies, sports };
+
   const obj = objects[name];
   if (obj && typeof obj.getHint === 'function') {
     return await obj.getHint(word, type, prevHints, extra);
@@ -400,39 +579,31 @@ const getLobbyHint = async (code, w) => {
   }
 }
 
-const handleLength = (catSel, placement) => {
-  let min = 4;
-  let max = 4;
+const deleteUnused = async () => {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0); // set to midnight
+  const result = await Lobby.deleteMany({
+    'game.startedAt': null,
+    created: { $lt: today }
+  });
 
-  switch (catSel) {
-    case "wordsLobbyItem":
-      min = placement === 1 ? 5 : placement === 2 ? 6 : 4;
-      max = placement === 1 ? 5 : placement === 2 ? 6 : 4;
-      break;
-    case "animalsLobbyItem":
-      min = placement === 1 ? 6 : placement === 2 ? 9 : 3;
-      max = placement === 1 ? 16 : placement === 2 ? 25 : 10;
-      break;
-    case "carsLobbyItem":
-      min = placement === 1 ? 4 : placement === 2 ? 5 : 3;
-      max = placement === 1 ? 10 : placement === 2 ? 10 : 10;
-      break;
-    case "citiesLobbyItem":
-      min = placement === 1 ? 5 : placement === 2 ? 8 : 3;
-      max = placement === 1 ? 12 : placement === 2 ? 25 : 8;
-      break;
-    case "sportsLobbyItem":
-      min = placement === 1 ? 5 : placement === 2 ? 11 : 3;
-      max = placement === 1 ? 12 : placement === 2 ? 25 : 6;
-      break;
-    case "moviesLobbyItem":
-      min = placement === 1 ? 7 : placement === 2 ? 8 : 3;
-      max = placement === 1 ? 11 : placement === 2 ? 25 : 7;
-      break;
-  }
+  console.log(`Deleted ${result.deletedCount} lobbies.`);
 
-  return { min, max }
 }
+
+const deleteAllLobbies = async () => {
+  try {
+    const { deletedCount } = await Lobby.deleteMany({});
+    console.log(`Deleted ${deletedCount} lobbies.`);
+  } catch (err) {
+    console.error('Error deleting lobbies:', err);
+  }
+};
+
+
+// Update all documents in the collection with difficulty property
+// const result = await Lobby.updateMany({}, { $set: { "game.modeName": "Player" } });
+// console.log(result.nModified + ' lobbies updated');
 
 module.exports = {
   createLobby,
@@ -446,5 +617,13 @@ module.exports = {
   removePlayer,
   getLobby,
   createNewLobby,
-  getLobbyHint
+  getLobbyHint,
+  deleteUnused,
+  deleteAllLobbies,
+  callGetHint,
+  createTempLobby,
+  saveLobby,
+  handleHints,
+  updateEntireLobby,
+  getPlayedTogether
 }

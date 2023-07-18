@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 
 const LobbySchema = new mongoose.Schema({
   code: { type: String, required: true },
+  type: { type: String, default: "sp" },
   players: [
     {
       id: {
@@ -11,10 +12,11 @@ const LobbySchema = new mongoose.Schema({
       },
       username: { type: String },
       isWinner: { type: Boolean },
-      duration: { type: Number },
+      timeSpent: { type: Number },
       didComplete: { type: Boolean },
       wordsGuessed: { type: Array },
       isCreator: { type: Boolean },
+      pointsAquired: { type: Number },
     }
   ],
   game: {
@@ -22,15 +24,21 @@ const LobbySchema = new mongoose.Schema({
     startedAt: { type: Date },
     endedAt: { type: Date },
     isComplete: { type: Boolean },
-    type: { type: String },
-    totalDuration: { type: Number },
+    mode: { type: String },
+    modeName: { type: String },
+    modeDescription: { type: String },
+    maxDuration: { type: Number },
     maxPlayers: { type: Number },
-    difficulty: { type: Number },
-    points: { type: Number },
+    rewards: [{
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Reward'
+    }],
+    category: { type: String },
+    difficulty: { type: Number }
   },
   created: {
     type: Date,
-    default: Date.now
+    default: Date.now()
   },
 });
 

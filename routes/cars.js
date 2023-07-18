@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router();
-const { getCar } = require('../scripts/cars');
+const { getCar, checkCar } = require('../scripts/cars');
 const cars = require('../json/cars.json');
 
 router.get('/', async (req, res) => {
@@ -15,16 +15,10 @@ router.get('/', async (req, res) => {
 
 router.post('/check', async (req, res) => {
 
-  let isValid = false;
-
-  let check = await cars.filter((c) => c.model.includes(req.body.name) || c.make.includes(req.body.name));
-
-  if (check.length > 0) {
-    isValid = true;
-  }
+  let check = await checkCar(req.body.name)
 
   res.json({
-    data: [isValid]
+    data: [check]
   })
 })
 

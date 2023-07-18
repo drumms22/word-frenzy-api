@@ -1,5 +1,6 @@
 const movies = require("../movies.json");
 const { scrambleWord, generateRandomNumber } = require('./utilities');
+const { checkRitaWord } = require('./words');
 
 const getMovie = async (min, max) => {
 
@@ -12,7 +13,23 @@ const getMovie = async (min, max) => {
   return [scrambled]
 }
 
+const checkMovie = (name) => {
+  let isValid = false;
+
+  let check = movies.filter((c) => c.title.toLowerCase().includes(name.toLowerCase()));
+  const isTitleInSimilar = movies.some(movie => {
+    return movie.similar && Array.isArray(movie.similar) && movie.similar.some(similarMovie => similarMovie.title.toLowerCase() === name.toLowerCase());
+  });
+  let cw = checkRitaWord(name);
+  if (check.length > 0 || isTitleInSimilar || cw) {
+    isValid = true;
+  }
+
+  return isValid;
+}
+
 
 module.exports = {
-  getMovie
+  getMovie,
+  checkMovie
 }

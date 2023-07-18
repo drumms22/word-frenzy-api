@@ -4,15 +4,13 @@ const { getDefinition } = require('./hints/words')
 const Filter = require('bad-words');
 const letters = require('../json/letters.json');
 
-const getNewWord = async (min, max) => {
+const getNewWord = async (min, max, limit) => {
 
-  let word = await RiTa.randomWord({ minLength: min, maxLength: max });
+  let words = Array.from({ length: limit || 3 }, () => RiTa.randomWord({ minLength: min, maxLength: max }))
 
-  let s = await scrambleWord(word);
-  //let u = await unScrambleWord(s);
-  // const charCount = str.split("").filter(char => char !== " ").length;
+  let s = scrambleWord(words[0]);
 
-  return [s, word]
+  return [s, words]
 }
 
 const checkWord = async (word) => {

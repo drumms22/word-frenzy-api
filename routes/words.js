@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
 
   // let pt = await getPlayedTogether("6430f475530103d3127f0d16", "6448aa01d6f35771f9756c31");
 
-  const newWord = await getNewWord(req.query.min, req.query.max);
+  const newWord = await getNewWord(req.query.min, req.query.max, req.query.limit);
   res.json({
     data: newWord
   })

@@ -14,8 +14,10 @@ const getUser = async (data) => {
 
     if (isValidObjectId) {
       user = await User.findOne({ _id: data }); // search by _id field
+
     } else {
-      user = await User.findOne({ username: data }); // search by username field
+      user = await User.findOne({ username: data + "" }); // search by username field
+
     }
 
 
@@ -151,19 +153,20 @@ const calcSpeed = async (id) => {
     let playerRes = [];
 
     for (const game of result) {
-      let p = await game.players.filter((x) => x.id.toString() === id);
+      let p = game.players.filter((x) => x.id.toString() === id);
 
-      await playerRes.push(p[0]);
+      playerRes.push(p[0]);
     }
 
     for (const res of playerRes) {
 
-      let charCount = await res.wordsGuessed
+      let charCount = res.wordsGuessed
         .join("") // combine all strings in the array
         .replace(/\s+/g, "") // remove all whitespace characters
         .split("") // split into an array of characters
         .length;
       let t = res.timeSpent ? res.timeSpent : 0;
+
       totalTime += t;
       totalChar += charCount;
     }
@@ -183,6 +186,7 @@ const calcSpeed = async (id) => {
       },
       { new: true }
     );
+
     if (updatedUser) {
       return updatedUser
     }

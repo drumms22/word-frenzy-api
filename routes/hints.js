@@ -43,7 +43,6 @@ router.post('/', async (req, res) => {
       default:
         throw new Error("Hint cannot be obtained!")
     }
-    console.log("hint hint: ", hint);
     return res.json({
       data: hint
     });

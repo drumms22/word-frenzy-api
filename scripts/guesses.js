@@ -33,7 +33,7 @@ const checkGuess = (word, guess) => {
   }
 
   let newMatchInd = [];
-  console.log(notMatchedIndexes);;
+
   for (let i = 0; i < notMatchedIndexes.length; i++) {
     if (wordLetters.includes(guessLetters[notMatchedIndexes[i]]) && checkOOP(guessLetters[notMatchedIndexes[i]], wordLetters, correctLetters, outOfPlaceLetters)) {
       outOfPlaceIndexes.push(notMatchedIndexes[i]);
@@ -79,10 +79,9 @@ const checkOOP = (letter, wordArr, correctLetters, OOPLetters) => {
   }, []);
 
   if (correctIndexes.length < wordIndexes.length) {
-    console.log(true);
+
     return true;
   } else {
-    console.log(false);
     return false;
   }
 

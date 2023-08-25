@@ -14,7 +14,7 @@ const mongoose = require('mongoose');
 const createLobby = async (playerId, name, type, dynamicFields) => {
   try {
 
-    const lobbyCode = await nanoid();
+    const lobbyCode = nanoid();
     const lobbyFields = {
       code: lobbyCode,
       type: "sp",
@@ -44,9 +44,9 @@ const createLobby = async (playerId, name, type, dynamicFields) => {
       created: Date.now(),
       ...dynamicFields
     };
-    const newLobby = await new Lobby(lobbyFields);
-    // const lobby = await newLobby.save();
-    return newLobby;
+    const tempLobby = new Lobby(lobbyFields);
+    const lobby = await tempLobby.save();
+    return lobby;
   } catch (error) {
     console.log(error);
     return false;
@@ -395,42 +395,42 @@ const handleWords = async (catSel, wordCount, mode, speed, diff) => {
   let word = "";
 
   for (let i = 0; i < wordCount; i++) {
-    let len = await handleLength(catSel, i, mode);
+    let len = handleLength(catSel, i, mode);
     switch (catSel) {
       case "wordsItem":
       case "wordsLobbyItem":
         word = await getNewWord(len.min, len.max);
-        newWords.push({ word: await unScrambleWord(word[0]), extr: "", time: 0, points: 0 });
+        newWords.push({ word: unScrambleWord(word[0]), extr: "", time: 0, points: 0 });
         break;
       case "animalsItem":
       case "animalsLobbyItem":
         word = await getAnimal("", len.min, len.max);
-        newWords.push({ word: await unScrambleWord(word[0]), extr: "", time: 0, points: 0 });
+        newWords.push({ word: unScrambleWord(word[0]), extr: "", time: 0, points: 0 });
         break;
       case "carsItem":
       case "carsLobbyItem":
         word = await getCar(len.min, len.max);
-        newWords.push({ word: await unScrambleWord(word[0]), extr: "", time: 0, points: 0 });
+        newWords.push({ word: unScrambleWord(word[0]), extr: "", time: 0, points: 0 });
         break;
       case "citiesItem":
       case "citiesLobbyItem":
         word = await getCity(len.min, len.max);
-        newWords.push({ word: await unScrambleWord(word[0]), extr: word[1], time: 0, points: 0 });
+        newWords.push({ word: unScrambleWord(word[0]), extr: word[1], time: 0, points: 0 });
         break;
       case "sportsItem":
       case "sportsLobbyItem":
         word = await getSport(len.min, len.max);
-        newWords.push({ word: await unScrambleWord(word[0]), extr: word[1], time: 0, points: 0 });
+        newWords.push({ word: unScrambleWord(word[0]), extr: word[1], time: 0, points: 0 });
         break;
       case "moviesItem":
       case "moviesLobbyItem":
         word = await getMovie(len.min, len.max);
-        newWords.push({ word: await unScrambleWord(word[0]), extr: "", time: 0, points: 0 });
+        newWords.push({ word: unScrambleWord(word[0]), extr: "", time: 0, points: 0 });
         break;
     }
 
-    let time = await calcTime([newWords[i].word], diff, speed);
-    let points = await calcWordPoints(newWords[i].word);
+    let time = calcTime([newWords[i].word], diff, speed);
+    let points = calcWordPoints(newWords[i].word);
     newWords[i].time = time;
     newWords[i].points = points.totalScore;
   }

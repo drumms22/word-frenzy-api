@@ -63,6 +63,7 @@ module.exports = function (io, socket) {
     socket.emit('loading');
     let user = await getUser(data);
 
+
     socket.emit('getUser', user);
 
   })

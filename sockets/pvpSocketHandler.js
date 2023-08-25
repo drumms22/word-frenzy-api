@@ -57,8 +57,6 @@ module.exports = function (io, socket, connUsers) {
     gameStates[playerId].ogTime = gameStates[playerId].wordsData[gameStates[playerId].currentPos].time;
     //lobbySettings[lobbyId].gameStates[playerId] = gameStates[playerId];
     startTime(playerId, socket.id);
-
-    console.log(gameStates[playerId].currentWord);
     socket.emit('nextWord', { nextWord: gameStates[playerId].currentWord, prevWord });
   }
 
@@ -100,7 +98,7 @@ module.exports = function (io, socket, connUsers) {
       }
     })
 
-    await calcPlayerStats(playerId, socketId, lobbyCode);
+    calcPlayerStats(playerId, socketId, lobbyCode);
 
     if (stillIn > 0) {
       io.of('/pvp').to(socketId).emit('timesUp', { words: gameStates[playerId].wordsData });
@@ -118,9 +116,9 @@ module.exports = function (io, socket, connUsers) {
   //SinglePlayerUpdate
   const handlePlayerUpdate = async (playerId, lobbyCode) => {
 
-    await calcPlayerStats(playerId, socket.id, lobbyCode);
+    calcPlayerStats(playerId, socket.id, lobbyCode);
     await updatePlayer(lobbyCode, gameStates[playerId].player);
-    let gd = await JSON.stringify(connectedSockets.get(socket.id).gameData);
+    let gd = JSON.stringify(connectedSockets.get(socket.id).gameData);
     await updateUser({
       id: playerId,
       data: gd,
@@ -327,7 +325,6 @@ module.exports = function (io, socket, connUsers) {
 
   socket.on('createLobby', async (data) => {
 
-    console.log("creating lobby");
     let lobby = null;
 
     if (data.prevLobby !== "" && lobbySettings[prevLobby]) {
@@ -405,6 +402,7 @@ module.exports = function (io, socket, connUsers) {
 
   //Join lobby that is not started and not full
   socket.on('joinLobby', async (data) => {
+
     socket.emit("loading");
     let lobby = null;
     let lobbyExists = lobbySettings[data.lobbyId];
@@ -437,7 +435,7 @@ module.exports = function (io, socket, connUsers) {
       lobbySettings[data.lobbyId].lobby = lobby;
     }
 
-    await updateInvite(data.lobbyId);
+    updateInvite(data.lobbyId);
 
     let e = await getUser(data.playerId);
 
@@ -559,7 +557,7 @@ module.exports = function (io, socket, connUsers) {
     let wordsData = await handleWords(lobbyExists.catSel, data.wordCount, data.mode, speed, lobbyExists.diffSel);
 
     await handleHints(lobbyExists.catSel, wordsData, data.lobbyId);
-    let time = await wordsData.reduce((acc, obj) => acc + obj.time, 0);
+    let time = wordsData.reduce((acc, obj) => acc + obj.time, 0);
     let points = wordsData.reduce((acc, obj) => acc + obj.points, 0);
     let reward = await saveReward("Points", "Reward for completing a pvp", points, "none");
     lobbyExists.lobby.game = {
@@ -616,14 +614,22 @@ module.exports = function (io, socket, connUsers) {
       clearInterval(gameStates[data.playerId].timer);
       if (gameStates[data.playerId].currentPos >= gameStates[data.playerId].endPos) {
         clearAllTimers(data.playerId, data.lobbyCode);
-        await calcPlayerStats(data.playerId, socket.id, data.lobbyCode);
+        calcPlayerStats(data.playerId, socket.id, data.lobbyCode);
         connectedSockets.get(socket.id).gameData.totalChallengesCompleted++;
         lobbySettings[data.lobbyCode].completed = true;
         gameStates[data.playerId].player.didComplete = true;
         gameStates[data.playerId].player.isWinner = true;
         await handleGameEnd(data.lobbyCode);
+        //connectedSockets.set(socket.id, { playerId: data.playerId, lobbyCode: lobby.code, username: data.username, gameData: e.gameData });
         let winner = lobbySettings[data.lobbyCode].lobby.players.filter((p) => p.id === data.playerId);
-        socket.to(data.lobbyCode).emit("loser", { words: lobbySettings[data.lobbyCode].lobby.game.words, winner: winner[0] })
+        for (const [id, socketData] of connectedSockets.entries()) {
+          if (socketData.playerId != data.playerId && socketData.lobbyCode === data.lobbyCode) {
+
+            let notComplete = gameStates[socketData.playerId].wordsData.map((wd) => wd.word).slice(gameStates[socketData.playerId].currentPos);
+            socket.to(id).emit("loser", { notComplete, winner: winner[0] })
+            break;
+          }
+        }
         socket.emit('winner', { word: gameStates[data.playerId].currentWord });
         setTimeout(() => endScreenTimer(data.lobbyCode), 5000);
         return;
@@ -644,9 +650,9 @@ module.exports = function (io, socket, connUsers) {
         return;
       }
 
-      let check = await checkGuess(gameStates[data.playerId].currentWord, data.guess);
-      let combined = await combineArr(data.outOfPlaceLetters, check.outOfPlaceLetters);
-      check.outOfPlaceLetters = await checkOOP(check.correctLetters, gameStates[data.playerId].currentWord.split(''), combined);
+      let check = checkGuess(gameStates[data.playerId].currentWord, data.guess);
+      let combined = combineArr(data.outOfPlaceLetters, check.outOfPlaceLetters);
+      check.outOfPlaceLetters = checkOOP(check.correctLetters, gameStates[data.playerId].currentWord.split(''), combined);
       socket.emit('checkGuess', check, gameStates[data.playerId].currentWord);
 
     }
@@ -712,7 +718,7 @@ module.exports = function (io, socket, connUsers) {
   //Leave the lobby
   socket.on('leaveLobby', async (data) => {
 
-    handlePlayerDisc(socket, lobbySettings[data.lobbyCode].lobby, data.playerId, false);
+    handlePlayerDisc(socket, lobbySettings[data.lobbyCode].lobby || {}, data.playerId, false);
 
   })
 

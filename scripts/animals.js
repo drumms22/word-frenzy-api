@@ -49,7 +49,7 @@ const getAnimal = async (type, min, max) => {
   //let hint = await createHint(res[r]);
 
 
-  return [scrambled];
+  return [scrambled, animalName];
 
 }
 
@@ -75,7 +75,6 @@ const fetchAnimalData = async (name, min, max) => {
 
 
     let a = await finalList.filter((x) => x.name.match(/[a-zA-Z ]+/g).length === 1 && x.name.length >= min && x.name.length <= max);
-    console.log(a);
     return a;
   } catch (error) {
     console.log("animals error: " + error);

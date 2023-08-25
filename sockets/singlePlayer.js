@@ -32,8 +32,10 @@ module.exports = (io, socket, connUsers) => {
 
   const gameOver = () => {
     clearInterval(lobbyTimers[socket.id]);
+    lobbies[socket.id].timeAccum += lobbies[socket.id].maxDuration - lobbies[socket.id].time;
     let notComplete = lobbies[socket.id].wordData.map((wd) => wd.word).slice(lobbies[socket.id].currentPos);
     socket.emit('gameOver', { notComplete });
+    handleGameOver();
     setTimeout(() => endScreenTimer(), 5000);
   }
 
@@ -69,7 +71,6 @@ module.exports = (io, socket, connUsers) => {
     if (lobbies[socket.id].time > 0) {
       lobbies[socket.id].userGameData.totalChallengesCompleted++;
       lobbies[socket.id].player.isWinner = true;
-      lobbies[socket.id].player.didComplete = true;
     }
     // words,
     // startedAt: Date.now(),
@@ -91,12 +92,16 @@ module.exports = (io, socket, connUsers) => {
 
   const handlePlayerUpdate = async () => {
 
-    lobbies[socket.id].userGameData.totalPoints += lobbies[socket.id].wordData[lobbies[socket.id].currentPos].points;
-    lobbies[socket.id].userGameData.totalCharCount += lobbies[socket.id].currentWord.split('').join('').length;
-    lobbies[socket.id].userGameData.totalWordsCompleted++;
+    if (lobbies[socket.id].time > 0) {
+      lobbies[socket.id].userGameData.totalPoints += lobbies[socket.id].wordData[lobbies[socket.id].currentPos].points;
+      lobbies[socket.id].userGameData.totalCharCount += lobbies[socket.id].currentWord.split('').join('').length;
+      lobbies[socket.id].userGameData.totalWordsCompleted++;
+      lobbies[socket.id].player.wordsGuessed.push(lobbies[socket.id].currentWord);
+      lobbies[socket.id].player.pointsAquired += lobbies[socket.id].wordData[lobbies[socket.id].currentPos].points;
+    }
+
+    lobbies[socket.id].player.didComplete = true;
     lobbies[socket.id].userGameData.totalTimeSpent += lobbies[socket.id].timeAccum;
-    lobbies[socket.id].player.wordsGuessed.push(lobbies[socket.id].currentWord);
-    lobbies[socket.id].player.pointsAquired += lobbies[socket.id].wordData[lobbies[socket.id].currentPos].points;
     lobbies[socket.id].player.timeSpent = lobbies[socket.id].timeAccum;
 
     await updatePlayer(lobbies[socket.id].code, lobbies[socket.id].player);
@@ -141,12 +146,10 @@ module.exports = (io, socket, connUsers) => {
     let player = await getPlayer(data.player.id);
     let spd = (player.gameData.speedData.totalTime / player.gameData.speedData.totalChar);
     let words = await handleWords(data.selCat, wordCount, data.mode, !spd ? 20 : spd, data.diff);
-    console.log(words);
-    // let newWords = words.map((w) => w.word);
-    let time = await words.reduce((acc, word) => acc + word.time, 0);
-    let points = await words.reduce((acc, word) => acc + word.points, 0);
+    let time = words.reduce((acc, word) => acc + word.time, 0);
+    let points = words.reduce((acc, word) => acc + word.points, 0);
 
-    //let reward = await saveReward("Points", "Reward for completing a challenge", points, "none");
+    let reward = await saveReward("Points", "Reward for completing a challenge", points, "none");
 
     let spLobby =
     {
@@ -159,7 +162,7 @@ module.exports = (io, socket, connUsers) => {
         isComplete: false,
         maxPlayers: 1,
         difficulty: data.diff,
-        rewards: [""],//reward._id.toString()
+        rewards: reward._id.toString(),
         category: data.selCat
       }
     }
@@ -173,8 +176,8 @@ module.exports = (io, socket, connUsers) => {
       code: lobby.code,
       wordData: words,
       currentWord: words[0].word,
-      time: 20,
-      maxDuration: 20,
+      time: words[0].time,
+      maxDuration: words[0].time,
       timeAccum: 0,
       currentPos: 0,
       endPos: words.length - 1,
@@ -191,10 +194,11 @@ module.exports = (io, socket, connUsers) => {
 
     socket.emit('startGame');
 
-    // console.log(lobbies[socket.id].currentWord);
+
   }
 
   const startTime = () => {
+
     lobbyTimers[socket.id] = setInterval(() => {
 
       lobbies[socket.id].time--;
@@ -217,8 +221,6 @@ module.exports = (io, socket, connUsers) => {
     lobbies[socket.id].time = lobbies[socket.id].wordData[lobbies[socket.id].currentPos].time;
     lobbies[socket.id].maxDuration = lobbies[socket.id].wordData[lobbies[socket.id].currentPos].time;
     startTime();
-
-    console.log(lobbies[socket.id].currentWord);
     socket.emit('nextWord', { nextWord: lobbies[socket.id].currentWord, prevWord });
   }
 
@@ -237,9 +239,6 @@ module.exports = (io, socket, connUsers) => {
 
     }
 
-    //combine outOfPlaceLetters with newOOP not duplicating letters
-    console.log("newOOP");
-    console.log(newOOP);
     return newOOP;
 
   }
@@ -304,7 +303,7 @@ module.exports = (io, socket, connUsers) => {
 
         socket.emit('completed', { word: lobbies[socket.id].currentWord });
         setTimeout(() => endScreenTimer(), 5000);
-        //  handleGameOver();
+        handleGameOver();
         return;
       } else {
 
@@ -338,7 +337,7 @@ module.exports = (io, socket, connUsers) => {
   })
 
   socket.on('getHint', (data) => {
-    console.log("hintsused1: ", lobbies[socket.id].hintData.hintsUsed)
+
     if (lobbies[socket.id].hintData.hints.length >= lobbies[socket.id].hintData.hints.maxHints) {
 
       socket.emit("endHints");
@@ -349,13 +348,17 @@ module.exports = (io, socket, connUsers) => {
     handleHints(data.type);
   })
 
+  socket.on("leaveSp", () => {
+    clearInterval(lobbyTimers[socket.id]);
+  })
+
   socket.on('disconnect', () => {
     if (!lobbies[socket.id]) return;
     clearInterval(lobbyTimers[socket.id]);
 
-    lobbies[socket.id].timeAccum = lobbies[socket.id].maxDuration - lobbies[socket.id].time;
+    lobbies[socket.id].timeAccum += lobbies[socket.id].maxDuration - lobbies[socket.id].time;
 
-    handlePlayerLeave()
+    handlePlayerLeave();
   })
 
 }
